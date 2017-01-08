@@ -1,17 +1,19 @@
 import json
 
 class News:
-    def __init__(self, created=None, lastPublication=None, modified=None, publication=None,
-                 id=None, summary=None, title=None, url=None, text=None):
-        self.created = created
-        self.lastPublication = lastPublication
-        self.modified = modified
-        self.publication = publication
-        self.id = id
-        self.summary = summary
-        self.title = title
-        self.url = url
-        self.text = text
+    def __init__(self, **kwargs):
+        self.load(**kwargs)
+
+    def load(self, **data):
+        self.created = data.get('created')
+        self.lastPublication = data.get('lastPublication')
+        self.modified = data.get('modified')
+        self.publication = data.get('publication')
+        self.id = data.get('id')
+        self.summary = data.get('summary')
+        self.title = data.get('title')
+        self.url = data.get('url')
+        self.text = data.get('text')
 
     def dumpsToJSON(self, path):
         j = { 'created': self.created, 'lastPublication': self.lastPublication,
@@ -25,13 +27,4 @@ class News:
     def loadsFromJSON(self, path):
         f = open(path, 'r')
         data = json.loads(f.read())
-
-        self.created = data['created']
-        self.lastPublication = data['lastPublication']
-        self.modified = data['modified']
-        self.publication = data['publication']
-        self.id = data['id']
-        self.summary = data['summary']
-        self.title = data['title']
-        self.url = data['url']
-        self.text = data['text']
+        self.load(**data)

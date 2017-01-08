@@ -11,19 +11,18 @@ class NewsSpider(scrapy.Spider):
 
     def start_requests(self):
         self.newsList = getattr(self, 'newsList', None)
-        
+
         for i, news in enumerate(self.newsList):
             yield scrapy.Request(url=news.url, callback=self.parse, meta={'i': i})
 
     def parse_materia_letra(self, response):
-        content = response.css('#materia-letra')
-        if(len(content.xpath('.//p')) == 0):
-            return None
-
+        text_list = response.xpath("//*[@id='materia-letra']/descendant::p/descendant-or-self::text()")
         text = ''
-        for p in content.xpath('.//p'):
-            text += ''.join(p.css(' ::text').extract())
+        for t in text_list:
+            text += t.extract()
 
+        if text == '':
+            return None
         return text
 
     def parse_div_content_text(self, response):
@@ -41,7 +40,7 @@ class NewsSpider(scrapy.Spider):
             if(text != None) : break
 
         if(text != None):
-            self.newsList[index].text = text.replace('\t','').replace('\n', ' ').strip()
+            self.newsList[index].text = text.replace('\t',' ').replace('\n', ' ').strip()
 
 class Crawler:
     def __init__(self, newsList=None, spider=NewsSpider):
@@ -71,9 +70,8 @@ class Sniffer:
             data = requests.get(url=url).json()
 
             for item in data['items']:
-                n = News(created=item['created'],lastPublication=item['lastPublication'],modified=item['modified'],
-                         publication=item['publication'],id=item['id'],summary=item['content']['summary'],
-                         title=item['content']['title'],url=item['content']['url'])
+                item.update(item['content'])
+                n = News(**item)
                 self.news.append(n)
 
                 if len(self.news) == self.newsLimit:
@@ -94,7 +92,7 @@ class Sniffer:
         self._getNews()
         self._fetchTexts()
         self._saveNewsAsJSON()
-                
+
 
 
 if __name__ == "__main__":
