@@ -4,36 +4,40 @@ from scrapy.crawler import CrawlerProcess
 
 class NewsSpider(scrapy.Spider):
     name = "NewsSpider"
-    urlSearch = "http://g1.globo.com/politica/politico/dilma.html"
 
     def start_requests(self):
-        self.search = getattr(self, 'search', '')
-        # url = self.urlSearch+"?species=not%C3%ADcias&q="+self.search # set param: species=noticias
+        self.news = getattr(self, 'news', '')
+        url = getattr(self, 'url', '')
         yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
-        news = response.xpath("//ul[@class='resultado_da_busca unstyled']/li")
-        nextLink = response.xpath("//div[@id='paginador']/div/ul/li/a[@class='proximo fundo-cor-produto']/@href").extract_first()
-        nextLink = self.urlSearch + nextLink
-        for new in news:
-            newLink = "http:"+new.xpath("div/div/a/@href").extract_first()
-            jornalType = new.xpath("div/div/a/@title").extract_first()
-            print "---------------------------"
-            print jornalType, "=====", newLink
-        print "next ====", nextLink
+        content = response.css('#materia-letra')
+
+        for p in content.css('p'):
+            print(self.news.title)
+
+        # news = response.xpath("//ul[@class='resultado_da_busca unstyled']/li")
+        # nextLink = response.xpath("//div[@id='paginador']/div/ul/li/a[@class='proximo fundo-cor-produto']/@href").extract_first()
+        # nextLink = self.urlSearch + nextLink
+        # for new in news:
+        #     newLink = "http:"+new.xpath("div/div/a/@href").extract_first()
+        #     jornalType = new.xpath("div/div/a/@title").extract_first()
+        #     print "---------------------------"
+        #     print jornalType, "=====", newLink
+        # print "next ====", nextLink
 
 
 
 class Crawler:
-
-    def __init__(self, spider=NewsSpider, search=None):
+    def __init__(self, url=None, news=None, spider=NewsSpider):
         self.process = CrawlerProcess({
             'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
         })
-        self.process.crawl(spider, search=search)
+        self.process.crawl(spider, url=url, news=news)
 
     def crawl(self):
-        self.process.start() # the script will block here until the crawling is finished
+        # the script will block here until the crawling is finished
+        self.process.start()
 
 class News:
     def __init__(self, created, lastPublication, modified, publication, id, summary, title, url, text=None):
@@ -49,7 +53,8 @@ class News:
 
     def fetchText(self):
         # here come the scrapy stuffs to get text
-        print self.url
+        crawler = Crawler(url=self.url,news=self)
+        crawler.crawl()
 
 class Sniffer:
 
