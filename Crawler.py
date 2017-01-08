@@ -15,19 +15,22 @@ class NewsSpider(scrapy.Spider):
         for i, news in enumerate(self.newsList):
             yield scrapy.Request(url=news.url, callback=self.parse, meta={'i': i})
 
-    def parse_materia_letra(self, response):
-        text_list = response.xpath("//*[@id='materia-letra']/descendant::p/descendant-or-self::text()")
+    def concat_text_list(self, text_list_selector):
         text = ''
-        for t in text_list:
+        for t in text_list_selector:
             text += t.extract()
 
         if text == '':
             return None
         return text
 
+    def parse_materia_letra(self, response):
+        text_list = response.xpath("//*[@id='materia-letra']/descendant::p/descendant-or-self::text()")
+        return self.concat_text_list(text_list)
+
     def parse_div_content_text(self, response):
-        # Todo
-        return None
+        text_list = response.xpath("//div[contains(@class, 'content-text')]/descendant-or-self::text()")
+        return self.concat_text_list(text_list)
 
     def parse(self, response):
         index = response.meta['i']
@@ -37,9 +40,9 @@ class NewsSpider(scrapy.Spider):
 
         for t in trials:
             text = t(response)
-            if(text != None) : break
+            if text is not None: break
 
-        if(text != None):
+        if text is not None:
             self.newsList[index].text = text.replace('\t',' ').replace('\n', ' ').strip()
 
 class Crawler:
