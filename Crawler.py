@@ -69,7 +69,7 @@ class Sniffer:
 
         while len(self.news) < self.newsLimit:
             page += 1
-            url = str.replace(self.initialUrl, "/page/1", "/page/"+str(page))
+            url = self.initialUrl.replace("/page/1", "/page/"+str(page))
             data = requests.get(url=url).json()
 
             for item in data['items']:
