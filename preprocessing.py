@@ -11,13 +11,14 @@ class PreProcessing:
         #do something with n.text
         return n
 
-	def __iter__(self):
-		self.i = -1
-		return self
+    def __iter__(self):
+        self.i = -1
+        return self
 
-	def __next__(self):
-		if self.i >= len(self.data):
-			raise StopIteration
-		else:
-			self.i += 1
-			return self.data[self.i]
+    def __next__(self):
+        if self.i >= len(self.data):
+            del self.i
+            raise StopIteration
+        else:
+            self.i += 1
+            return self.data[self.i]
