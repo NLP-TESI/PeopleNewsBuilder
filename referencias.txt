@@ -1,0 +1,3 @@
+http://www.nltk.org/howto/portuguese_en.html
+
+Alencar, Leonel Figueiredo de. Aelius Brazilian Portuguese POS-Tagger and Corpus Annotation Tool, versão 0.9.7. Fortaleza: [s.n.], 2013. Disponível em: <http://aelius.sourceforge.net/>. Acesso em: 25 fev. 2013.
