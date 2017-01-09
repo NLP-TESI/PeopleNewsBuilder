@@ -6,12 +6,12 @@ import scrapy
 from scrapy.crawler import CrawlerProcess
 from News import News
 
+
 class NewsSpider(scrapy.Spider):
     name = "NewsSpider"
 
     def start_requests(self):
-        self.newsList = getattr(self, 'newsList', None)
-
+        self.newsList = getattr(self, 'newsList', [])
         for i, news in enumerate(self.newsList):
             yield scrapy.Request(url=news.url, callback=self.parse, meta={'i': i})
 
@@ -45,12 +45,13 @@ class NewsSpider(scrapy.Spider):
         if text is not None:
             self.newsList[index].text = text.replace('\t',' ').replace('\n', ' ').strip()
 
+
 class Crawler:
-    def __init__(self, newsList=None, spider=NewsSpider):
+    def __init__(self, spider, **kwargs):
         self.process = CrawlerProcess({
             'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
         })
-        self.process.crawl(spider, newsList=newsList)
+        self.process.crawl(spider, **kwargs)
 
     def crawl(self):
         # the script will block here until the crawling is finished
@@ -70,18 +71,22 @@ class Sniffer:
         while len(self.news) < self.newsLimit:
             page += 1
             url = self.initialUrl.replace("/page/1", "/page/"+str(page))
-            data = requests.get(url=url).json()
+            response = requests.get(url=url)
+            if response.status_code == 200:
+                data = response.json()
 
-            for item in data['items']:
-                item.update(item['content'])
-                n = News(**item)
-                self.news.append(n)
+                for item in data['items']:
+                    item.update(item['content'])
+                    n = News(**item)
+                    self.news.append(n)
 
-                if len(self.news) == self.newsLimit:
-                    break
+                    if len(self.news) == self.newsLimit:
+                        break
+            else:
+                page -= 1
 
     def _fetchTexts(self):
-        crawler = Crawler(newsList=self.news)
+        crawler = Crawler(NewsSpider, newsList=self.news)
         crawler.crawl()
 
     def _saveNewsAsJSON(self):

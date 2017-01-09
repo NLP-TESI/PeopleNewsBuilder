@@ -16,18 +16,6 @@ for fname in os.listdir(os.path.join('database', 'dilma')):
 	files_list.append(os.path.join('database', 'dilma', fname))
 
 news_preprocessed = PreProcessing(files=files_list)
-
 extracted_data = Extractor(data=news_preprocessed)
-
-knowledge_base = extracted_data.extract()
-
+knowledge_base = extracted_data.extract(
 knowledge_base.save("dilma_knowledge.csv")
-
-#
-# for fname in os.listdir(os.path.join('database', 'dilma')):
-# 	n = News()
-# 	n.loadsFromJSON(os.path.join('database', 'dilma', fname))
-#
-# 	if(n.text == None or len(n.text) == 0):
-# 		print(n.url)
-# 		print(fname)
