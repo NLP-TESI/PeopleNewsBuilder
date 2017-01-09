@@ -17,5 +17,5 @@ for fname in os.listdir(os.path.join('database', 'dilma')):
 
 news_preprocessed = PreProcessing(files=files_list)
 extracted_data = Extractor(data=news_preprocessed)
-knowledge_base = extracted_data.extract(
+knowledge_base = extracted_data.extract()
 knowledge_base.save("dilma_knowledge.csv")
