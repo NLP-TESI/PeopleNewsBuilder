@@ -1,3 +1,7 @@
 http://www.nltk.org/howto/portuguese_en.html
 
 Alencar, Leonel Figueiredo de. Aelius Brazilian Portuguese POS-Tagger and Corpus Annotation Tool, versão 0.9.7. Fortaleza: [s.n.], 2013. Disponível em: <http://aelius.sourceforge.net/>. Acesso em: 25 fev. 2013.
+
+Branco, António e João Silva, 2004. Evaluating Solutions for the Rapid Development of State-of-the-Art POS Taggers for Portuguese. In Maria Teresa Lino, Maria Francisca Xavier, Fátima Ferreira, Rute Costa and Raquel Silva (orgs.), Proceedings of the 4th International Conference on Language Resources and Evaluation (LREC2004), Paris, ELRA, ISBN 2-9517408-1-6, pp.507-510.
+
+http://www.tycho.iel.unicamp.br/~tycho/corpus/manual/pos2016.html#item_verbs
