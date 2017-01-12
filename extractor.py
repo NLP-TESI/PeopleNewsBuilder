@@ -82,18 +82,15 @@ class Extractor:
 				sum_sim = 0
 				qty = 0
 
-				if(term1 in item2.terms()):
-					betters.append(item2)
-				else:
-					for term2 in item2.terms():
-						str2 = TESIUtil.remove_honor_words(term2)
-						str2 = term2
+				for term2 in item2.terms():
+					str2 = TESIUtil.remove_honor_words(term2)
+					str2 = term2
 
-						sum_sim += TESIUtil.string_similarity(str1, str2)
-						qty += 1
-					avg = sum_sim/qty
-					if(avg > 0.5 and avg > max_avg):
-						best = item2
+					sum_sim += TESIUtil.string_similarity(str1, str2)
+					qty += 1
+				avg = sum_sim/qty
+				if(avg > 0.5 and avg > max_avg):
+					best = item2
 			
 
 			if(best == None):
