@@ -7,7 +7,10 @@ import nltk
 
 class Extractor:
 
-	ENTITIES_STOP_WORDS = {u'março',u'abstenção'}
+	NOT_AN_ENTITY = { u'janeiro',u'fevereiro',u'março',u'abril',u'maio',u'junho',
+							u'julho',u'agosto',u'setembro',u'outubro',u'novembro',u'dezembro',
+							u'abstenção',u'r$',u'cenário',u'são',u'feira',u'segunda',u'terça',
+							u'quarta',u'quinta',u'sexta',u'sábado',u'domingo'}
 
 	def __init__(self, data=[]):
 		self.data = data
@@ -15,22 +18,19 @@ class Extractor:
 
 
 	def extract(self): # will return a KnowledgeBase instance
-		kb = KnowledgeBase()
 		global_entities = {}
-
+		taggeds = []
 		for n in self.data:
 			sentences = Toqueniza.PUNKT.tokenize(n.text)
 			tokenized = [Toqueniza.TOK_PORT.tokenize(sentence) for sentence in sentences]
 			anoted = AnotaCorpus.anota_sentencas(tokenized, self.HUNPOS, 'hunpos')
 
-			global_entities, taggeds = self._extract_entities(anoted, global_entities)
+			global_entities, tagged = self._extract_entities(anoted, global_entities)
+			taggeds.append(tagged)
 
-		
-		distinct = TESIUtil.dict_to_list(global_entities)
-		for i in distinct:
-			print str(i.id()) + str(i)
+		# extract relations here
 
-		print(len(distinct))
+		kb = KnowledgeBase(entities_dict=global_entities,taggeds=taggeds,relations=None)
 
 		return kb
 
@@ -114,7 +114,7 @@ class Extractor:
 					text += ' ' + anoted_sentence[i+1][0]
 					i += 1
 				
-				if(text not in Extractor.ENTITIES_STOP_WORDS):
+				if(text not in Extractor.NOT_AN_ENTITY):
 					if(text not in entities):
 						e = NamedEntity(text)
 						entities[text] = e
