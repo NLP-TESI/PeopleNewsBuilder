@@ -43,7 +43,7 @@ class NewsSpider(scrapy.Spider):
             if text is not None: break
 
         if text is not None:
-            self.newsList[index].text = text.replace('\t',' ').replace('\n', ' ').strip()
+            self.newsList[index].text = text.replace('\t',' ').replace('\n', '.').strip()
 
 
 class Crawler:

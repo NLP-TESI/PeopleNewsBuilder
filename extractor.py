@@ -1,4 +1,5 @@
 #coding: utf-8
+from __future__ import print_function
 from knowledge import KnowledgeBase
 from NamedEntity import NamedEntity
 import TESIUtil
@@ -8,9 +9,10 @@ import nltk
 class Extractor:
 
 	NOT_AN_ENTITY = { u'janeiro',u'fevereiro',u'março',u'abril',u'maio',u'junho',
-							u'julho',u'agosto',u'setembro',u'outubro',u'novembro',u'dezembro',
-							u'abstenção',u'r$',u'cenário',u'são',u'feira',u'segunda',u'terça',
-							u'quarta',u'quinta',u'sexta',u'sábado',u'domingo'}
+					  u'julho',u'agosto',u'setembro',u'outubro',u'novembro',u'dezembro',
+					  u'abstenção',u'r$',u'cenário',u'são',u'feira',u'segunda',u'terça',
+					  u'quarta',u'quinta',u'sexta',u'sábado',u'domingo',u'tô', u'm', u'm.',
+					  u'sócia', u'h.', u'us$', u'tampão', u'discurso'}
 
 	def __init__(self, data=[]):
 		self.data = data
@@ -20,7 +22,9 @@ class Extractor:
 	def extract(self): # will return a KnowledgeBase instance
 		global_entities = {}
 		taggeds = []
+		i = 1
 		for n in self.data:
+			print('\rnews ' + str(i) + ' of ' + str(len(self.data)), end='')
 			sentences = Toqueniza.PUNKT.tokenize(n.text)
 			tokenized = [Toqueniza.TOK_PORT.tokenize(sentence) for sentence in sentences]
 			anoted = AnotaCorpus.anota_sentencas(tokenized, self.HUNPOS, 'hunpos')
@@ -28,7 +32,12 @@ class Extractor:
 			global_entities, tagged = self._extract_entities(anoted, global_entities)
 			taggeds.append(tagged)
 
+			i += 1
+
 		# extract relations here
+
+		distinct = TESIUtil.dict_to_list(global_entities)
+		print('\n' + str(len(distinct)))
 
 		kb = KnowledgeBase(entities_dict=global_entities,taggeds=taggeds,relations=None)
 
@@ -89,7 +98,7 @@ class Extractor:
 					sum_sim += TESIUtil.string_similarity(str1, str2)
 					qty += 1
 				avg = sum_sim/qty
-				if(avg > 0.5 and avg > max_avg):
+				if(avg > 0.7 and avg > max_avg):
 					best = item2
 			
 
@@ -114,7 +123,7 @@ class Extractor:
 					text += ' ' + anoted_sentence[i+1][0]
 					i += 1
 				
-				if(text not in Extractor.NOT_AN_ENTITY):
+				if(text.lower() not in Extractor.NOT_AN_ENTITY):
 					if(text not in entities):
 						e = NamedEntity(text)
 						entities[text] = e
