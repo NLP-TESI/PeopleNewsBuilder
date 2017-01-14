@@ -9,6 +9,9 @@ class PreProcessing:
         n = News()
         n.loadsFromJSON(file_new)
         #do something with n.text
+        if n.text is not None:
+            n.text = n.text.replace("]"," ").strip()
+            n.text = n.text.replace("["," ").strip()
         return n
 
     def __iter__(self):

@@ -18,6 +18,6 @@ for fname in os.listdir(os.path.join('database', 'dilma')):
 	files_list.append(os.path.join('database', 'dilma', fname))
 
 news_preprocessed = PreProcessing(files=files_list)
-extracted_data = Extractor(data=news_preprocessed.data)
+extracted_data = Extractor(data=news_preprocessed.data, main_entity='dilma')
 knowledge_base = extracted_data.extract()
 knowledge_base.save("dilma_knowledge")

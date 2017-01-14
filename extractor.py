@@ -14,8 +14,12 @@ class Extractor:
 					  u'quarta',u'quinta',u'sexta',u'sábado',u'domingo',u'tô', u'm', u'm.',
 					  u'sócia', u'h.', u'us$', u'tampão', u'discurso'}
 
-	def __init__(self, data=[]):
+	def __init__(self, data=[], main_entity=None):
 		self.data = data
+		if main_entity is not None:
+			self.main_entity = main_entity.lower()
+		else:
+			self.main_entity = None
 		self.HUNPOS = Extras.carrega('AeliusHunPos')
 
 
@@ -39,10 +43,12 @@ class Extractor:
 		print('\n' + str(len(distinct)))
 
 		relationships = self._find_relationships(taggeds)
-		print(len(relationships))
-		return KnowledgeBase(entities_dict=global_entities,taggeds=taggeds,relations=relationships)
+		relationships.sort(key=lambda x: x[0])
+		for r in relationships:
+			print(r)
+		return KnowledgeBase(entities_dict=global_entities, taggeds=taggeds, relations=relationships)
 
-	def _get_composed_verbs(self, sentence, start, end):
+	def _get_composed_verbs(self, sentence, start, end, relation_stops_type):
 		composed_verb = sentence[start][0]
 		aux = ""
 		if('VB' in sentence[start][1]):
@@ -50,14 +56,24 @@ class Extractor:
 				if(index < 0 or start-index > 4):
 					break
 				item = sentence[index]
+				if(item[1] in relation_stops_type):
+					composed_verb = None
+					break
 				aux = item[0] + " " + aux
 				if("VB" in item[1]):
 					composed_verb = aux + composed_verb
 					break
 		return composed_verb
 
+	def _contain_main_entity(self, entity1, entity2):
+		if self.main_entity in entity1.lower() or self.main_entity in entity2.lower():
+			return True
+		else:
+			return False
+
 	def _find_relationships(self, list_tagged):
 		relationships = []
+		relation_stops_type = ['CONJ', 'WPRO', ',', '(', ')']
 
 		for tagged in list_tagged:
 			for index_sentence, sentence in enumerate(tagged):
@@ -65,26 +81,24 @@ class Extractor:
 				last_entity_index = 0
 				last_relation = None
 
-				percent = (index_sentence+1)/len(tagged)*100
-				#print "\r"+str(round(percent, 1)) + "% ("+ str(index_sentence+1) +" de " + str(len(tagged)) + ")",
-
 				for index, item in enumerate(sentence):
 					if( len(item[0]) == 1 ):
 						continue
-					if('VB' in item[1]):
-						last_relation = self._get_composed_verbs(sentence, index, last_entity_index)
-					# elif( index < len(sentence)-1 and 'IN' == item[1] and 'DT' == sentence[index+1][1]):
-					# 	last_relation = item[0] + " " + sentence[index+1][0]
+					if(last_entity is not None and 'VB' in item[1]):
+						last_relation = self._get_composed_verbs(sentence, index, last_entity_index, relation_stops_type)
+					elif(item[1] in relation_stops_type):
+						last_relation = None
+						last_entity = None
+						last_entity_index = 0
 					elif( len(item) == 3):
-						if(last_entity is not None):
+						if(last_entity is not None and self._contain_main_entity(last_entity[0], item[0])):
 							if(index-last_entity_index == 2 and len(sentence[index-1][0])>1 ):
 								relation = (sentence[index-1][0], last_entity[2], last_entity[0], item[2], item[0])
 								relationships.append(relation)
-								#print(relation)
 							elif(last_relation is not None):
 								relation = (last_relation, last_entity[2], last_entity[0], item[2], item[0])
 								relationships.append(relation)
-								#print(relation)
+
 						last_entity = item
 						last_entity_index = index
 						last_relation = None
