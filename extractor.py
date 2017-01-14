@@ -15,24 +15,76 @@ class Extractor:
 
 
 	def extract(self): # will return a KnowledgeBase instance
-		kb = KnowledgeBase()
 		global_entities = {}
+		tagged_sentences = []
 
 		for n in self.data:
+			if n.text is None:
+				continue
 			sentences = Toqueniza.PUNKT.tokenize(n.text)
 			tokenized = [Toqueniza.TOK_PORT.tokenize(sentence) for sentence in sentences]
 			anoted = AnotaCorpus.anota_sentencas(tokenized, self.HUNPOS, 'hunpos')
-
 			global_entities, taggeds = self._extract_entities(anoted, global_entities)
+			tagged_sentences.append(taggeds)
+			print taggeds
 
-		
 		distinct = TESIUtil.dict_to_list(global_entities)
 		for i in distinct:
 			print str(i.id()) + str(i)
 
 		print(len(distinct))
+		relationships = self._find_relationships(tagged_sentences)
+		print relationships
+		return KnowledgeBase(entities=global_entities, relationships=relationships)
 
-		return kb
+	def _get_composed_verbs(self, sentence, start, end):
+		composed_verb = sentence[start][0]
+		aux = ""
+		if('VB' in sentence[start][1]):
+			for index in range(start-1,end-1,-1):
+				if(index < 0 or start-index > 4):
+					break
+				item = sentence[index]
+				aux = item[0] + " " + aux
+				if("VB" in item[1]):
+					composed_verb = aux + composed_verb
+					break
+		return composed_verb
+
+	def _find_relationships(self, list_tagged):
+		relationships = []
+
+		for tagged in list_tagged:
+			for index_sentence, sentence in enumerate(tagged):
+				last_entity = None
+				last_entity_index = 0
+				last_relation = None
+
+				percent = (index_sentence+1)/len(tagged)*100
+				#print "\r"+str(round(percent, 1)) + "% ("+ str(index_sentence+1) +" de " + str(len(tagged)) + ")",
+
+				for index, item in enumerate(sentence):
+					if( len(item[0]) == 1 ):
+						continue
+					if('VB' in item[1]):
+						last_relation = self._get_composed_verbs(sentence, index, last_entity_index)
+					# elif( index < len(sentence)-1 and 'IN' == item[1] and 'DT' == sentence[index+1][1]):
+					# 	last_relation = item[0] + " " + sentence[index+1][0]
+					elif( len(item) == 3):
+						if(last_entity is not None):
+							if(index-last_entity_index == 2 and len(sentence[index-1][0])>1 ):
+								relation = (sentence[index-1][0], last_entity[2], last_entity[0], item[2], item[0])
+								relationships.append(relation)
+								#print(relation)
+							elif(last_relation is not None):
+								relation = (last_relation, last_entity[2], last_entity[0], item[2], item[0])
+								relationships.append(relation)
+								#print(relation)
+						last_entity = item
+						last_entity_index = index
+						last_relation = None
+		return relationships
+
 
 	def _extract_entities(self, anoted, global_entities):
 		local_entities = {}
@@ -91,7 +143,7 @@ class Extractor:
 				avg = sum_sim/qty
 				if(avg > 0.5 and avg > max_avg):
 					best = item2
-			
+
 
 			if(best == None):
 				final_dict[item1.id()] = item1
@@ -113,7 +165,7 @@ class Extractor:
 				while(i+1 < len(anoted_sentence) and anoted_sentence[i+1][1] == 'NPR'):
 					text += ' ' + anoted_sentence[i+1][0]
 					i += 1
-				
+
 				if(text not in Extractor.ENTITIES_STOP_WORDS):
 					if(text not in entities):
 						e = NamedEntity(text)

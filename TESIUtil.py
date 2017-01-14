@@ -5,7 +5,7 @@ import jellyfish
 import distance
 import re
 
-HONOR_STOP_WORDS = ['presidente', 'dona']
+HONOR_STOP_WORDS = [u'presidente', u'dona']
 
 def create_or_replace_dir(dir_path):
 	if (os.path.isdir(dir_path)):
@@ -45,8 +45,11 @@ def string_similarity(str1, str2):
 			cont = 1
 	else:
 		cont = 0
-	jaro = jellyfish.jaro_winkler(str1, str2)
-	
+	try:
+		jaro = jellyfish.jaro_winkler(unicode(str1), unicode(str2))
+	except TypeError:
+		print "Error:",type(str1),type(str2)
+
 	return cont*0.4 + jaro*0.6# + sw*0.1
 
 def dict_to_list(dic):
@@ -59,7 +62,7 @@ def dict_to_list(dic):
 def remove_honor_words(string):
 	result = ''
 	temp = string.split(' ')
-	
+
 	for s in temp:
 		if(s.lower() not in HONOR_STOP_WORDS):
 			result += s + ' '
