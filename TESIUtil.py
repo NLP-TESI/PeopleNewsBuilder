@@ -30,11 +30,11 @@ def index_of(lst, value):
 	except ValueError:
 		return -1
 
-def string_similarity(str1, str2):
-	# str1 = str1.replace("'s", '').replace("ʼs", "")
-	# str2 = str2.replace("'s", '').replace("ʼs", "")
+def string_similarity(str1, str2):	
 	str1 = " ".join(re.findall("[a-zA-Z]+", str1))
 	str2 = " ".join(re.findall("[a-zA-Z]+", str2))
+	if(len(str1) == 0 or len(str2) == 0):
+		return 0
 
 	if(str1 in str2 or str2 in str1):
 		temp1 = str1.split(' ')

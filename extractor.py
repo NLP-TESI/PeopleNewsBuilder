@@ -1,4 +1,5 @@
 #coding: utf-8
+from __future__ import print_function
 from knowledge import KnowledgeBase
 from NamedEntity import NamedEntity
 import TESIUtil
@@ -7,7 +8,11 @@ import nltk
 
 class Extractor:
 
-	ENTITIES_STOP_WORDS = {u'março',u'abstenção'}
+	NOT_AN_ENTITY = { u'janeiro',u'fevereiro',u'março',u'abril',u'maio',u'junho',
+					  u'julho',u'agosto',u'setembro',u'outubro',u'novembro',u'dezembro',
+					  u'abstenção',u'r$',u'cenário',u'são',u'feira',u'segunda',u'terça',
+					  u'quarta',u'quinta',u'sexta',u'sábado',u'domingo',u'tô', u'm', u'm.',
+					  u'sócia', u'h.', u'us$', u'tampão', u'discurso'}
 
 	def __init__(self, data=[]):
 		self.data = data
@@ -16,26 +21,26 @@ class Extractor:
 
 	def extract(self): # will return a KnowledgeBase instance
 		global_entities = {}
-		tagged_sentences = []
+		taggeds = []
 
-		for n in self.data:
+		for i,n in enumerate(self.data):
 			if n.text is None:
 				continue
+			print('\rnews ' + str(i+1) + ' of ' + str(len(self.data)), end="")
 			sentences = Toqueniza.PUNKT.tokenize(n.text)
 			tokenized = [Toqueniza.TOK_PORT.tokenize(sentence) for sentence in sentences]
 			anoted = AnotaCorpus.anota_sentencas(tokenized, self.HUNPOS, 'hunpos')
-			global_entities, taggeds = self._extract_entities(anoted, global_entities)
-			tagged_sentences.append(taggeds)
-			print taggeds
+
+			global_entities, tagged = self._extract_entities(anoted, global_entities)
+			taggeds.append(tagged)
+
 
 		distinct = TESIUtil.dict_to_list(global_entities)
-		for i in distinct:
-			print str(i.id()) + str(i)
+		print('\n' + str(len(distinct)))
 
-		print(len(distinct))
-		relationships = self._find_relationships(tagged_sentences)
-		print relationships
-		return KnowledgeBase(entities=global_entities, relationships=relationships)
+		relationships = self._find_relationships(taggeds)
+		print(len(relationships))
+		return KnowledgeBase(entities_dict=global_entities,taggeds=taggeds,relations=relationships)
 
 	def _get_composed_verbs(self, sentence, start, end):
 		composed_verb = sentence[start][0]
@@ -84,7 +89,6 @@ class Extractor:
 						last_entity_index = index
 						last_relation = None
 		return relationships
-
 
 	def _extract_entities(self, anoted, global_entities):
 		local_entities = {}
@@ -141,7 +145,7 @@ class Extractor:
 					sum_sim += TESIUtil.string_similarity(str1, str2)
 					qty += 1
 				avg = sum_sim/qty
-				if(avg > 0.5 and avg > max_avg):
+				if(avg > 0.7 and avg > max_avg):
 					best = item2
 
 
@@ -165,8 +169,7 @@ class Extractor:
 				while(i+1 < len(anoted_sentence) and anoted_sentence[i+1][1] == 'NPR'):
 					text += ' ' + anoted_sentence[i+1][0]
 					i += 1
-
-				if(text not in Extractor.ENTITIES_STOP_WORDS):
+				if(text.lower() not in Extractor.NOT_AN_ENTITY):
 					if(text not in entities):
 						e = NamedEntity(text)
 						entities[text] = e

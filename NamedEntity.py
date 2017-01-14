@@ -36,3 +36,37 @@ class NamedEntity:
 
 	def __str__(self):
 		return str(self._terms)
+
+class NamedEntitiesDict:
+	@staticmethod
+	def load_entities_dict_from_file(path, filename):
+		f = open(os.path.join(path, filename), 'r')
+		lines = f.read().split('\n')
+
+		entities_dict = {}
+
+		for line in lines:
+			values = line.split(';')
+			idt = int(values[0])
+			ftr = int(values[1])
+			terms = values[2:]
+
+			entity = NamedEntity()
+			entity.set_id(idt)
+			entity.set_terms(terms)
+			
+			if(ftr not in entities_dict):
+				entities_dict[ftr] = entity
+				entities_dict[idt] = entity
+			else:
+				entities_dict[idt] = entities_dict[ftr]
+
+		return entities_dict
+
+	@staticmethod
+	def get_entities_fathers_dictionary(dct):
+		lst = {}
+		for key in dct:
+			entity = dct[key]
+			lst[entity.id()] = entity.terms()
+		return lst
