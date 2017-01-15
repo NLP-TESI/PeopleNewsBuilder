@@ -40,30 +40,46 @@ class Extractor:
 
 
 		distinct = TESIUtil.dict_to_list(global_entities)
-		print('\n' + str(len(distinct)))
+
 
 		relationships = self._find_relationships(taggeds)
 		relationships.sort(key=lambda x: x[0])
-		for r in relationships:
-			print(r)
+		# print()
+		# for r in relationships:
+		# 	print(r)
+		print('\nentities: ' + str(len(distinct)))
+		print('relationships: ' + str(len(relationships)))
 		return KnowledgeBase(entities_dict=global_entities, taggeds=taggeds, relations=relationships)
+
+	def _search_verb(self, sentence, start, end, relation_stops_type):
+		final_verb = None
+		for index in range(start-1,end-1,-1):
+			if(index < 0 or start-index > 4):
+				break
+			item = sentence[index]
+			if(item[1] in relation_stops_type):
+				break
+			if("VB" in item[1]):
+				final_verb = item[0]
+				break
+		return final_verb
 
 	def _get_composed_verbs(self, sentence, start, end, relation_stops_type):
 		composed_verb = sentence[start][0]
-		aux = ""
 		if('VB' in sentence[start][1]):
-			for index in range(start-1,end-1,-1):
-				if(index < 0 or start-index > 4):
-					break
-				item = sentence[index]
-				if(item[1] in relation_stops_type):
-					composed_verb = None
-					break
-				aux = item[0] + " " + aux
-				if("VB" in item[1]):
-					composed_verb = aux + composed_verb
-					break
+			final_verb = self._search_verb(sentence, start, end, relation_stops_type)
+			if final_verb is not None:
+				return final_verb+" "+composed_verb
 		return composed_verb
+
+
+	def _compose_verb_noun(self, sentence, start, end, relation_stops_type):
+		noun_type = ['N', 'N-P']
+		if( sentence[start][1] in noun_type ):
+			verb = self._search_verb(sentence, start, end, relation_stops_type)
+			if verb is not None:
+				return verb+" "+sentence[start][0]
+		return None
 
 	def _contain_main_entity(self, entity1, entity2):
 		if self.main_entity in entity1.lower() or self.main_entity in entity2.lower():
@@ -74,6 +90,7 @@ class Extractor:
 	def _find_relationships(self, list_tagged):
 		relationships = []
 		relation_stops_type = ['CONJ', 'WPRO', ',', '(', ')']
+		relationship_stop_words = ['ex']
 
 		for tagged in list_tagged:
 			for index_sentence, sentence in enumerate(tagged):
@@ -82,14 +99,8 @@ class Extractor:
 				last_relation = None
 
 				for index, item in enumerate(sentence):
-					if( len(item[0]) == 1 ):
+					if( len(item[0]) == 1 or item[0].lower() in relationship_stop_words):
 						continue
-					if(last_entity is not None and 'VB' in item[1]):
-						last_relation = self._get_composed_verbs(sentence, index, last_entity_index, relation_stops_type)
-					elif(item[1] in relation_stops_type):
-						last_relation = None
-						last_entity = None
-						last_entity_index = 0
 					elif( len(item) == 3):
 						if(last_entity is not None and self._contain_main_entity(last_entity[0], item[0])):
 							if(index-last_entity_index == 2 and len(sentence[index-1][0])>1 ):
@@ -98,10 +109,20 @@ class Extractor:
 							elif(last_relation is not None):
 								relation = (last_relation, last_entity[2], last_entity[0], item[2], item[0])
 								relationships.append(relation)
-
 						last_entity = item
 						last_entity_index = index
 						last_relation = None
+
+					if(last_entity is None):
+						continue
+					elif('N' in item[1]):
+						last_relation = self._compose_verb_noun(sentence, index, last_entity_index, relation_stops_type)
+					elif('VB' in item[1]):
+						last_relation = self._get_composed_verbs(sentence, index, last_entity_index, relation_stops_type)
+					elif(item[1] in relation_stops_type):
+						last_relation = None
+						last_entity = None
+						last_entity_index = 0
 		return relationships
 
 	def _extract_entities(self, anoted, global_entities):
