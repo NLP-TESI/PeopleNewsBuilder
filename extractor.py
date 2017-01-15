@@ -22,7 +22,7 @@ class Extractor:
 			self.main_entity = None
 		self.HUNPOS = Extras.carrega('AeliusHunPos')
 
-
+	# Extract entities and relationships about the main entity
 	def extract(self): # will return a KnowledgeBase instance
 		global_entities = {}
 		taggeds = []
@@ -101,7 +101,7 @@ class Extractor:
 				for index, item in enumerate(sentence):
 					if( len(item[0]) == 1 or item[0].lower() in relationship_stop_words):
 						continue
-					elif( len(item) == 3):
+					elif( item[1] == 'NE'):
 						if(last_entity is not None and self._contain_main_entity(last_entity[0], item[0])):
 							if(index-last_entity_index == 2 and len(sentence[index-1][0])>1 ):
 								relation = (sentence[index-1][0], last_entity[2], last_entity[0], item[2], item[0])
@@ -145,9 +145,9 @@ class Extractor:
 					local_entities[key] = entities[key]
 
 			for k, item in enumerate(tagged_result):
-				if(tagged_result[k][1] == 'NPR'):
+				if(tagged_result[k][1] == 'NE'):
 					key = tagged_result[k][0]
-					tagged_result[k] = (key, 'NPR', local_entities[key].id())
+					tagged_result[k] = (key, 'NE', local_entities[key].id())
 
 			taggeds.append(tagged_result)
 
@@ -197,27 +197,38 @@ class Extractor:
 		tagged = []
 		i = 0
 
-		while i < len(anoted_sentence):
-			if(anoted_sentence[i][1] == 'NPR'):
-				text = anoted_sentence[i][0]
+		contains_main_entity = False
+		for a in anoted_sentence:
+			if(self.main_entity in a[0].lower()):
+				contains_main_entity = True
+				break
 
-				while(i+1 < len(anoted_sentence) and anoted_sentence[i+1][1] == 'NPR'):
-					text += ' ' + anoted_sentence[i+1][0]
-					i += 1
-				if(text.lower() not in Extractor.NOT_AN_ENTITY):
-					if(text not in entities):
-						e = NamedEntity(text)
-						entities[text] = e
+		if(contains_main_entity):
+			while i < len(anoted_sentence):
+				if(anoted_sentence[i][1] == 'NPR'):
+					text = anoted_sentence[i][0]
+
+					while(i+1 < len(anoted_sentence) and anoted_sentence[i+1][1] == 'NPR'):
+						text += ' ' + anoted_sentence[i+1][0]
+						i += 1
+					if(text.lower() not in Extractor.NOT_AN_ENTITY):
+						if(text not in entities):
+							e = NamedEntity(text)
+							entities[text] = e
+						else:
+							e = entities[text]
+
+						item = (text, 'NE', e.id())
 					else:
-						e = entities[text]
-
-					item = (text, 'NPR', e.id())
+						item = (text, 'SYM')
 				else:
-					item = (text, 'SYM')
-			else:
-				item = (anoted_sentence[i][0], anoted_sentence[i][1])
+					item = (anoted_sentence[i][0], anoted_sentence[i][1])
 
-			tagged.append(item)
-			i += 1
+				tagged.append(item)
+				i += 1
+		else:
+			# if not contains main entity, does not extract entities in sentence
+			for item in anoted_sentence:
+				tagged.append(item)
 
 		return (entities, tagged)
