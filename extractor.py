@@ -2,6 +2,7 @@
 from __future__ import print_function
 from knowledge import KnowledgeBase
 from NamedEntity import NamedEntity
+from relationships import Relationships
 import TESIUtil
 from Aelius import Extras, Toqueniza, AnotaCorpus
 import nltk
@@ -42,14 +43,21 @@ class Extractor:
 		distinct = TESIUtil.dict_to_list(global_entities)
 
 
-		relationships = self._find_relationships(taggeds)
-		relationships.sort(key=lambda x: x[0])
-		# print()
-		# for r in relationships:
-		# 	print(r)
+		relationships = self._find_relationships(taggeds, global_entities)
+		# for i in global_entities:
+		# 	print(global_entities[i].terms(),i,global_entities[i].id())
+		for r in relationships:
+			print(r)
 		print('\nentities: ' + str(len(distinct)))
 		print('relationships: ' + str(len(relationships)))
 		return KnowledgeBase(entities_dict=global_entities, taggeds=taggeds, relations=relationships)
+
+	def _search_parent_entity(self, id, global_entities):
+		aux = global_entities[id]
+		while aux != global_entities[aux.id()]:
+			aux = global_entities[aux.id()]
+		return aux
+
 
 	def _search_verb(self, sentence, start, end, relation_stops_type):
 		final_verb = None
@@ -87,8 +95,8 @@ class Extractor:
 		else:
 			return False
 
-	def _find_relationships(self, list_tagged):
-		relationships = []
+	def _find_relationships(self, list_tagged, global_entities):
+		relationships = Relationships()
 		relation_stops_type = ['CONJ', 'WPRO', ',', '(', ')']
 		relationship_stop_words = ['ex']
 
@@ -104,11 +112,15 @@ class Extractor:
 					elif( item[1] == 'NE'):
 						if(last_entity is not None and self._contain_main_entity(last_entity[0], item[0])):
 							if(index-last_entity_index == 2 and len(sentence[index-1][0])>1 ):
-								relation = (sentence[index-1][0], last_entity[2], last_entity[0], item[2], item[0])
-								relationships.append(relation)
+								id1 = self._search_parent_entity(last_entity[2], global_entities).id()
+								id2 = self._search_parent_entity(item[2], global_entities).id()
+								relation = (sentence[index-1][0], id1, last_entity[0], id2, item[0])
+								relationships.add(relation)
 							elif(last_relation is not None):
-								relation = (last_relation, last_entity[2], last_entity[0], item[2], item[0])
-								relationships.append(relation)
+								id1 = self._search_parent_entity(last_entity[2], global_entities).id()
+								id2 = self._search_parent_entity(item[2], global_entities).id()
+								relation = (last_relation, id1, last_entity[0], id2, item[0])
+								relationships.add(relation)
 						last_entity = item
 						last_entity_index = index
 						last_relation = None
