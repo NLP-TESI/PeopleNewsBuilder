@@ -46,9 +46,9 @@ class Extractor:
 		relationships = self._find_relationships(taggeds, global_entities)
 		# for i in global_entities:
 		# 	print(global_entities[i].terms(),i,global_entities[i].id())
-		print('\r')
-		for r in relationships:
-			print(r)
+		# print('\r')
+		# for r in relationships:
+		# 	print(r)
 		print('\nentities: ' + str(len(distinct)))
 		print('relationships: ' + str(len(relationships)))
 		return KnowledgeBase(entities_dict=global_entities, taggeds=taggeds, relations=relationships)
