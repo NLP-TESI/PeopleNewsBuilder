@@ -37,12 +37,11 @@ class KnowledgeBase:
 	def _save_found_entities(self, path_name):
 		lines = []
 
-		for key in self._entities:
-			item = self._entities[key]
+		for i,item in enumerate(self._entities):
 			tpl = []
-			tpl.append(str(key))
+			tpl.append(str(i))
 			tpl.append(str(item.id()))
-			tpl.append(';'.join(item.terms()))
+			tpl.append(','.join(item.terms()))
 			lines.append( ';'.join(tpl) )
 		string = '\n'.join(lines)
 		TESIUtil.save_file(path_name, u"entities.csv", string.encode('UTF-8'))

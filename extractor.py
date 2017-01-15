@@ -51,7 +51,7 @@ class Extractor:
 		# 	print(r)
 		print('\nentities: ' + str(len(distinct)))
 		print('relationships: ' + str(len(relationships)))
-		return KnowledgeBase(entities_dict=global_entities, taggeds=taggeds, relations=relationships)
+		return KnowledgeBase(entities_dict=distinct, taggeds=taggeds, relations=relationships)
 
 	# Identify the father entity.
 	def _search_parent_entity(self, id, global_entities):
