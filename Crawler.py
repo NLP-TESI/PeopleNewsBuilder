@@ -6,7 +6,7 @@ import scrapy
 from scrapy.crawler import CrawlerProcess
 from News import News
 
-
+# This spider collect text from the News in the g1.globo.com
 class NewsSpider(scrapy.Spider):
     name = "NewsSpider"
 
@@ -45,7 +45,7 @@ class NewsSpider(scrapy.Spider):
         if text is not None:
             self.newsList[index].text = text.replace('\t',' ').replace('\n', '.').strip()
 
-
+# It is just to handle the crawler
 class Crawler:
     def __init__(self, spider, **kwargs):
         self.process = CrawlerProcess({
@@ -57,6 +57,7 @@ class Crawler:
         # the script will block here until the crawling is finished
         self.process.start()
 
+# This collect the data of all News about one person
 class Sniffer:
 
     def __init__(self, initialUrl, newsLimit=0, name='person'):
@@ -102,7 +103,7 @@ class Sniffer:
         self._saveNewsAsJSON()
 
 
-
+# This is just to test the Sniffer class
 if __name__ == "__main__":
     # URL for json news from Dilma Roussef
     url = "http://falkor-cda.bastian.globo.com/feeds/8351bc2f-9988-4fed-bc44-13d62a3e966f/posts/page/1/query_parameter/http://semantica.globo.com/G1/Politico_7c678a2c-2e99-4c45-b20b-76d15b9d77f8";

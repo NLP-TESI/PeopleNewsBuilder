@@ -2,6 +2,7 @@
 import os
 import TESIUtil
 
+# This is to handle and save all knowledge collected
 class KnowledgeBase:
 
 	def __init__(self, entities_dict=None, taggeds=None, relations=None):

@@ -1,11 +1,13 @@
 
+# This class is to manage the list of relations
+# and keep no repetitive realtionships 
 class Relationships:
 
     def __init__(self):
         self.relations = {}
 
     def _exist_relation(self, relation):
-        relation_list = self.relations[relation[0].lower()][1]
+        relation_list = self.relations[relation[0].lower()]
         for r in relation_list:
             if r[0] == relation[1] and r[2] == relation[3]:
                 return True
@@ -13,11 +15,11 @@ class Relationships:
 
     # relation = (relation_text, entity_id1, entity_text1, entitty_id2, entity_text2)
     def add(self, relation):
-        if relation[0] not in self.relations:
-            self.relations[relation[0].lower()] = [relation[0],[relation[1:]]]
+        if relation[0].lower() not in self.relations:
+            self.relations[relation[0].lower()] = [relation[1:]]
         else:
             if not self._exist_relation(relation):
-                self.relations[relation[0].lower()][1].append(relation[1:])
+                self.relations[relation[0].lower()].append(relation[1:])
 
     def __len__(self):
         return sum(map(lambda x: len(x[1]), self.relations.items()))
@@ -25,8 +27,8 @@ class Relationships:
     def __iter__(self):
         self.items = []
         for e in self.relations.items():
-            for r in e[1][1]:
-                self.items.append((e[1][0],r[0],r[1],r[2],r[3]))
+            for r in e[1]:
+                self.items.append((e[0],r[0],r[1],r[2],r[3]))
         self.items.sort(key=lambda x: x[0])
         self.i = -1
         return self

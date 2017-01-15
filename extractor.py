@@ -46,12 +46,14 @@ class Extractor:
 		relationships = self._find_relationships(taggeds, global_entities)
 		# for i in global_entities:
 		# 	print(global_entities[i].terms(),i,global_entities[i].id())
+		print('\r')
 		for r in relationships:
 			print(r)
 		print('\nentities: ' + str(len(distinct)))
 		print('relationships: ' + str(len(relationships)))
 		return KnowledgeBase(entities_dict=global_entities, taggeds=taggeds, relations=relationships)
 
+	# Identify the father entity.
 	def _search_parent_entity(self, id, global_entities):
 		aux = global_entities[id]
 		while aux != global_entities[aux.id()]:
@@ -59,6 +61,7 @@ class Extractor:
 		return aux
 
 
+	# Auxiliate in composition of relationships
 	def _search_verb(self, sentence, start, end, relation_stops_type):
 		final_verb = None
 		for index in range(start-1,end-1,-1):
@@ -72,6 +75,7 @@ class Extractor:
 				break
 		return final_verb
 
+	# In order to buil a relation with one or more verbs
 	def _get_composed_verbs(self, sentence, start, end, relation_stops_type):
 		composed_verb = sentence[start][0]
 		if('VB' in sentence[start][1]):
@@ -80,7 +84,7 @@ class Extractor:
 				return final_verb+" "+composed_verb
 		return composed_verb
 
-
+	# In order to buil a relation with verb and noun
 	def _compose_verb_noun(self, sentence, start, end, relation_stops_type):
 		noun_type = ['N', 'N-P']
 		if( sentence[start][1] in noun_type ):
@@ -89,6 +93,7 @@ class Extractor:
 				return verb+" "+sentence[start][0]
 		return None
 
+	# In order to test if the main entity is one of thoses two entities
 	def _contain_main_entity(self, entity1, entity2):
 		if self.main_entity in entity1.lower() or self.main_entity in entity2.lower():
 			return True
@@ -107,15 +112,21 @@ class Extractor:
 				last_relation = None
 
 				for index, item in enumerate(sentence):
+					# In order to avoid stop words
 					if( len(item[0]) == 1 or item[0].lower() in relationship_stop_words):
 						continue
+					# to get the entity already identified
 					elif( item[1] == 'NE'):
+						# In order to build the relationship
 						if(last_entity is not None and self._contain_main_entity(last_entity[0], item[0])):
+							# to build a relationship with anything between entities
+							# just if there is only one token between entities
 							if(index-last_entity_index == 2 and len(sentence[index-1][0])>1 ):
 								id1 = self._search_parent_entity(last_entity[2], global_entities).id()
 								id2 = self._search_parent_entity(item[2], global_entities).id()
 								relation = (sentence[index-1][0], id1, last_entity[0], id2, item[0])
 								relationships.add(relation)
+							# In order to build a relationship from relation already identified
 							elif(last_relation is not None):
 								id1 = self._search_parent_entity(last_entity[2], global_entities).id()
 								id2 = self._search_parent_entity(item[2], global_entities).id()
@@ -125,16 +136,25 @@ class Extractor:
 						last_entity_index = index
 						last_relation = None
 
+					# In order to get just relationships between entities
 					if(last_entity is None):
 						continue
+					# In order to get relationship composed by verb and noun
 					elif('N' in item[1]):
 						last_relation = self._compose_verb_noun(sentence, index, last_entity_index, relation_stops_type)
+					# In order to get relationship composed by one or more verbs
 					elif('VB' in item[1]):
 						last_relation = self._get_composed_verbs(sentence, index, last_entity_index, relation_stops_type)
+					# In order to break relationships
 					elif(item[1] in relation_stops_type):
 						last_relation = None
 						last_entity = None
 						last_entity_index = 0
+
+					# In order to remove relationships if a conjuction is found
+					if last_relation is not None and last_relation[0].isupper():
+						last_relation = None
+
 		return relationships
 
 	def _extract_entities(self, anoted, global_entities):
