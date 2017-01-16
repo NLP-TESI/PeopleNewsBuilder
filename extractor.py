@@ -39,17 +39,14 @@ class Extractor:
 			global_entities, tagged = self._extract_entities(anoted, global_entities)
 			taggeds.append(tagged)
 
-
 		distinct = TESIUtil.dict_to_list(global_entities)
 
-
 		relationships = self._find_relationships(taggeds, global_entities)
-		# for i in global_entities:
-		# 	print(global_entities[i].terms(),i,global_entities[i].id())
-		# print('\r')
-		# for r in relationships:
-		# 	print(r)
-		print('\nentities: ' + str(len(distinct)))
+
+		total = sum(map(lambda x: len(x.terms()), distinct))
+
+		print('\nentities distinct: ' + str(len(distinct)))
+		print('total entities: ' + str(total))
 		print('relationships: ' + str(len(relationships)))
 		return KnowledgeBase(entities_dict=distinct, taggeds=taggeds, relations=relationships)
 
