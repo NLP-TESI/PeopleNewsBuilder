@@ -1,6 +1,3 @@
-# testing
-
-#from News import News
 from Crawler import Sniffer
 from preprocessing import PreProcessing
 from extractor import Extractor

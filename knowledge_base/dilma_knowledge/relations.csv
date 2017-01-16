@@ -1,1115 +1,1100 @@
 id;relation;entity1;id1;entity2;id2
-0;..;326;Maracanã;24;Dilma
+0;..;322;Maracanã;24;Dilma
 1;..;6;Brasília;24;Dilma
-2;..;303;gaúcha;5791;Dilma
-3;..;1235;senador Ricardo Ferraço;8023;Dilma Rousseff
-4;>> encaminhamento;2041;Dilma;514;Lewandowski
-5;>> encaminhamento;269;Dilma;514;Lewandowski
-6;>> encaminhamento;1318;Dilma;514;Lewandowski
-7;abrir imepachment;1445;Cunha;10458;Dilma Rousseff.
-8;abrir impeachment;1446;Suíça;1442;Dilma Rousseff.
-9;abrir impeachment;18;Senado;8023;Dilma
-10;abrir impeachment;1446;Suíça;10539;Dilma Rousseff.
-11;aceitado indicação;2975;Moro;269;Dilma
-12;aceitou afastamento;81;Eduardo Cunha;5791;Dilma
-13;aceitou impeachment;81;Eduardo Cunha;24;Dilma
-14;aceitou impeachment;81;Eduardo Cunha;10539;Dilma
-15;acho decisão;8023;Dilma;309;Gilmar Mendes
-16;acionado;8023;Dilma;209;STF
-17;acolheu ação;200;Porto Alegre;7422;Dilma
-18;acolheu impeachment;1445;Cunha;10539;Dilma
-19;acolhidos contas;10539;Dilma;6;Brasil
-20;acompanhar depoimento;6;Brasília;10539;Dilma
-21;acompanhar depoimento.;1511;presidente Lula;11607;Dilma
-22;acompanharem defesa;14;República;2041;Dilma
-23;acompanharem defesa;3424;República;4483;Dilma
-24;acompanharem defesa;6072;intermediária;269;Dilma
-25;acontecer;10458;Dilma Rousseff;10458;Dilma
-26;acreditam;108;Ricardo Lewandowski;24;Dilma
-27;acrescenta;269;Dilma;1244;Sérgio Moro
+2;..;299;gaúcha;5680;Dilma
+3;..;1207;senador Ricardo Ferraço;7874;Dilma Rousseff
+4;>> encaminhamento;1999;Dilma;510;Lewandowski
+5;>> encaminhamento;4394;Dilma;510;Lewandowski
+6;>> encaminhamento;1290;Dilma;510;Lewandowski
+7;abrir imepachment;1412;Cunha;10224;Dilma Rousseff.
+8;abrir impeachment;1413;Suíça;1409;Dilma Rousseff.
+9;abrir impeachment;18;Senado;7874;Dilma
+10;abrir impeachment;1413;Suíça;10305;Dilma Rousseff.
+11;aceitado indicação;2913;Moro;4394;Dilma
+12;aceitou afastamento;82;Eduardo Cunha;5680;Dilma
+13;aceitou impeachment;82;Eduardo Cunha;24;Dilma
+14;aceitou impeachment;82;Eduardo Cunha;10305;Dilma
+15;acho decisão;7874;Dilma;305;Gilmar Mendes
+16;acionado;7874;Dilma;211;STF
+17;acolheu ação;202;Porto Alegre;7296;Dilma
+18;acolheu impeachment;1412;Cunha;10305;Dilma
+19;acolhidos contas;10305;Dilma;6;Brasil
+20;acompanhar depoimento;6;Brasília;10305;Dilma
+21;acompanhar depoimento.;1469;presidente Lula;11367;Dilma
+22;acompanharem defesa;14;República;1999;Dilma
+23;acompanharem defesa;3362;República;4394;Dilma
+24;acompanharem defesa;5959;intermediária;4394;Dilma
+25;acontecer;10224;Dilma Rousseff;10224;Dilma
+26;acreditam;109;Ricardo Lewandowski;24;Dilma
+27;acrescenta;4394;Dilma;1216;Sérgio Moro
 28;acrescentou advogado;14;República;24;Dilma.
-29;acusar presidente;5791;Dilma;15;Câmara
-30;acusou;1445;Cunha;8023;Dilma
-31;adotadas afirmou;1110;senhor;4483;Dilma.
-32;afastada;1110;senhora presidente;2041;Dilma Rousseff
-33;afastada;3424;República;5791;Dilma Rousseff
-34;afastada comando;4483;Dilma;133;Palácio
-35;afastada comando;5791;Dilma;133;Palácio
-36;afastada comando;8023;Dilma Rousseff;7154;Palácio
-37;afastada enfrenta;4;Dilma;79;Congresso Nacional.
+29;acusar presidente;5680;Dilma;15;Câmara
+30;acusou;1412;Cunha;7874;Dilma
+31;adotadas afirmou;1082;senhor;4394;Dilma.
+32;afastada;1082;senhora presidente;1999;Dilma Rousseff
+33;afastada;3362;República;5680;Dilma Rousseff
+34;afastada comando;4394;Dilma;134;Palácio
+35;afastada comando;5680;Dilma;134;Palácio
+36;afastada comando;7874;Dilma Rousseff;134;Palácio
+37;afastada enfrenta;4;Dilma;80;Congresso Nacional.
 38;afastada funções;21;Casa;24;Dilma
-39;afastada funções;21;Casa;2041;Dilma
-40;afastada funções;21;Casa;7422;Dilma
-41;afastada funções;21;Casa;10458;Dilma
-42;afastada presidência;2041;Dilma;18;Senado
-43;afastada presidência;4483;Dilma Rousseff;3424;República
-44;afastada razão;8023;Dilma;18;Senado
-45;afastar;18;Senado;2041;Dilma Rousseff
-46;afastar;134;Planalto;2041;Dilma
-47;afastar;269;Dilma;96;Presidência
-48;afastar;18;Senado;8023;Dilma
-49;afastar;18;Senado;10539;Dilma Rousseff
-50;afastar presidente;18;Senado;4483;Dilma Rousseff
-51;afastou presidente;18;Senado;8023;Dilma Rousseff
-52;afirma;1110;senhora presidente Dilma;1276;senador Jorge Viana
-53;afirma;4997;Guardian;4483;Dilma
-54;afirma;8023;Dilma;787;Mota. Cidinho
-55;afirma;6920;Norte;8023;Dilma
-56;afirma;408;Anastasia;8023;Dilma
-57;afirma impeachment;100;Lava Jato;5791;Dilma
-58;afirma presidente;8401;senador;8023;Dilma Rousseff
-59;afirmam governo;1442;Dilma;1095;Michel Temer
-60;afirmar gestão;956;Ana Amélia Lemos;4483;Dilma Rousseff
-61;afirmar metade;2041;Dilma;18;Senado
-62;afirmar metade;8023;Dilma;18;Senado
-63;afirmou;369;Oliveira;24;Dilma
-64;afirmou;2948;Lindbergh;269;Dilma Rousseff
-65;afirmou;201;Polícia Federal;4483;Dilma
-66;afirmou;3165;Aécio;5791;Dilma
-67;afirmou;5791;Dilma;1095;Michel Temer
-68;afirmou;10539;presidente Dilma Rousseff.;161;Freitas
-69;afirmou;408;Anastasia;10539;Dilma
-70;afirmou;1787;Cardozo;10539;Dilma
-71;afirmou;10539;Dilma;1039;Cerveró
-72;afirmou atos;2262;ávila;4483;gestão Dilma Rousseff
-73;afirmou atos;2262;ávila;10539;gestão Dilma Rousseff
-74;afirmou condenação;2239;Geraldo Prado;4483;Dilma
-75;afirmou destituição;2691;Samper;2041;Dilma
-76;afirmou destituição;577;Ernesto Samper;10539;Dilma
-77;afirmou discurso;8;RJ;24;Dilma
-78;afirmou entrevista;10539;Dilma Rousseff;5722;TV Brasil
-79;afirmou nota;10539;Dilma;318;TSE
-80;afrontar;8023;Dilma;233;Lei
-81;agia ordens;1038;Delcídio;5791;Dilma
-82;agilizar afastamento;18;Senado;8023;Dilma
-83;aguarda decisão;10539;Dilma;18;Senado
-84;aguardar julgamento;822;China;11607;Dilma.
-85;aguardaram chegada;134;Planalto;269;Dilma.
-86;ajudar;301;Alvorada;2041;Dilma
-87;ajudar;10539;Dilma Rousseff;1445;Cunha
-88;ajudará;74;José Eduardo Cardozo;10539;Dilma
-89;ajudará exercício;4483;Dilma;1095;Michel Temer
-90;ajudei;1095;Michel;4483;Dilma
-91;ajuizada presidente;531;desembargador;14;República Dilma Rousseff
-92;alcançada leis;4;presidente Dilma;100;Lava Jato
-93;alegados afastar;5722;Brasil;5791;Dilma
-94;alegaram;10539;Dilma;81;Eduardo Cunha
-95;aliados governo;778;PDT;8023;Dilma
-96;aliviar pena;5053;PT;10539;Dilma Rousseff
-97;amenizou crise;24;Dilma Rousseff;480;Brasil
-98;analisar governo;270;União;8023;Dilma
-99;andar bicicleta;269;Dilma Rousseff;118;Zona Sul
-100;andou;24;Dilma;15;Câmara
-101;andou orla;5791;Dilma Rousseff;448;Guaíba
-102;andou orla;10539;Dilma Rousseff;448;Guaíba
-103;antecipado julgamento;1095;Michel Temer;24;Dilma.
-104;antecipado julgamento;7970;Michel Temer;11607;Dilma.
-105;anular decisão;4;presidente Dilma;18;Senado
-106;anular impeachment;15;Câmara;24;Dilma Rousseff. MP
-107;anular presidente;209;STF;10539;Dilma Rousseff
-108;anunciado governo;3732;Medeiros;10539;Dilma
-109;anunciado pagamento;5791;Dilma Rousseff;7477;13º
-110;anunciou deputado;5791;Dilma Rousseff;6977;Wadih Damous
-111;ao;24;Dilma;18;Senado
-112;ao;2041;Dilma;79;Congresso
-113;ao;2041;Dilma;2896;interrogála
-114;ao;2041;Dilma;3537;garçom
-115;ao;2041;Dilma;18;Senado
-116;ao;269;Dilma;18;Senado
-117;ao;5791;Dilma;18;Senado
-118;ao;7138;Presidenta Dilma;6628;Senado
-119;ao;4;Dilma;18;Senado
-120;apodrecido impeachment;2041;Dilma Rousseff;18;Senado Federal
-121;apoiar candidatura;27;PMDB;11607;Dilma.
-122;apoiaria caso;5791;Dilma;6628;Senado
-123;apoiou governo;5722;Brasil;5791;Dilma Rousseff
-124;aponta senador;8023;Dilma;8295;Assista
-125;aposentar revista;8023;Dilma;9897;Secretário Executivo
-126;apresenta defesa;11607;Dilma Rousseff;18;Senado
-127;apresentado juristas;2041;Dilma;72;Miguel Reale Júnior
-128;apresentado juristas;4483;Dilma;72;Miguel Reale Júnior
-129;apresentado juristas;8023;Dilma;72;Miguel Reale Júnior
-130;apresentados defesa;408;Anastasia;5791;Dilma
-131;apresentar ações;2041;Dilma Rousseff;308;Tribunal Federal
-132;apresentar orçamento;10539;Dilma;1626;déficit
-133;apresentou;5791;Dilma Rousseff;6628;Senado
-134;apresentou;10539;Dilma Rousseff;12703;Parecer Técnico Contábil Divergente
-135;apresentou ação;10539;presidente Dilma Rousseff;2165;Tribunal Federal
-136;aprovadas ressalvas;24;Dilma;318;TSE.
-137;aprovado plenário;24;Dilma Rousseff;18;Senado
-138;aprovado plenário;1903;Dilma;18;Senado
-139;aprovado plenário;2041;Dilma Rousseff;18;Senado
-140;aprovado plenário;269;Dilma;18;Senado
-141;aprovado plenário;5791;Dilma;6628;Senado
-142;aprovado plenário;5791;Dilma Rousseff;18;Senado
-143;aprovado relatório;4483;Dilma;1635;Comissão Especial
-144;aprovado votação;10539;Dilma Rousseff;18;Senado.
-145;aprovar impeachment;18;Senado;2041;Dilma
-146;aprovar impeachment;18;Senado;269;Dilma
-147;aprovar mandato;18;Senado;4483;Dilma
-148;aprovar presidente;18;Senado;10539;Dilma Rousseff
-149;aproveitaram depoimento;24;Dilma;542;Costa
-150;aproveitou;24;Dilma;324;Twitter
-151;aprovou afastamento;18;Senado;4483;Dilma Rousseff
-152;aprovou impeachment;18;Senado;269;Dilma Rousseff
-153;aprovou presidente;18;Senado;2041;Dilma Rousseff
-154;aprovou processo;18;Senado;10539;Dilma Rousseff
-155;apurou;572;TV Globo;2041;Dilma
-156;apurou;4997;G1;269;Dilma
-157;apurou;572;TV Globo;269;Dilma
-158;apurou;572;TV Globo;5791;Dilma
-159;apurou;572;TV Globo;1903;Dilma
-160;argumentaram;3192;Humberto Costa;269;Dilma
-161;arrolada advogados;269;Dilma;2255;Marcelo Odebrecht
-162;assinados presidente;537;Luiz Cláudio Costa;24;Dilma Rousseff
-163;assinados presidente;4681;Internet;4483;Dilma Rousseff
-164;assista íntegra;5791;Dilma;1787;Cardozo
-165;assistia;1503;SP;8023;Dilma Rousseff
-166;assistirá votação;269;Dilma;133;Palácio
-167;assumir;8023;Dilma.;96;Presidência
-168;assumir afastamento;7970;presidente Michel Temer;7422;Dilma.
-169;assumir afastamento;7970;presidente Michel Temer;8023;Dilma.
-170;assumir fundação;24;Dilma;1396;Diretório
-171;assumir funções;5791;Dilma;4939;MBL
-172;assumir lugar;1095;presidente Michel Temer;1442;Dilma
-173;assumir presidência;24;Dilma;1128;Conselho Curador
-174;assumiu exercício;1318;Dilma Rousseff;390;Mesmo
-175;atingirá presidentes;2041;Dilma.;3424;República
-176;atrair investimentos;269;Dilma Rousseff;5722;Brasil
-177;atrapalhar investigações;2041;Dilma Rousseff;100;Lava Jato
-178;atrapalhava trabalho;5791;Dilma;468;TCU
-179;atribuiu;10539;Dilma;1039;Cerveró
-180;autorizando autorização;8023;Dilma Rousseff;79;Congresso
-181;autorizar aprovação;2041;Dilma Rousseff;79;Congresso
-182;avalia promessa;755;Washington Post;24;Dilma
-183;avaliado presidente;1318;Dilma;2165;Tribunal Federal
-184;avaliado presidente;5791;Dilma;2165;Tribunal Federal
-185;avaliar contas;6201;Dantas.;269;Dilma
-186;avaliar contas;6201;Dantas;10539;Dilma
-187;barrar impeachment;1318;Dilma;18;Senado.
-188;barrar impeachment;8023;Dilma;6628;Senado. Interinidade
-189;bateram aliados;9;Temer;2041;Dilma
-190;bateram aliados;9;Temer;269;Dilma
-191;beneficiar empresas;24;Dilma Rousseff;522;MMC
-192;beneficiar empresas;8023;Dilma Rousseff;522;MMC
-193;bom.;3490;Uhum;2041;Dilma
-194;caminhou jardins;8023;Dilma Rousseff;7154;Palácio
-195;campus;8023;Dilma Rousseff;771;Centro
-196;cancelar depoimento;11607;Dilma;368;Júlio Marcelo
-197;cantavam;1318;Dilma;5796;Hino
-198;carregavam apoio;10247;Cnpem;8023;Dilma
-199;caso;342;Estado;11607;Dilma Rousseff
-200;cassar mandato;18;Senado;2041;Dilma Rousseff
-201;cassar mandato;18;Senado;4483;Dilma
-202;cassar mandatos;166;PSDB;1442;Dilma
-203;causando apoiadores;170;Janaína;1318;Dilma.
-204;causaram aliados;514;Lewandowski;24;Dilma
-205;celebrou conquista;2807;Dilma;2798;Isaquias Queiroz
-206;celular;10539;Dilma;2255;Marcelo Odebrecht
-207;chamadas pedaladas;2041;Dilma;2577;Cronograma
-208;chamadas pedaladas;8023;Dilma;551;Plano Safra
-209;chamadas pedaladas;10458;Dilma;2577;Cronograma
-210;chamado deputado;8023;Dilma;8752;André Moura
-211;chamar imprensa;2041;Dilma;134;Planalto
-212;chamar imprensa;269;Dilma;134;Planalto
-213;chamaram ministros;10539;Dilma;2182;Supremo.
-214;chamou;269;Dilma;537;áudio
-215;chamou;1233;ES;269;Dilma Rousseff
-216;chega;8023;Dilma;18;Senado
-217;chegaram;4483;Dilma Rousseff;79;Congresso
-218;chegaram;10539;Dilma;79;Congresso
-219;chegará;10539;Dilma;79;Congresso
-220;chegou;4;presidente Dilma Rousseff;119;Rio
-221;chegou;10458;Dilma;421;Esplanada
-222;chegou;10539;Dilma Rousseff;200;Porto Alegre
-223;chegou dizer;1511;presidente Lula;1442;Dilma
-224;chegou menosprezar;24;Dilma;79;Congresso
-225;circulava desenvoltura;8023;Dilma.;79;Congresso
-226;cita conversas;2041;Dilma;1139;Sérgio Machado
-227;citando ata;1442;Dilma;1128;Conselho
-228;citar impeachment;342;Estado;8023;Dilma Rousseff
-229;citava nome;10539;Dilma.;12765;Brani
-230;citou;2041;Dilma;3872;Nobel
-231;citou governo;8023;Dilma;9;Temer
-232;colocou;269;Dilma;3064;Maria
-233;com;3981;Contraste;2041;Dilma
-234;com;6;Brasil;8023;Dilma Rousseff
-235;com;8023;Dilma Rousseff;10254;aviões
-236;com;10458;Dilma Rousseff;10254;aviões
-237;comandada ministro;5791;Dilma;74;Justiça José Eduardo Cardozo.
-238;comandada ministro;8023;Dilma;74;Justiça José Eduardo Cardozo.
-239;comemorou retirada;2148;Belo Horizonte;269;Dilma Rousseff
-240;comentar caso;212;Mello;11607;Dilma
-241;comentar parecer;8023;Dilma;408;Anastasia.
-242;cometer ilegalidades;1393;RS;269;Dilma
-243;cometeu atentado;24;Dilma Rousseff;71;Constituição
-244;cometeu atentado;269;Dilma Rousseff;71;Constituição
-245;cometeu atentado;5791;Dilma Rousseff;71;Constituição
-246;cometeu atentado;8023;Dilma Rousseff;71;Constituição
-247;cometeu atentado;10539;Dilma Rousseff;71;Constituição
-248;cometeu ato;9;Temer;8023;Dilma
-249;começa impeachment;18;Senado;2041;Dilma
-250;começa impeachment;18;Senado;4483;Dilma
-251;começa impeachment;18;Senado;10539;Dilma
-252;começando;1442;Dilma Rousseff;1760;Moura
-253;começou;11607;Dilma Rousseff.;1276;senador
-254;começou julgar;18;Senado;2041;Dilma Rousseff
-255;compactuou;829;Petrobras;2041;Presidenta Dilma Rousseff
-256;compareceu;24;Dilma Rousseff;18;Senado
-257;comunicada decisão;269;Dilma Rousseff;18;Senado
-258;concentrados prédio;134;Planalto;269;Dilma Rousseff
-259;concentraram;5791;Dilma Rousseff;944;Praça
-260;concentraram lado;24;Dilma;395;Teatro
-261;concentraram lado;2041;Dilma;395;Teatro
-262;concentraram lado;8023;Dilma;395;Teatro
-263;concentravam proximidades;24;Dilma Rousseff;79;Congresso
-264;concluiu;2098;senador;2041;Dilma
-265;concluiu;1038;senador;8023;Dilma
-266;concluiu;18;Senado;10539;Dilma
-267;concluiu ato;18;Senado;8023;Dilma Rousseff
-268;concluiu presidente;8401;senador;8023;Dilma Rousseff
-269;condenar;18;Senado;1442;Dilma Rousseff
-270;condenar;209;STF;2041;Dilma
-271;condenar;18;Senado;2041;Dilma Rousseff
-272;condenar;18;Senado;4483;Dilma Rousseff
-273;condenar;6628;Senado;5791;Dilma Rousseff
-274;confirmado afastamento;18;Senado;24;Dilma
-275;confirmar impeachment;18;Senado;1318;Dilma
-276;confirme;10539;Dilma;318;TSE
-277;confirmou comparecerá;24;Dilma;79;Congresso
-278;conheça intimidade;10539;Dilma;10539;Dilma
-279;conheço;12871;BR Distribuidora.;10539;Dilma
-280;conseguir presidente;9943;Levy;8023;Dilma Rousseff
-281;conseguiu tornar;1442;Dilma;1530;ícone
-282;construído península;269;Dilma;4366;Lago Paranoá
-283;contará estrutura;10539;Dilma;18;Senado
-284;contava ministérios;24;Dilma;9;Temer
-285;contesta defesa;408;Anastasia;8023;Dilma
-286;contestando habilitação;209;STF;8023;Dilma
-287;continua indo;24;Dilma;9;Temer. BBC Brasil
-288;continuar;9417;Terra;8023;Dilma
-289;continuará;2041;Dilma Rousseff;867;Presidente
-290;continuará trabalhando;4012;Giles;8023;Dilma
-291;contra;15;Câmara;2041;Dilma
-292;contra;4483;Dilma. Protesto;9;Temer
-293;contra;15;Câmara;4483;Dilma
-294;contra;18;Senado;10539;Dilma
-295;contra;1229;Espírito Santo. Ato;11607;Dilma
-296;contrariado viagens;9;Temer;2041;Dilma.
-297;contrariado viagens;7970;Michel Temer;10458;Dilma
-298;contrariavam;4483;gestão Dilma Rousseff;233;Lei
-299;contrariavam;10539;gestão Dilma Rousseff;233;Lei
-300;contratada campanha;3907;informática;2041;Dilma Rousseff
-301;contratadas campanha;201;Polícia Federal;24;presidente Dilma Rousseff
-302;contratadas chapa;201;Polícia Federal;24;presidente Dilma Rousseff
-303;controlou preços;1442;presidente Dilma Rousseff;829;Petrobras
-304;convencer opositores;384;AM;24;Dilma
-305;convencer opositores;384;AM;2041;Dilma
-306;convencer opositores;384;AM;269;Dilma
-307;conversar equipe;468;TCU;8023;Dilma
-308;conversou;1442;Dilma;1525;Raúl Castro
-309;conversou;1537;Mariel;1442;Dilma
-310;convidados abertura;24;Dilma;335;Olimpíada
-311;convoca;514;Lewandowski;8023;Dilma
-312;convocados denúncia;2262;ávila Carvalho;269;Dilma Rousseff.
-313;costuma publicar;2807;Dilma;119;Rio2016
-314;cotado assumir;8023;Dilma Rousseff;3018;Aviação
-315;criado gestão;10190;Emprego;8023;Dilma Rousseff
-316;criticam;2041;Dilma;1414;Pimentel
-317;criticava;1434;Facebook;5791;presidente Dilma Rousseff
-318;criticou;10539;Dilma;238;PEC
-319;criticou desempenho;752;New York Times;5791;Dilma
-320;criticou exercício;2041;Dilma Rousseff;1095;Michel Temer.
-321;criticou falta;8023;Dilma Rousseff;239;quórum
-322;criticou governo;24;Dilma;9;Temer
-323;criticou previsão;2041;Dilma;1626;déficit
-324;culpou;1442;Dilma;1039;Cerveró
-325;culpou deputado;2041;Dilma;81;Eduardo Cunha
-326;da;24;Dilma Rousseff;96;Presidência
-327;da;1442;Dilma Rousseff;96;Presidência
-328;da;2040;Imprensa;2041;Presidenta Dilma Rousseff
-329;da;2041;Dilma;96;Presidência
-330;da;4483;Dilma;96;Presidência
-331;da;269;Dilma Rousseff;96;Presidência
-332;da;1318;Dilma Rousseff;96;Presidência
-333;da;725;Mensagem;7138;Presidenta Dilma
-334;da;8019;senhora Presidente;8020;República Dilma Vana Rousseff
-335;da;8023;Dilma Rousseff;96;Presidência
-336;da;10458;Dilma;96;Presidência
-337;da;6;Brasil;10458;Dilma
-338;da;10539;Dilma Rousseff;96;Presidência
-339;da;11607;Dilma Rousseff;96;Presidência
-340;de;417;Renan. Notificação;24;Dilma
-341;de;636;MINISTÉRIO;637;DILMA
-342;de;622;Defesa;24;Dilma
-343;de;179;Fazenda;1318;Dilma
-344;de;1233;ASSESSORIA;685;IMPRENSAPRESIDENTA DILMA ROUSSEFF
-345;de;18;Senado;2041;Dilma Rousseff
-346;de;622;Defesa;2041;Dilma
-347;de;417;Renan. Notificação;2041;Dilma
-348;de;3771;temporário;2041;Dilma
-349;de;4048;Depoimento;2041;Dilma Rousseff
-350;de;179;Fazenda;269;Dilma
-351;de;2040;Imprensa;4483;Dilma Rousseff
-352;de;4048;Depoimento;4483;Dilma
-353;de;79;Congresso. Defesa;269;Dilma
-354;de;4048;Depoimento;269;Dilma Rousseff
-355;de;5668;Interrogatório;269;Dilma Rousseff
-356;de;389;Agricultura;5791;Dilma
-357;de;4048;Depoimento;5791;Dilma Rousseff
-358;de;5668;Interrogatório;5791;Dilma Rousseff
-359;de;8084;Dilma. Aliados;8023;Dilma
-360;de;384;JULGAMENTO;637;DILMA
-361;de;8908;Flavio CaetanoAdvogado;8023;Dilma Rousseff
-362;de;234;Impeachment;8988;Dilma Roussef. Brasília
-363;de;5053;PT;8023;Dilma
-364;de;2363;Processo;4;Dilma
-365;de;417;Renan. Notificação;8023;Dilma
-366;de;389;Agricultura;8023;Dilma
-367;de;10458;Dilma. Desafeto;1445;Cunha
-368;de;622;Defesa;10458;Dilma
-369;de;4048;Depoimento;11607;Dilma
-370;de;6937;DEFESA;2532;DILMA APRESENTA PARECER CONTÁBIL DIVERGENTE
-371;de;12713;Advogado;10539;Dilma Rousseff
-372;de;622;Defesa;10539;Dilma
-373;decida comparecer;24;Dilma Rousseff;18;Senado
-374;decida comparecer;8023;Dilma Rousseff;18;Senado
-375;decidir afasta;79;Congresso;1318;Dilma Rousseff
-376;decidir afastamento;1592;Caiado;1442;Dilma
-377;decidir afastamento;18;Senado;269;Dilma
-378;decidir impeachment;18;Senado;10539;Dilma.
-379;decidirem afastar;134;Planalto;2041;Dilma
-380;decidiu afastar;18;Senado;24;Dilma Rousseff
-381;decidiu afastar;18;Senado;2041;Dilma
-382;decidiu afastar;18;Senado;4483;Dilma
-383;decidiu afastar;18;Senado;1318;Dilma Rousseff
-384;decidiu afastar;18;Senado;8023;Dilma
-385;decidiu encontrar;6;Brasília;4;Dilma.
-386;decidiu impedir;21;Casa;1442;Dilma
-387;decidiu impedir;21;Casa;4483;Dilma
-388;decidiu impedir;21;Casa;8023;Dilma
-389;decidiu impedir;21;Casa;4;Dilma
-390;decidiu inabilitar;21;Casa;4483;Dilma Rousseff
-391;decidiu levar;18;Senado;10539;Dilma
-392;decidiu presidente;18;Senado;10539;Dilma Rousseff
-393;decidiu unir;10539;Dilma Rousseff;166;PSDB
-394;declara;8023;Dilma Rousseff;8513;senador José Agripino
-395;declaram apoio;1318;Dilma;1318;Dilma.
-396;declarou;1442;Dilma;1476;Lobão
-397;declarou;119;Rio;1903;Dilma
-398;declarou;119;Rio;2041;Dilma
-399;declarou;269;Dilma;381;Grazziotin.
-400;declarou;724;AC;5791;Dilma
-401;declarou;6;Brasil;8023;Dilma.
-402;declarou presidente;2041;Dilma Rousseff;166;PSDB
-403;declarou.;5791;Dilma Rousseff.;7143;Skaf
-404;decretado;8023;Dilma Rousseff;18;Senado
-405;defender;15;Câmara;2041;Dilma
-406;defender atos;368;Júlio Marcelo.;11607;Dilma
-407;defender mandatos;6;Brasília;269;Dilma Rousseff
-408;defendeu governo;8864;Lodi;4;presidente Dilma Rousseff
-409;defendeu presidente;8421;Katia Abreu;8023;Dilma Rousseff
-410;defendeu presidente;9102;Winston Rodrigues Lima;8023;Dilma Rousseff
-411;defendida receita;24;presidente Dilma Rousseff;51;Federal
-412;definir futuro;18;Senado;10539;Dilma Rousseff
-413;definitivamente;10539;Dilma Rousseff;3017;do Jaburu
-414;deixar assessor;4012;Giles;8023;Dilma
-415;deixarem entrar;9926;Niwton Carpes da Silva;8023;Dilma
-416;deixou;269;Dilma;133;Palácio
-417;deixou;24;Dilma Rousseff;200;Porto Alegre
-418;deixou;2041;Dilma;133;Palácio
-419;deixou;5791;Dilma Rousseff;200;Porto Alegre
-420;deixou;11607;Dilma Rousseff;7154;Palácio
-421;deixou;1903;Dilma;7154;Palácio
-422;deliberar impeachment;18;Senado;24;Dilma
-423;demonstra perseguição;137;Globo;4483;Dilma Rousseff
-424;demonstrado modo;1265;BA;2041;Dilma
-425;demonstrar testemunho;8023;Dilma Rousseff;42;Justiça
-426;denunciaram presidente;1213;Hélio Bicudo;10539;Dilma Rousseff
-427;depor procurador;269;Dilma Rousseff;3;Ministério
-428;derrubar;24;Dilma Rousseff.;9;Temer
-429;desceu entrada;11607;Dilma;79;Congresso
-430;descreveu;1183;Chile;24;Dilma
-431;descumpriu;2041;Dilma;233;Lei Orçamentária
-432;descumpriu;4483;Dilma;233;Lei Orçamentária
-433;descumpriu;8023;Dilma;233;Lei Orçamentária
-434;desistiu ouvir;10539;Dilma José Eduardo Cardozo;159;Esther
-435;deslocou avião;2041;Dilma;854;FAB
-436;desmentindo afirmações;134;Planalto;2041;Dilma Rousseff
-437;desmentir delator;269;Dilma;4103;Otávio Azevedo
-438;desocupar dias;2041;Dilma;133;Palácio
-439;desocupar dias;4483;Dilma;133;Palácio
-440;desocupar dias;7422;Dilma;7154;Palácio
-441;desocupar dias;8023;Dilma;7154;Palácio
-442;despediu;10539;Dilma;7154;Palácio
-443;desqualificar disse;2041;Dilma;2041;Dilma.
-444;desrespeitam;4;presidente Dilma;233;Lei
-445;desrespeitou;8023;Dilma;79;Congresso
-446;destaca ascensão;4483;Dilma;1095;Michel Temer
-447;destacam afastamento;6191;Insper.;8023;Dilma
-448;destacou;2165;Tribunal Federal;10539;Dilma
-449;destacou afastamento;8;RJ;1442;Dilma
-450;destinada depoimento;74;Justiça José Eduardo Cardozo.;8023;Dilma
-451;destinada depoimento;38;Lula;8023;Dilma
-452;destinado grupo;645;Eixo Monumental;269;Dilma
-453;detalharam imprensa.;9;Temer;1318;Dilma
-454;deu vice;2041;Dilma Rousseff;1095;Michel Temer
-455;deve desocupar;5791;presidente Dilma Rousseff;133;Palácio
-456;deveriam criar;1442;Dilma;1654;Sociedade
-457;deverá comparecer;24;Dilma;18;Senado
-458;deverá embarcar;4483;Dilma;200;Porto Alegre
-459;deverá embarcar;5791;Dilma;200;Porto Alegre
-460;devido impeachment;200;Porto Alegre;269;Dilma Rousseff
-461;dirigir;1318;Dilma;133;Palácio
-462;discursava;2041;Dilma;18;Senado
-463;discursava;269;Dilma;18;Senado
-464;discursavam;2041;Dilma.;12;plenário
-465;discursavam;269;Dilma.;12;plenário
-466;discursou;5791;Dilma;5812;Salão Leste
-467;discursou;6;Brasil;7422;Dilma Rousseff.
-468;discutia;1442;Dilma;1442;Dilma
-469;discutindo;200;Porto Alegre;1442;Dilma
-470;discutir condutas;1029;Herman;10539;Dilma
-471;disse;1545;Caribe;1442;Dilma
-472;disse;1442;Dilma;58;PT
-473;disse;15;Câmara;2041;Dilma
-474;disse;2782;Silver;2041;Dilma.
-475;disse;4483;Dilma Rousseff;1276;senador
-476;disse;1051;Pasadena;4483;Dilma
-477;disse;269;Dilma;5455;Mônica
-478;disse;166;PSDB Aécio Neves;269;Dilma Rousseff
-479;disse;5791;Dilma;6734;Ribeiro.
-480;disse;3165;Aécio;5791;Dilma
-481;disse;79;Congresso;5791;Dilma.
-482;disse;7572;senador Vicentinho;5791;Dilma
-483;disse;8401;senador;8023;Dilma
-484;disse;9459;LGBT;8023;Dilma
-485;disse afastamento;8891;Literatura Mario Vargas Llosa;8023;Dilma Rousseff
-486;disse auditoria;8023;presidente Dilma Rousseff;4502;INSS
-487;disse fala;1476;Lobão;8023;Dilma
-488;disse ferraço;865;Excelência;4483;Dilma Rousseff
-489;disse governo;956;Ana Amélia;24;Dilma
-490;disse governo;2041;Dilma;1095;Michel Temer
-491;disse governo;4621;Antonio Carlos;8023;Dilma
-492;disse governo;18;Senado;10539;Dilma
-493;disse grupo;2041;Dilma;9;Temer
-494;disse operador;2041;Dilma Rousseff.;4034;Spinelli José Carlos Amado. Impeachment
-495;disse operador;4483;Dilma Rousseff.;4034;Spinelli José Carlos Amado. Impeachment
-496;disse saída;1787;Cardozo;1903;Dilma
-497;disse supor;1039;Cerveró;5791;Dilma
-498;dito;1787;Cardozo;5791;Dilma
-499;dividindo;24;Dilma;480;Brasil
-500;divulgada afirmando;1445;Cunha;10539;Dilma
-501;divulgada tarde;4528;ministro Carlos Gabas;8023;presidente Dilma Rousseff
-502;diz;1442;Dilma;1039;Cerveró
-503;diz;2041;Dilma;543;MEC
-504;diz;1213;Hélio Bicudo;269;Dilma
-505;diz;5791;Dilma;1095;Michel Temer
-506;diz;8023;Dilma;1445;Cunha
-507;diz;8023;Dilma Roussef;8974;Lupi
-508;diz;729;Venezuela;8023;Dilma Rousseff
-509;diz decisão;4483;Dilma;1445;Cunha
-510;diz decisão;10539;Dilma;1445;Cunha
-511;dizendo aprovado;1442;Dilma;1051;Pasadena
-512;dizia;18;Senado;24;Dilma
-513;dizia;18;Senado;10458;Dilma
-514;do;1442;Dilma Rousseff;133;Palácio
-515;do;4;presidente Dilma Rousseff;133;Palácio
-516;ecoou;10539;Dilma;6;Brasil.
-517;elaborada juristas;269;Dilma;72;Miguel Reale Júnior
-518;eleita;14;República;2041;Dilma Rousseff
-519;elevado afastamento;239;quórum;10539;Dilma
-520;elevar tom;6407;Vanessa Grazziotin;5791;Dilma
-521;em;24;Dilma;930;Goiânia
-522;em;8023;Dilma Rousseff;5204;Belém
-523;em;11607;Dilma Rousseff;200;Porto Alegre
-524;empossada presidente;2041;presidente Dilma Rousseff;1128;Conselho Curador
-525;empossado presidente;2041;Dilma Rousseff;14;República
-526;empossar;8023;presidente Dilma Rousseff;3165;senador Aécio Neves
-527;encerraram trabalhos;269;Dilma Rousseff;5402;Comissão
-528;encontrará presidentes;575;Americana;8023;Dilma
-529;encontrou provas;5389;Reale Jr;269;Dilma
-530;entrar escola;9;Temer;10539;Dilma
-531;entrar política;24;Dilma Rousseff;0;Michel Temer
-532;entrar temer;8023;Dilma;931;MST
-533;entrega;24;Dilma Rousseff;38;Luiz Inácio Lula da Silva
-534;entregou;10539;Dilma Rousseff;18;Senado
-535;entregue;8023;presidente Dilma Rousseff;2165;Tribunal Superior
-536;entrou;24;Dilma Rousseff;308;Tribunal Federal
-537;entrou recurso;4;presidente Dilma Rousseff;308;Tribunal Federal
-538;enviada governo;1026;CPMF;2041;Dilma
-539;enviadas governo;27;PMDB;269;Dilma.
-540;enviou;24;Dilma Rousseff;79;Congresso
-541;enviou;1442;Dilma;79;Congresso
-542;enviou;269;presidente Dilma Rousseff;2165;Tribunal Superior
-543;enviou lei;5791;Dilma Rousseff;79;Congresso
-544;enviou questionando;2975;Moro;269;Dilma
-545;esclarece;2041;Presidenta Dilma Rousseff;2041;Presidenta Dilma Rousseff
-546;escolhidas acusação;24;Dilma;24;Dilma
-547;escolhido defesa;564;Luiz Gonzaga Belluzzo;2041;Dilma Rousseff.
-548;escolhidos exercício;8023;Dilma Rousseff;7970;Michel Temer.
-549;esperadas presenças;8023;Dilma;38;presidente Luiz Inácio Lula da Silva
-550;esperado frente;7354;Marcelo Tavares;5791;Dilma.
-551;esperava;2041;Dilma;133;Palácio
-552;esperavam;1511;presidente Lula;5791;Dilma
-553;evitar interferência;8023;Dilma;209;STF
-554;ex advocacia;269;Dilma Rousseff;270;União José Eduardo Cardozo
-555;ex gabinete;4010;Acrônimo;2041;Dilma Rousseff
-556;ex governo;1511;presidente Lula;10539;Dilma José Eduardo Cardozo
-557;ex ministro;2041;Dilma;74;Justiça José Eduardo Cardozo
-558;ex ministro;3645;Fernando Pimentel;2041;Dilma
-559;ex ministro;4257;Ricardo Berzoini;269;Dilma Rousseff.
-560;ex ministro;269;Dilma;74;Justiça José Eduardo Cardozo
-561;ex ministro;269;Dilma Rousseff;42;Justiça
-562;ex ministro;1500;Eduardo Braga;5791;Dilma
-563;ex ministro;5791;Dilma Rousseff;7736;AGU José Eduardo Cardozo
-564;ex ministro;10539;Dilma;74;Justiça José Eduardo Cardozo
-565;ex ministro;4257;Ricardo Berzoini;10539;Dilma Rousseff
-566;ex ministros;1476;Edison Lobão;1442;Dilma
-567;ex ministros;4483;Dilma;2320;Antônio Palocci
-568;ex ministros;62;presidente Fernando Collor;269;Dilma
-569;ex ministros;2975;Moro;269;Dilma
-570;ex ministros;38;presidente Luiz Inácio Lula da Silva;5791;Dilma
-571;ex ministros;10178;Dilma;74;José Eduardo Cardozo
-572;ex ministros;2119;Rodrigo Janot;10458;Dilma
-573;ex ministros;934;Paraná;10178;Dilma
-574;ex ministros;10539;Dilma;10885;Ricardo Berzoíni
-575;ex ministros;11607;Dilma;3513;Jaques Wagner
-576;ex ministros;10539;Dilma;3513;Jaques Wagner
-577;ex petista;8023;Dilma;1500;Eduardo Braga
-578;ex presidente;24;Dilma;1391;Uruguai
-579;ex presidente;1442;Dilma;14;República
-580;ex presidente;1903;Dilma;3424;República
-581;ex presidente;6628;Senado;3424;República Dilma Rousseff
-582;ex presidentes;7422;Dilma Rousseff;38;Luiz Inácio Lula da Silva
-583;ex secretário;2041;Dilma;3;Ministério
-584;ex secretário;10539;Dilma;1920;Política
-585;excluir defesa;269;Dilma Rousseff;269;Dilma.
-586;excluiu denúncia;15;Câmara Eduardo Cunha;269;Dilma
-587;exercida senador;10539;Dilma Rousseff;1414;José Pimentel
-588;exigidos lei;2041;Dilma;71;Constituição
-589;exigidos lei;4483;Dilma;71;Constituição
-590;exonerou exceção;269;Dilma;2601;Tombini.
-591;exonerou exceção;8023;Dilma;2601;Tombini.
-592;expedido ofício;269;Dilma Rousseff;3;Ministério
-593;explica ministro;10539;Dilma;108;Ricardo Lewandowski
-594;falou;1039;Cerveró;1442;Dilma
-595;falou;2041;Dilma;2811;Brasil
-596;falou advogado;3424;República;5791;Dilma Rousseff.
-597;falou apoio;205;PCdoB;8023;Dilma Rousseff
-598;falou destituição;757;El Pais;24;Dilma Rousseff
-599;falou projeto;8023;Dilma;10244;Sirius
-600;falou traição;1234;Magno Malta;24;Dilma
-601;fará oposição;1442;Dilma;9;Temer.
-602;fará oposição;1903;Dilma;9;Temer.
-603;fazem manifestação;269;Dilma Rousseff;1581;Universidade Federal
-604;fazer;8023;Dilma;6;Brasil
-605;fazer fotografias;5791;Dilma Rousseff;38;presidente Luiz Inácio Lula da Silva
-606;fazer governo;1445;Cunha;10458;Dilma.
-607;fazer perguntas;209;STF;2041;Dilma
-608;fazer perguntas;209;STF;269;Dilma
-609;fazer perguntas;209;STF;1318;Dilma
-610;fazer questionamentos;24;Dilma;369;Oliveira.
-611;fazer questionamentos;74;Justiça José Eduardo Cardozo;1318;Dilma
-612;fazer questionamentos;74;Justiça José Eduardo Cardozo;5791;Dilma
-613;faça discurso;5791;Dilma Rousseff;18;Senado
-614;fecharam entrada;1903;Dilma.;133;Palácio
-615;fechavam pontes;269;Dilma Roussef;5251;Colombo Salles
-616;fechou;269;Dilma Rousseff;4183;Avenida Paulista
-617;fechou;8023;Dilma;4183;Avenida Paulista
-618;feitas aliados;238;PE;5791;Dilma Rousseff
-619;feitas aliados;238;PE;8023;Dilma Rousseff
-620;feitas governo;51;Federal;10539;presidente Dilma Rousseff
-621;feitas presidente;24;Dilma Rousseff;1139;Transpetro Sérgio Machado
-622;feitas presidente;24;Dilma;1424;Transpetro
-623;feitas presidente;5791;Dilma Rousseff;1139;Transpetro Sérgio Machado
-624;feitas presidente;8023;Dilma;1424;TranspetroSérgio Machado
-625;feitas presidente;10539;Dilma;1424;TranspetroSérgio Machado
-626;feito;79;Congresso;1442;Dilma
-627;feito;269;Dilma;1760;Moura
-628;feito;5791;Dilma;7455;Muniz
-629;feito gestão;535;Educação;4;presidente Dilma Rousseff
-630;feriu;1185;Excelência Dilma Rousseff;71;Constituição
-631;fez críticas;10539;Dilma;248;Programa Escola
-632;fez pergunta;386;Kátia Abreu;5791;Dilma
-633;fez pronunciamento;269;Dilma;134;Planalto
-634;fica cúpula;24;Dilma;18;Senado
-635;fica cúpula;2041;Dilma;18;Senado
-636;fica cúpula;4483;Dilma;18;Senado
-637;fica cúpula;269;Dilma;18;Senado
-638;fica cúpula;4;Dilma;18;Senado
-639;ficar presidente;24;Dilma Rousseff;36;Tribunal Federal
-640;ficará cúpula;24;Dilma;18;Senado
-641;fico;2843;Ta;2041;Dilma
-642;filmado rotina;4313;Oscar;8023;Dilma
-643;firmar negócio;269;Dilma Rousseff;5939;Dassault
-644;fizemos governo;58;PT;269;Dilma
-645;fizesse oposição;5053;PTB;10178;Dilma
-646;foi;5791;Dilma;3165;Aécio Neves
-647;frear operação;269;Dilma;100;Lava Jato
-648;ganhou tom;2041;Dilma;3988;anedotário
-649;garantida decisão;1442;presidente Dilma Rousseff;18;Senado
-650;gerenciado assessor;269;Dilma;4012;Giles Azevedo
-651;gerou repercussão;10178;Dilma;10769;noticiário
-652;gosta;2006;Dutra;1442;Dilma
-653;gravada juiz;5791;Dilma;1244;Sérgio Moro
-654;gravadas presidente;24;Dilma Rousseff;1139;Transpetro Sérgio Machado
-655;ia falar;27;PMDB;5791;Dilma
-656;impeachment volta;2041;Dilma;209;STF
-657;impedir testemunhas.;10539;Dilma;13082;Levantamento
-658;impediram apoiadores;9194;Brigada Militar;8023;Dilma
-659;imputados denúncia;72;Miguel Reale Júnior;269;Dilma
-660;imputados presidente;5791;Dilma;6333;Encaminhamento
-661;imputados presidente;8023;Dilma;6333;Encaminhamento
-662;imputar responsabilidade;233;Lei;2041;Dilma.
-663;imputar responsabilidade;1787;Cardozo;8023;Dilma Rousseff
-664;impôs;18;Senado;2041;Dilma Rousseff
-665;impôs derrotas;1445;Cunha;5791;Dilma
-666;indicado nome;10539;Dilma;1039;Cerveró
-667;indo lula;2041;Dilma;2843;Ta
-668;informado;24;Dilma Rousseff;496;PRF
-669;informando;9;Temer;4;Dilma
-670;informou;18;Senado;24;Dilma
-671;informou;5791;Dilma Rousseff;602;Secretaria
-672;informou;18;Senado;10458;Dilma
-673;informou imprensa;8023;Dilma Rousseff;2165;Tribunal.
-674;informou jornal;2041;Dilma;137;Globo
-675;informou presidente;26;Renan Calheiros;269;Dilma
-676;ingressou ação;24;Dilma Rousseff;42;Justiça Federal
-677;ingressou chapelaria;10539;Dilma;79;Congresso
-678;insistir impeachment;10539;Dilma.;10539;Dilma
-679;integrar ministério;11607;Dilma;100;Temer. Lava Jato
-680;interdita ruas;24;Dilma Rousseff;771;Centro
-681;interditaram estradas;24;Dilma;934;Pará
-682;interferir liderança;10458;Dilma;27;PMDB
-683;intimada ministro;11607;Dilma Rousseff;108;Ricardo Lewandowski
-684;intimado presidente;589;Alves;24;Dilma Rousseff
-685;investigado lava;8023;Dilma Rousseff;39;Jato.
-686;investigar suspeitas;2041;Dilma;58;PT
-687;ir;10539;Dilma Rousseff;18;Senado
-688;ir plenário;8023;Dilma Rousseff;18;Senado
-689;iria cerimônia;24;Dilma;119;Rio
-690;iria expor;1442;Dilma;1513;Judas
-691;irá expor;8023;Dilma;1513;Judas
-692;jantou;6;Brasília;5791;Dilma
-693;julgada plenário;4483;Dilma;21;Casa.
-694;julgada plenário;5791;Dilma Rousseff;18;Senado
-695;julgada plenário;10539;Dilma;21;Casa.
-696;julgar;18;Senado;24;Dilma
-697;julgar;18;Senado;2041;Dilma
-698;julgar;21;Casa;4483;Dilma.
-699;julgar;18;Senado;8023;Dilma.
-700;julgar presidente;496;PR;7422;Dilma.
-701;julgar presidente;8023;Dilma;9744;Dolo
-702;juntaram frente;8023;Dilma;7154;Palácio
-703;justificar afastamento;10909;Unidas.;10539;Dilma
-704;lamentou;2807;Dilma;324;Twitter
-705;lançado governo;251;PIL;10539;Dilma.
-706;lembrou;1787;Cardozo;5791;Dilma
-707;levada julgamento;2041;Dilma Rousseff;21;Casa
-708;levada julgamento;2041;Dilma;18;Senado.
-709;levada julgamento;4483;Dilma Rousseff;18;Senado
-710;levada julgamento;4483;Dilma Rousseff;21;Casa
-711;levada julgamento;269;Dilma Rousseff;21;Casa
-712;levada julgamento;269;Dilma Rousseff;18;Senado
-713;levada julgamento;5791;Dilma;21;Casa.
-714;levada julgamento;8023;Dilma;18;Senado.
-715;levada presidente;24;Dilma Rousseff;308;Tribunal Federal
-716;levando prática;24;Dilma;934;Parlamento
-717;levou;24;Dilma;480;Brasil
-718;liberar autorização;24;Dilma Rousseff;79;Congresso
-719;liberar autorização;2041;Dilma;79;Congresso
-720;liberar autorização;5791;Dilma Rousseff;79;Congresso
-721;liberar autorização;8023;Dilma Rousseff;79;Congresso
-722;libertar lava;5791;Dilma;39;Jato.
-723;limitou acesso;715;Camarotti;269;Dilma
-724;líder bancada;10458;Dilma Rousseff;27;PMDB
-725;manifestar plenário;7422;Dilma;18;Senado
-726;manifestou afastamento;581;Evo Morales;24;Dilma
-727;manter direito;18;Senado;269;presidente Dilma Rousseff
-728;manter direito;5053;PT;10539;Dilma Rousseff
-729;manter elegibilidade;134;Planalto;24;Dilma
-730;manter permissão;18;Senado;4483;Dilma
-731;manteve;8023;Dilma Rousseff;421;Esplanada
-732;manteve;18;Senado;10539;Dilma
-733;manteve amizade;2041;Presidenta Dilma Rousseff;1033;diretor
-734;mantém carinho;26;Renan Calheiros;4483;Dilma
-735;marcar viagem;5791;Dilma Rousseff;7167;Japão
-736;mate defesa;480;Brasil;24;Dilma
-737;mencionou ações;4483;Dilma;166;PSDB
-738;mencionou ações;5791;Dilma;166;PSDB.
-739;mencionou presidente;1442;Dilma;14;República Michel Temer
-740;mencionou presidente;1903;Dilma;1095;República Michel Temer
-741;montar estruturas;10458;Dilma Rousseff;395;Teatro
-742;mora. ficarei;1903;Dilma Jane;6;Brasília
-743;mostrado tranquila.;24;Dilma;24;Dilma
-744;mostrou;137;Globo;1318;Dilma
-745;motivou protestos;8023;Dilma Rousseff;221;São Paulo
-746;movida imprensa;1116;estratégia;4483;Dilma Rousseff.
-747;na;1442;Dilma Rousseff;15;Câmara
-748;na;2041;Dilma;15;Câmara
-749;na;4483;Dilma;15;Câmara
-750;na;269;Dilma Rousseff;15;Câmara
-751;na;5791;Dilma;6757;Ditadura
-752;na;5791;Dilma;15;Câmara
-753;na;8023;Dilma;15;Câmara
-754;na;8023;Dilma;21;Casa
-755;na;10539;Dilma Rousseff;15;Câmara
-756;nasceu;10539;Dilma;2148;Belo Horizonte
-757;negada defesas;829;Petrobras;1318;Dilma
-758;negada defesas;829;Petrobras;8023;Dilma
-759;negociaram;269;Dilma;58;PT
-760;no;24;Dilma;18;Senado
-761;no;685;DILMA ROUSSEFF;1309;SENADO
-762;no;2041;Dilma Rousseff;18;Senado
-763;no;2807;Dilma;133;Palácio
-764;no;2876;DILMA ROUSSEFF;1309;SENADO
-765;no;269;Dilma;18;Senado
-766;no;4483;Dilma;512;início
-767;no;4483;Dilma;1434;Facebook
-768;no;269;Dilma Rousseff;79;Congresso
-769;no;1318;Dilma Rousseff;18;Senado
-770;no;269;Dilma;12;plenário
-771;no;5791;Dilma;18;Senado
-772;no;5791;Dilma;6628;Senado
-773;no;5791;Dilma Rousseff;79;Congresso
-774;no;5791;Dilma;7154;Palácio
-775;no;8023;Dilma Rousseff;18;Senado
-776;no;8023;Dilma;551;Plano Safra
-777;no;8023;Dilma Rousseff;7154;Palácio
-778;no;8023;Dilma;324;Twitter.
-779;no;10178;Dilma;18;Senado
-780;no;10539;Dilma;301;Alvorada.
-781;no;10539;Dilma;18;Senado
-782;no;10539;Dilma Rousseff;7154;Palácio
-783;no;10539;Dilma Rousseff;79;Congresso
-784;no;4;presidente Dilma Rousseff;2165;Tribunal
-785;no;11607;Dilma Rousseff;18;Senado
-786;nomeado ministro;10178;Dilma;1479;Minas
-787;nomearia;10178;Dilma;38;Lula
-788;nomearia;10539;Dilma;38;Lula
-789;notificada decisão;2041;Dilma;18;Senado
-790;ocorrendo presidente;1705;PSC;1442;Dilma
-791;ocorreu;24;Dilma;15;Câmara
-792;ocorreu;2041;Dilma;15;Câmara
-793;ocorreu;4483;Dilma;15;Câmara
-794;ocorreu;269;Dilma;15;Câmara
-795;ocorreu;4;Dilma;15;Câmara
-796;ocorreu;10539;Dilma;15;Câmara
-797;ocorreu impeachment;1445;Cunha;4;Dilma.
-798;ocupar cargos;1442;Dilma;209;STF
-799;ocupar cargos;4;Dilma;26;Renan Calheiros
-800;ocupou cadeira;9;Temer;2041;Dilma Rousseff.
-801;organizaram ato;269;presidente Dilma Rousseff;2148;Belo Horizonte
-802;orientava;5791;Dilma;1850;Caixa Econômica Federal
-803;pagar imposto;2041;Dilma Rousseff;1358;alíquota
-804;para;5746;Avião;1318;Dilma
-805;para;2704;Curitiba;8023;Dilma Rousseff
-806;parte família;303;gaúcha;2041;Dilma
-807;participar atos;221;São Paulo;2041;Dilma
-808;participar atos;221;São Paulo;269;Dilma
-809;participou governo;11233;ministro Nelson Barbosa;10539;Dilma.
-810;partir impeachment;96;Presidência;10458;Dilma
-811;passada impeachment;3424;República;269;Dilma Rousseff
-812;passada lugar;96;Presidência;8023;Dilma Rousseff
-813;passado crédito;269;Dilma Rousseff.;55;MP
-814;passar caso;259;Rodrigo Maia;10539;Dilma
-815;passaram responsabilidade;1903;Dilma;58;PT.
-816;passaram responsabilidade;5791;Dilma;5053;PT.
-817;passou tarde;5791;Dilma;7154;Palácio
-818;patrocinou candidatura;5791;Dilma;81;Eduardo Cunha
-819;pede;1903;Dilma;209;STF
-820;pede presidente;11607;Dilma Rousseff;7970;Michel Temer
-821;pedido afastamento;18;Senado;10539;Dilma Rousseff
-822;pedido apoiadores;108;Ricardo Lewandowski;24;Dilma
-823;pedido autorização;269;Dilma;1626;déficit
-824;pedido defesa;2165;Tribunal Superior;269;presidente Dilma Rousseff
-825;pedido dispensa;2041;Dilma Rousseff;159;Esther Dweck
-826;pedido impeachment;667;Janaina Paschoal;24;presidente Dilma Rousseff
-827;pedido impeachment;5053;PT;269;Dilma Rousseff
-828;pedido impeachment;170;Janaína Paschoal;5791;Dilma.
-829;pedido mandato;667;Janaina;1442;Dilma
-830;pedido petista;10539;Dilma Rousseff;74;ministro José Eduardo Cardozo
-831;pedido presidente;667;Janaina Paschoal;2041;Dilma Rousseff.
-832;pedido presidente;72;Miguel Reale Júnior;269;Dilma Rousseff
-833;pedindo;209;STF;10458;Dilma
-834;pedir afastamento;6;Brasília;4483;Dilma Rousseff
-835;pedir impeachment;4541;Indio;4483;Dilma
-836;pediu;14;República;2041;Dilma
-837;pediu;1505;PR;2041;Dilma
-838;pediu;269;Dilma;209;STF
-839;pediu advogado;1787;Cardozo;2041;Dilma
-840;pediu depoimento;8023;Dilma Rousseff;368;Júlio Marcelo
-841;pediu parecer;5791;Dilma;4375;Procuradoria
-842;pela;2041;Dilma Rousseff;21;Casa.
-843;pela;4483;Dilma;15;Câmara
-844;pelo;2041;Dilma Rousseff;18;Senado
-845;pelo;4483;Dilma Rousseff;18;Senado
-846;pelo;5791;Dilma;18;Senado.
-847;pelo;8023;Dilma Rousseff;18;Senado
-848;perde;7422;Dilma;7950;mandatoO plenário
-849;perderá mandato;269;Dilma;9;Temer
-850;permanecer governo;269;Dilma.;1626;déficit
-851;permaneceu;1903;Dilma;301;Alvorada
-852;permitir;18;Senado;10539;Dilma Rousseff
-853;placar votação;11607;Dilma Rousseff.;22;Maranhão
-854;pode mudar;8023;Dilma;972;Paulo Paim
-855;poderiam ajudar;209;STF;24;Dilma
-856;por;854;FAB;2041;Dilma
-857;posicionado favor;24;Dilma Rousseff;24;Dilma.
-858;posicionado favor;782;Telmário Mota;269;Dilma Rousseff
-859;posicionar impeachment;1396;Diretório;8023;Dilma Roussef
-860;posicionou impeachment;1453;Mauricio Macri;1442;Dilma Rousseff
-861;posicionou impeachment;4552;Macri;4483;Dilma
-862;posicionou impeachment;1453;Mauricio Macri;8023;Dilma Rousseff
-863;possamos apresentar;8023;Dilma Rousseff;6;Brasil
-864;possui apartamento;11607;Dilma Rousseff;118;Zona Sul
-865;possui bairro;8023;Dilma Rousseff;454;Tristeza
-866;postar mensagens;4545;Lucas Valença;4483;presidente Dilma Rousseff
-867;postar mensagens;4545;Lucas Valença;5791;presidente Dilma Rousseff
-868;precisaria apoio;269;Dilma;27;PMDB
-869;precisaria apoio;11607;Dilma;27;PMDB
-870;precisaria apoio;10539;Dilma;27;PMDB
-871;precisava autorização;24;Dilma;79;Congresso
-872;preferida presidente;55;MPF;269;Dilma Rousseff
-873;preocupado ação;269;Dilma;318;TSE
-874;prepara julgar;18;Senado;2041;Dilma Roussef
-875;prepara julgar;673;Corte;8023;Dilma Rousseff
-876;preservar direitos;18;Senado;269;presidente Dilma Rousseff
-877;prestado campanha;100;Lava Jato;8023;Dilma
-878;prestando plenário;2041;Dilma;18;Senado
-879;prestar apoio;6;Brasília;5791;Dilma
-880;prestar operação;4483;Dilma Rousseff;100;Lava Jato
-881;pretende comparecer;269;Dilma;18;Senado
-882;pretende defesa;2165;Tribunal Federal;8023;Dilma.
-883;pretende mudar;1442;Dilma;200;Porto Alegre
-884;pretende mudar;1903;Dilma;200;Porto Alegre
-885;prever julgamento;28;AL;7422;Dilma
-886;prevista semana;239;quórum;24;Dilma Rousseff
-887;previsto;1442;Dilma;71;Constituição
-888;previsto;4483;Dilma Rousseff;71;Constituição
-889;previsto;8023;Dilma;71;Constituição
-890;previsto;4;Dilma;71;Constituição
-891;previsto depoimento;79;Congresso Nacional.;4;Dilma
-892;previsto governo;3021;Moreira Franco;269;Dilma
-893;prevê;514;Lewandowski;7422;Dilma
-894;privilegiado presidenta;4483;Dilma Rousseff;3424;República
-895;procurou defesa;11010;G1;10539;Dilma Rousseff
-896;procurou imprensa;8121;G1;8023;Dilma
-897;proferida plenário;867;Presidente Dilma;15;Câmara
-898;prometem recorrer;24;Dilma;209;STF. Acompanhe
-899;pronunciam afastamento;81;Eduardo Cunha;2041;Dilma Rousseff
-900;pronunciar decisão;8023;Dilma Rousseff;18;Senado
-901;pronunciasse;2041;Dilma;514;Lewandowski
-902;pronunciasse;8023;Dilma;514;Lewandowski
-903;propondo contribuição;269;Dilma Rousseff;2280;Movimentação Financeira
-904;propôs;8023;Dilma;79;Congresso
-905;protestar frente;8023;Dilma Rousseff;7154;Palácio
-906;protestar frente;11607;Dilma Rousseff;7154;Palácio
-907;protestar impeachment;79;Congresso;269;Dilma
-908;protestar impeachment;4366;Paraná;8023;Dilma Rousseff
-909;protestaram impeachment;89;Gramado;24;Dilma Rousseff
-910;protestavam;11607;Dilma Rousseff;4183;Avenida Paulista
-911;protestou;5791;Dilma;4487;Planaltina
-912;protocolado ação;24;Dilma;209;STF
-913;protocolado juristas;8023;Dilma;5389;Miguel Reale Jr
-914;protocolou;2041;Dilma Rousseff;133;Palácio
-915;provocou;4483;Dilma Rousseff;4830;desequilíbio
-916;publicada revista;269;presidente Dilma Rousseff;4002;Época
-917;publicadas afastamento;1024;Vida;4483;Dilma Rousseff
-918;publicadas edição;24;Dilma;1100;Diário
-919;publicado;8023;Dilma Rousseff;1434;Facebook
-920;publicou solidariedade;581;Evo Morales;2041;Dilma
-921;quando;179;Fazenda;8023;Dilma Rousseff
-922;queixou fato;1039;Cerveró;10539;Dilma
-923;queria autorização;269;Dilma;1626;déficit
-924;queria vingar;81;Eduardo Cunha;8023;Dilma Rousseff
-925;querida.;21;Casa Civil. Dilma;2041;Dilma
-926;questionada defesa;369;Oliveira;8023;Dilma
-927;questionado perícia;1318;Dilma;318;TSE
-928;questionar;1318;Dilma;1318;Dilma
-929;questionar;167;MG;5791;Dilma
-930;questionar julgamento;2041;Dilma.;3408;Requião
-931;questionar julgamento;8023;Dilma.;3408;Requião
-932;questionarem defesa;7970;Michel Temer;8023;Dilma Rousseff.
-933;questionavam denúncia;18;Senado.;269;Dilma
-934;quitarem dívida;8023;Dilma;270;União
-935;rasgar;2041;Dilma;71;Constituição
-936;reafirma inocência;7970;Michel Temer;8023;Dilma
-937;realizado;2041;Dilma;18;Senado
-938;realizou apoio;390;Mesmo;10539;Dilma
-939;reassume;4483;Dilma Rousseff;96;Presidência
-940;reassume;5791;Dilma Rousseff;96;Presidência
-941;reassume;10539;Dilma Rousseff;96;Presidência
-942;reassume presidência;2041;Dilma;14;República
-943;reassumirá;24;Dilma;96;Presidência
-944;reassumirá;2041;Dilma;96;Presidência
-945;reassumirá;1318;Dilma;96;Presidência
-946;reassumirá;11607;Dilma;96;Presidência
-947;rebateu fala;1503;SP;2041;Dilma
-948;recebia parlamentares;2041;Dilma;133;Palácio
-949;recebia parlamentares;269;Dilma;133;Palácio
-950;recebiam propina;5791;Dilma Rousseff;829;Petrobras
-951;recomenda julgamento;167;MG;269;Dilma
-952;recomendar contas;468;TCU;8023;Dilma
-953;reconhecidos autoria;672;Paschoal;269;Dilma
-954;recorreu;4;presidente Dilma;2165;Tribunal Federal
-955;recuperar dinheiro.;4;presidente Dilma Rousseff;543;MEC
-956;referindo impeachment;79;Congresso;2041;Dilma
-957;refletir temer;10539;Dilma;79;Congresso
-958;reforçam defesa;9072;Ivan Marx;8023;Dilma
-959;rejeitaram inabilitação;3424;República;7422;Dilma
-960;rejeite ação;673;Corte;2041;presidente Dilma Rousseff
-961;relacionado pedaladas;8023;Dilma;551;Plano Safra
-962;relacionados atuação;1095;Michel Temer;1442;Dilma Rousseff
-963;relacionados operação;8023;Dilma Rousseff;100;Lava Jato
-964;relatou conversado;386;Kátia Abreu.;24;Dilma
-965;remove incerteza;4483;Dilma Rousseff;3651;Brasil
-966;repasse recursos;1442;Dilma Rousseff;1850;Caixa
-967;repetiu considera;11287;Oliveira.;11607;Dilma
-968;representa situação;2041;Dilma;9;Temer
-969;residem capital;24;Dilma;303;gaúcha
-970;residem capital;2041;Dilma;303;gaúcha
-971;residem capital;7422;Dilma;303;gaúcha
-972;residem capital;10458;Dilma;303;gaúcha
-973;responder questão;24;Dilma Rousseff;539;Fátima Bezerra
-974;respondesse;5791;Dilma;514;Lewandowski
-975;ressaltando;1787;Cardozo;8023;Dilma
-976;resta julgamento;5791;Dilma;12;plenário Senado.
-977;restringir avião;2262;Avila;1318;Dilma Rousseff
-978;retornar;2041;Dilma;200;Porto Alegre
-979;retornar;269;Dilma;200;Porto Alegre
-980;retornar;5791;Dilma;200;Porto Alegre
-981;retornar;1903;Dilma;200;Porto Alegre
-982;retornar almoço;79;Congresso;10539;Dilma
-983;reuniram;269;Dilma Rousseff;944;Praça
-984;reuniram;5791;Dilma Rousseff;4183;Avenida Paulista
-985;reuniram;5791;Dilma;3730;Esquina
-986;reuniram noite;269;Dilma Rousseff;771;Centro
-987;reuniu;6;Brasília;10539;Dilma
-988;reuniu;26;Renan;11607;Dilma
-989;reuniu;8597;PA;10539;Dilma
-990;reuniu frente;4;presidente Dilma Rousseff;133;Palácio
-991;reuniu ministros;269;Dilma Rousseff;3513;Jaques Wagner
-992;reuniu pessoas;11607;Dilma Rousseff;11691;São Sebastião
-993;revelou;4002;Época;8023;Dilma
-994;reúne;24;Dilma Rousseff;944;Praça
-995;rivalizam felicitações;2041;Dilma Rousseff;324;Twitter
-996;saiu;269;Dilma Rousseff;133;Palácio
-997;salvar direitos;18;Senado;2041;Dilma
-998;sancionada presidente;707;Hashtag;24;Dilma Rousseff
-999;sancionada presidente;707;Hashtag;269;Dilma Rousseff
-1000;saíram orla;269;Dilma Rousseff;927;Maceió
-1001;seafaste presidente;18;Senado;8023;Dilma Rousseff
-1002;seguida advogado;72;Miguel Reale Júnior;24;Dilma
-1003;seguir plenário;2041;Dilma Rousseff;18;Senado
-1004;seguiu carro;2041;Dilma;118;Zona Sul
-1005;seguiu parecer;5791;Dilma Rousseff;4375;Procuradoria
-1006;seguiu passeata;5791;Dilma Rousseff;771;Centro
-1007;seguiu protesto;2041;Dilma;3730;Esquina
-1008;seguiu protesto;5791;Dilma;3730;Esquina
-1009;sem;5242;Chopp;269;Dilma
-1010;separado situação;318;TSE;5791;Dilma
-1011;sobe direitos;822;China;1442;Dilma
-1012;sobre;1442;Dilma Rousseff;1523;Fidel Castro
-1013;solicitado;5791;Dilma Rousseff;829;Petrobras
-1014;soube respeitar;1442;Dilma;71;Constituição
-1015;subir tribuna;269;Dilma Rousseff disporão;18;Senado
-1016;suplementar autorização;24;Dilma;79;Congresso
-1017;suplementar autorização;2041;Dilma;79;Congresso
-1018;suplementar autorização;4483;Dilma;79;Congresso
-1019;suplementar autorização;269;Dilma;79;Congresso Nacional.
-1020;suplementar autorização;5791;Dilma;79;Congresso Nacional.
-1021;suplementar autorização;8023;Dilma;79;Congresso Nacional.
-1022;suplementar autorização;10539;Dilma;79;Congresso
-1023;suplementar aval;5791;Dilma;79;Congresso
-1024;suposta exclusão;269;Dilma;27;PMDB
-1025;suposta exclusão;11607;Dilma;27;PMDB
-1026;suposta exclusão;10539;Dilma;27;PMDB
-1027;suposta participação;1039;Cerveró;24;Dilma
-1028;suspeitava;8023;Dilma;166;PSDB
-1029;suspender decisão;269;presidente Dilma Rousseff;18;Senado
-1030;suspender habilitação;209;STF;8023;presidente Dilma Rousseff
-1031;tentou demonstrar;10539;presidente Dilma Rousseff;11084;Tamo
-1032;tietado aliados;7609;Chico;5791;Dilma
-1033;tirar;18;Senado;10539;Dilma Rousseff
-1034;tomada impeachment;3447;Mendonça;2041;Dilma
-1035;tomadas decisões;8023;Dilma;7970;Michel Temer
-1036;tomar posse;10539;Dilma.;18;Senado
-1037;tornaram articuladores;2532;CE;269;Dilma
-1038;tornasse;24;Dilma;71;Constituição
-1039;trabalhar presidente;10458;Dilma Rousseff.;26;Renan Calheiros
-1040;transformar presidente;18;Senado;1442;Dilma Rousseff
-1041;transformou metros;269;Dilma Rousseff;133;Palácio
-1042;tratou;829;Petrobras;5791;Dilma Rousseff
-1043;traz combater;8023;Dilma Rousseff;17;Aedes
-1044;trazer morar;24;Dilma;6;Brasília
-1045;tropeçou salão;10539;Dilma;18;Senado
-1046;une lista;5791;Dilma;741;líderes
-1047;usada antecessores;5709;El País;5791;Dilma
-1048;usado beneficiar;10539;Dilma;5053;PT
-1049;usado contas;318;TSE;1442;Dilma
-1050;usar;24;Dilma;133;Palácio
-1051;usar;10539;Dilma;7154;Palácio
-1052;usar aviões;7422;Dilma Rousseff;544;Força Aérea Brasileira
-1053;usar impeachment;8;RJ;2041;Dilma Rousseff
-1054;utilizadas governo;7801;BNDES;8023;Dilma
-1055;vai;24;Dilma Rousseff;18;Senado
-1056;vai;2041;Dilma Rousseff;18;Senado
-1057;vai;10539;Dilma Rousseff;18;Senado
-1058;vai decidir;18;Senado;24;Dilma Rousseff
-1059;vai defender;1185;Dilma Rousseff;18;Senado
-1060;vai defender;10539;Dilma;18;Senado
-1061;vale deputado;8023;Dilma;81;Eduardo Cunha
-1062;vamos combinar;2041;Dilma;2098;senador Anastasia
-1063;veja;10539;Dilma Rousseff;77;íntegra
-1064;ver caso;24;Dilma Rousseff;44;senador Eduardo Braga
-1065;viabilizar candidatura;10539;Dilma;96;Presidência
-1066;viajar capital;1903;Dilma;303;gaúcha
-1067;viajou;2041;Dilma;1186;Cuba
-1068;vice;24;Dilma;1095;presidente Michel Temer
-1069;vice;2041;Dilma Rousseff;1095;presidente Michel Temer
-1070;vice;4483;Dilma Rousseff;1095;presidente Michel Temer
-1071;vice;10539;Dilma Rousseff;7970;presidente Michel Temer
-1072;vice chapa;27;PMDB;8023;Dilma
-1073;vice chapa;9;Temer;8023;Dilma Rousseff
-1074;vice presidente;1442;Dilma;27;PMDB
-1075;vice presidente;9;Temer.;2041;Dilma Rousseff
-1076;violou;24;Dilma;71;Constituição
-1077;violou;4483;Dilma;233;Lei
-1078;violou;269;Dilma Rousseff;233;Lei
-1079;virou ré;10539;Dilma Rousseff;408;Anastasia
-1080;visitou;1442;presidente Dilma Rousseff;741;líder
-1081;visitou;417;Renan;8023;Dilma
-1082;visitou filha;5791;Dilma;3726;Paula Rousseff Araújo
-1083;vivem filha;303;gaúcha;1903;Dilma
-1084;voltar patamar;269;Dilma Rousseff.;1132;dólar
-1085;voltaram afirmar;72;Miguel Reale Júnior;2041;Dilma
-1086;voltaram afirmar;72;Miguel Reale Júnior;10458;Dilma
-1087;voltaria presidência;269;Dilma Rousseff;3424;República
-1088;volte comandar;24;Dilma;134;Planalto.
-1089;votado favor;2887;Roraima;2041;Dilma.
-1090;votado impeachment;27;PMDB;8023;Dilma Rousseff
-1091;votar afastamento;1505;PR;8023;Dilma.
-1092;votar destituição;4705;Braga;10178;Dilma
-1093;votar impeachment;18;Senado;11607;Dilma Rousseff
-1094;votar presidente;1095;Michel Temer;1442;Dilma Rousseff
-1095;votar relatório;5791;Dilma;408;Anastasia
-1096;votar relatório;8023;Dilma;408;Anastasia
-1097;votar sessão;10178;Dilma;6552;Armando Monteiro Neto
-1098;votaram afastamento;26;Renan Calheiros;5791;Dilma.
-1099;votaram impeachment;574;Sul;24;Dilma Rousseff
-1100;votaram impeachment;1233;ES;24;Dilma Rousseff
-1101;votou;8023;presidente Dilma Rousseff;200;Porto Alegre
-1102;votou;10539;presidente Dilma Rousseff;200;Porto Alegre
-1103;votou favor;26;senador Renan Calheiros;4;Dilma
-1104;votou impeachment;1662;Alagoas;2041;Dilma Rousseff
-1105;votou inabilitação;972;Paulo Paim;24;Dilma
-1106;vá julgamento;5791;Dilma;21;Casa.
-1107;–,;2041;Dilma;1276;senador
-1108;’ afastamento;71;Constituição;269;Dilma Rousseff
-1109;”, afirmou;269;Dilma;2948;Lindbergh
-1110;”, afirmou;1024;Vida;10539;Dilma.
-1111;”, complementou;27;PMDB;24;Dilma
-1112;”, criticou;269;Dilma;6201;Dantas.
-1113;”, disse;308;Tribunal Federal;2041;Dilma.
+39;afastada funções;21;Casa;1999;Dilma
+40;afastada funções;21;Casa;7296;Dilma
+41;afastada funções;21;Casa;10224;Dilma
+42;afastada presidência;1999;Dilma;18;Senado
+43;afastada presidência;4394;Dilma Rousseff;3362;República
+44;afastada razão;7874;Dilma;18;Senado
+45;afastar;18;Senado;1999;Dilma Rousseff
+46;afastar;135;Planalto;1999;Dilma
+47;afastar;271;Dilma;97;Presidência
+48;afastar;18;Senado;7874;Dilma
+49;afastar;18;Senado;10305;Dilma Rousseff
+50;afastar presidente;18;Senado;4394;Dilma Rousseff
+51;afastou presidente;18;Senado;7874;Dilma Rousseff
+52;afirma;1082;senhora presidente Dilma;1248;senador Jorge Viana
+53;afirma;4908;Guardian;4394;Dilma
+54;afirma;7874;Dilma;771;Mota. Cidinho
+55;afirma;6806;Norte;7874;Dilma
+56;afirma;404;Anastasia;7874;Dilma
+57;afirma impeachment;101;Lava Jato;5680;Dilma
+58;afirma presidente;8252;senador;7874;Dilma Rousseff
+59;afirmam governo;1409;Dilma;1067;Michel Temer
+60;afirmar gestão;939;Ana Amélia Lemos;4394;Dilma Rousseff
+61;afirmar metade;1999;Dilma;18;Senado
+62;afirmar metade;7874;Dilma;18;Senado
+63;afirmou;365;Oliveira;24;Dilma
+64;afirmou;2886;Lindbergh;271;Dilma Rousseff
+65;afirmou;203;Polícia Federal;4394;Dilma
+66;afirmou;3103;Aécio;5680;Dilma
+67;afirmou;5680;Dilma;1067;Michel Temer
+68;afirmou;404;Anastasia;10305;Dilma
+69;afirmou;1745;Cardozo;10305;Dilma
+70;afirmou;10305;Dilma;1022;Cerveró
+71;afirmou atos;2220;ávila;4394;gestão Dilma Rousseff
+72;afirmou atos;2220;ávila;10305;gestão Dilma Rousseff
+73;afirmou condenação;2197;Geraldo Prado;4394;Dilma
+74;afirmou destituição;2638;Samper;1999;Dilma
+75;afirmou destituição;561;Ernesto Samper;10305;Dilma
+76;afirmou discurso;8;RJ;24;Dilma
+77;afirmou entrevista;10305;Dilma Rousseff;9588;TV Brasil
+78;afirmou nota;10305;Dilma;314;TSE
+79;afrontar;7874;Dilma;235;Lei
+80;agia ordens;1021;Delcídio;5680;Dilma
+81;agilizar afastamento;18;Senado;7874;Dilma
+82;aguarda decisão;10305;Dilma;18;Senado
+83;aguardar julgamento;806;China;11367;Dilma.
+84;aguardaram chegada;135;Planalto;4394;Dilma.
+85;ajudar;297;Alvorada;1999;Dilma
+86;ajudar;10305;Dilma Rousseff;1412;Cunha
+87;ajudará;75;José Eduardo Cardozo;10305;Dilma
+88;ajudará exercício;4394;Dilma;1067;Michel Temer
+89;ajudei;1067;Michel;4394;Dilma
+90;ajuizada presidente;515;desembargador;14;República Dilma Rousseff
+91;alcançada leis;4;presidente Dilma;101;Lava Jato
+92;alegados afastar;5611;Brasil;5680;Dilma
+93;alegaram;10305;Dilma;82;Eduardo Cunha
+94;aliados governo;762;PDT;7874;Dilma
+95;aliviar pena;4964;PT;10305;Dilma Rousseff
+96;amenizou crise;24;Dilma Rousseff;476;Brasil
+97;analisar governo;272;União;7874;Dilma
+98;andar bicicleta;271;Dilma Rousseff;119;Zona Sul
+99;andou;24;Dilma;15;Câmara
+100;andou orla;5680;Dilma Rousseff;444;Guaíba
+101;andou orla;10305;Dilma Rousseff;444;Guaíba
+102;antecipado julgamento;1067;Michel Temer;24;Dilma.
+103;antecipado julgamento;7821;Michel Temer;11367;Dilma.
+104;anular decisão;4;presidente Dilma;18;Senado
+105;anular impeachment;15;Câmara;24;Dilma Rousseff. MP
+106;anular presidente;211;STF;10305;Dilma Rousseff
+107;anunciado governo;3661;Medeiros;10305;Dilma
+108;anunciado pagamento;5680;Dilma Rousseff;7351;13º
+109;anunciou deputado;5680;Dilma Rousseff;6863;Wadih Damous
+110;ao;24;Dilma;18;Senado
+111;ao;1999;Dilma;80;Congresso
+112;ao;1999;Dilma;2834;interrogála
+113;ao;1999;Dilma;3466;garçom
+114;ao;1999;Dilma;18;Senado
+115;ao;4394;Dilma;18;Senado
+116;ao;5680;Dilma;18;Senado
+117;ao;7018;Presidenta Dilma;6514;Senado
+118;ao;4;Dilma;18;Senado
+119;apodrecido impeachment;1999;Dilma Rousseff;18;Senado Federal
+120;apoiar candidatura;27;PMDB;11367;Dilma.
+121;apoiaria caso;5680;Dilma;6514;Senado
+122;apoiou governo;5611;Brasil;5680;Dilma Rousseff
+123;aponta senador;7874;Dilma;8146;Assista
+124;aposentar revista;7874;Dilma;9667;Secretário Executivo
+125;apresenta defesa;11367;Dilma Rousseff;18;Senado
+126;apresentado juristas;1999;Dilma;73;Miguel Reale Júnior
+127;apresentado juristas;4394;Dilma;73;Miguel Reale Júnior
+128;apresentado juristas;7874;Dilma;73;Miguel Reale Júnior
+129;apresentados defesa;404;Anastasia;5680;Dilma
+130;apresentar ações;1999;Dilma Rousseff;304;Tribunal Federal
+131;apresentar orçamento;10305;Dilma;1584;déficit
+132;apresentou;5680;Dilma Rousseff;6514;Senado
+133;apresentou;10305;Dilma Rousseff;12467;Parecer Técnico Contábil Divergente
+134;apresentou ação;10305;presidente Dilma Rousseff;2123;Tribunal Federal
+135;aprovadas ressalvas;24;Dilma;314;TSE.
+136;aprovado plenário;24;Dilma Rousseff;18;Senado
+137;aprovado plenário;1861;Dilma;18;Senado
+138;aprovado plenário;1999;Dilma Rousseff;18;Senado
+139;aprovado plenário;271;Dilma;18;Senado
+140;aprovado plenário;5680;Dilma;6514;Senado
+141;aprovado plenário;5680;Dilma Rousseff;18;Senado
+142;aprovado relatório;4394;Dilma;1593;Comissão Especial
+143;aprovado votação;10305;Dilma Rousseff;18;Senado.
+144;aprovar impeachment;18;Senado;1999;Dilma
+145;aprovar impeachment;18;Senado;4394;Dilma
+146;aprovar mandato;18;Senado;4394;Dilma
+147;aprovar presidente;18;Senado;10305;Dilma Rousseff
+148;aproveitaram depoimento;24;Dilma;526;Costa
+149;aproveitou;24;Dilma;320;Twitter
+150;aprovou afastamento;18;Senado;4394;Dilma Rousseff
+151;aprovou impeachment;18;Senado;4394;Dilma Rousseff
+152;aprovou presidente;18;Senado;1999;Dilma Rousseff
+153;aprovou processo;18;Senado;10305;Dilma Rousseff
+154;apurou;556;TV Globo;1999;Dilma
+155;apurou;4908;G1;4394;Dilma
+156;apurou;556;TV Globo;4394;Dilma
+157;apurou;556;TV Globo;5680;Dilma
+158;apurou;556;TV Globo;1861;Dilma
+159;argumentaram;3130;Humberto Costa;4394;Dilma
+160;arrolada advogados;4394;Dilma;2213;Marcelo Odebrecht
+161;assinados presidente;521;Luiz Cláudio Costa;24;Dilma Rousseff
+162;assinados presidente;4596;Internet;4394;Dilma Rousseff
+163;assista íntegra;5680;Dilma;1745;Cardozo
+164;assistia;1461;SP;7874;Dilma Rousseff
+165;assistirá votação;4394;Dilma;134;Palácio
+166;assumir;7874;Dilma.;97;Presidência
+167;assumir afastamento;7821;presidente Michel Temer;7296;Dilma.
+168;assumir afastamento;7821;presidente Michel Temer;7874;Dilma.
+169;assumir fundação;24;Dilma;1363;Diretório
+170;assumir funções;5680;Dilma;7355;MBL
+171;assumir lugar;1067;presidente Michel Temer;1409;Dilma
+172;assumir presidência;24;Dilma;1100;Conselho Curador
+173;assumiu exercício;1290;Dilma Rousseff;386;Mesmo
+174;atingirá presidentes;1999;Dilma.;3362;República
+175;atrair investimentos;4394;Dilma Rousseff;5611;Brasil
+176;atrapalhar investigações;1999;Dilma Rousseff;101;Lava Jato
+177;atrapalhava trabalho;5680;Dilma;464;TCU
+178;atribuiu;10305;Dilma;1022;Cerveró
+179;autorizando autorização;7874;Dilma Rousseff;80;Congresso
+180;autorizar aprovação;1999;Dilma Rousseff;80;Congresso
+181;avalia promessa;739;Washington Post;24;Dilma
+182;avaliado presidente;1290;Dilma;2123;Tribunal Federal
+183;avaliado presidente;5680;Dilma;2123;Tribunal Federal
+184;avaliar contas;6088;Dantas.;4394;Dilma
+185;avaliar contas;6088;Dantas;10305;Dilma
+186;barrar impeachment;1290;Dilma;18;Senado.
+187;barrar impeachment;7874;Dilma;6514;Senado. Interinidade
+188;bateram aliados;9;Temer;1999;Dilma
+189;bateram aliados;9;Temer;271;Dilma
+190;beneficiar empresas;7874;Dilma Rousseff;8541;MMC
+191;bom.;3419;Uhum;1999;Dilma
+192;caminhou jardins;7874;Dilma Rousseff;134;Palácio
+193;campus;7874;Dilma Rousseff;755;Centro
+194;cancelar depoimento;11367;Dilma;364;Júlio Marcelo
+195;cantavam;1290;Dilma;5685;Hino
+196;carregavam apoio;10013;Cnpem;7874;Dilma
+197;caso;338;Estado;11367;Dilma Rousseff
+198;cassar mandato;18;Senado;1999;Dilma Rousseff
+199;cassar mandato;18;Senado;4394;Dilma
+200;cassar mandatos;167;PSDB;1409;Dilma
+201;causando apoiadores;171;Janaína;1290;Dilma.
+202;causaram aliados;510;Lewandowski;24;Dilma
+203;celebrou conquista;2752;Dilma;2743;Isaquias Queiroz
+204;celular;10305;Dilma;2213;Marcelo Odebrecht
+205;chamadas pedaladas;1999;Dilma;2523;Cronograma
+206;chamadas pedaladas;7874;Dilma;535;Plano Safra
+207;chamadas pedaladas;10224;Dilma;2523;Cronograma
+208;chamado deputado;7874;Dilma;8591;André Moura
+209;chamar imprensa;1999;Dilma;135;Planalto
+210;chamar imprensa;4394;Dilma;135;Planalto
+211;chamaram ministros;10305;Dilma;2140;Supremo.
+212;chamou;271;Dilma;521;áudio
+213;chamou;1205;ES;4394;Dilma Rousseff
+214;chega;7874;Dilma;18;Senado
+215;chegaram;4394;Dilma Rousseff;80;Congresso
+216;chegaram;10305;Dilma;80;Congresso
+217;chegará;10305;Dilma;80;Congresso
+218;chegou;4;presidente Dilma Rousseff;120;Rio
+219;chegou;10224;Dilma;417;Esplanada
+220;chegou;10305;Dilma Rousseff;202;Porto Alegre
+221;chegou dizer;1469;presidente Lula;1409;Dilma
+222;chegou menosprezar;24;Dilma;80;Congresso
+223;circulava desenvoltura;7874;Dilma.;80;Congresso
+224;cita conversas;1999;Dilma;1111;Sérgio Machado
+225;citando ata;1409;Dilma;1100;Conselho
+226;citar impeachment;338;Estado;7874;Dilma Rousseff
+227;citou;1999;Dilma;3802;Nobel
+228;citou governo;7874;Dilma;9;Temer
+229;colocou;4394;Dilma;3002;Maria
+230;com;3909;Contraste;1999;Dilma
+231;com;6;Brasil;7874;Dilma Rousseff
+232;com;7874;Dilma Rousseff;10020;aviões
+233;com;10224;Dilma Rousseff;10020;aviões
+234;comandada ministro;5680;Dilma;75;Justiça José Eduardo Cardozo.
+235;comandada ministro;7874;Dilma;75;Justiça José Eduardo Cardozo.
+236;comemorou retirada;2106;Belo Horizonte;4394;Dilma Rousseff
+237;comentar caso;214;Mello;11367;Dilma
+238;comentar parecer;7874;Dilma;404;Anastasia.
+239;cometer ilegalidades;1360;RS;4394;Dilma
+240;cometeu atentado;24;Dilma Rousseff;72;Constituição
+241;cometeu atentado;4394;Dilma Rousseff;72;Constituição
+242;cometeu atentado;5680;Dilma Rousseff;72;Constituição
+243;cometeu atentado;7874;Dilma Rousseff;72;Constituição
+244;cometeu atentado;10305;Dilma Rousseff;72;Constituição
+245;cometeu ato;9;Temer;7874;Dilma
+246;começa impeachment;18;Senado;1999;Dilma
+247;começa impeachment;18;Senado;4394;Dilma
+248;começa impeachment;18;Senado;10305;Dilma
+249;começando;1409;Dilma Rousseff;1718;Moura
+250;começou;11367;Dilma Rousseff.;1248;senador
+251;começou julgar;18;Senado;1999;Dilma Rousseff
+252;compactuou;813;Petrobras;1999;Presidenta Dilma Rousseff
+253;compareceu;24;Dilma Rousseff;18;Senado
+254;comunicada decisão;4394;Dilma Rousseff;18;Senado
+255;concentrados prédio;135;Planalto;4394;Dilma Rousseff
+256;concentraram;5680;Dilma Rousseff;927;Praça
+257;concentraram lado;24;Dilma;391;Teatro
+258;concentraram lado;1999;Dilma;391;Teatro
+259;concentraram lado;7874;Dilma;391;Teatro
+260;concentravam proximidades;24;Dilma Rousseff;80;Congresso
+261;concluiu;2056;senador;1999;Dilma
+262;concluiu;1021;senador;7874;Dilma
+263;concluiu;18;Senado;10305;Dilma
+264;concluiu ato;18;Senado;7874;Dilma Rousseff
+265;concluiu presidente;8252;senador;7874;Dilma Rousseff
+266;condenar;18;Senado;1409;Dilma Rousseff
+267;condenar;211;STF;1999;Dilma
+268;condenar;18;Senado;1999;Dilma Rousseff
+269;condenar;18;Senado;4394;Dilma Rousseff
+270;condenar;6514;Senado;5680;Dilma Rousseff
+271;confirmado afastamento;18;Senado;24;Dilma
+272;confirmar impeachment;18;Senado;1290;Dilma
+273;confirme;10305;Dilma;314;TSE
+274;confirmou comparecerá;24;Dilma;80;Congresso
+275;conheça intimidade;10305;Dilma;10305;Dilma
+276;conheço;12631;BR Distribuidora.;10305;Dilma
+277;conseguir presidente;9712;Levy;7874;Dilma Rousseff
+278;conseguiu tornar;1409;Dilma;1482;ícone
+279;construído península;271;Dilma;4277;Lago Paranoá
+280;contará estrutura;10305;Dilma;18;Senado
+281;contava ministérios;24;Dilma;9;Temer
+282;contesta defesa;404;Anastasia;7874;Dilma
+283;contestando habilitação;211;STF;7874;Dilma
+284;continua indo;24;Dilma;9;Temer. BBC Brasil
+285;continuar;9195;Terra;7874;Dilma
+286;continuará;1999;Dilma Rousseff;851;Presidente
+287;continuará trabalhando;3937;Giles;7874;Dilma
+288;contra;15;Câmara;1999;Dilma
+289;contra;4394;Dilma. Protesto;9;Temer
+290;contra;15;Câmara;4394;Dilma
+291;contra;18;Senado;10305;Dilma
+292;contra;1201;Espírito Santo. Ato;11367;Dilma
+293;contrariado viagens;9;Temer;1999;Dilma.
+294;contrariado viagens;7821;Michel Temer;10224;Dilma
+295;contrariavam;4394;gestão Dilma Rousseff;235;Lei
+296;contrariavam;10305;gestão Dilma Rousseff;235;Lei
+297;contratada campanha;3837;informática;1999;Dilma Rousseff
+298;contratadas campanha;203;Polícia Federal;24;presidente Dilma Rousseff
+299;controlou preços;1409;presidente Dilma Rousseff;813;Petrobras
+300;convencer opositores;380;AM;24;Dilma
+301;convencer opositores;380;AM;1999;Dilma
+302;convencer opositores;380;AM;4394;Dilma
+303;conversar equipe;464;TCU;7874;Dilma
+304;conversou;1409;Dilma;1489;Raúl Castro
+305;conversou;1490;Mariel;1409;Dilma
+306;convidados abertura;24;Dilma;331;Olimpíada
+307;convoca;510;Lewandowski;7874;Dilma
+308;convocados denúncia;2220;ávila Carvalho;271;Dilma Rousseff.
+309;costuma publicar;2752;Dilma;120;Rio2016
+310;cotado assumir;7874;Dilma Rousseff;2956;Aviação
+311;criado gestão;9956;Emprego;7874;Dilma Rousseff
+312;criticam;1999;Dilma;1381;Pimentel
+313;criticava;1401;Facebook;5680;presidente Dilma Rousseff
+314;criticou;10305;Dilma;240;PEC
+315;criticou desempenho;736;New York Times;5680;Dilma
+316;criticou exercício;1999;Dilma Rousseff;1067;Michel Temer.
+317;criticou falta;7874;Dilma Rousseff;241;quórum
+318;criticou governo;24;Dilma;9;Temer
+319;criticou previsão;1999;Dilma;1584;déficit
+320;culpou;1409;Dilma;1022;Cerveró
+321;culpou deputado;1999;Dilma;82;Eduardo Cunha
+322;da;24;Dilma Rousseff;97;Presidência
+323;da;1409;Dilma Rousseff;97;Presidência
+324;da;1998;Imprensa;1999;Presidenta Dilma Rousseff
+325;da;1999;Dilma;97;Presidência
+326;da;4394;Dilma;97;Presidência
+327;da;1290;Dilma Rousseff;97;Presidência
+328;da;709;Mensagem;7018;Presidenta Dilma
+329;da;7870;senhora Presidente;7871;República Dilma Vana Rousseff
+330;da;7874;Dilma Rousseff;97;Presidência
+331;da;10224;Dilma;97;Presidência
+332;da;6;Brasil;10224;Dilma
+333;da;10305;Dilma Rousseff;97;Presidência
+334;da;11367;Dilma Rousseff;97;Presidência
+335;de;413;Renan. Notificação;24;Dilma
+336;de;620;MINISTÉRIO;621;DILMA
+337;de;606;Defesa;24;Dilma
+338;de;180;Fazenda;1290;Dilma
+339;de;1205;ASSESSORIA;669;IMPRENSAPRESIDENTA DILMA ROUSSEFF
+340;de;18;Senado;1999;Dilma Rousseff
+341;de;606;Defesa;1999;Dilma
+342;de;413;Renan. Notificação;1999;Dilma
+343;de;3698;temporário;1999;Dilma
+344;de;3973;Depoimento;1999;Dilma Rousseff
+345;de;180;Fazenda;271;Dilma
+346;de;1998;Imprensa;4394;Dilma Rousseff
+347;de;3973;Depoimento;4394;Dilma
+348;de;80;Congresso. Defesa;4394;Dilma
+349;de;5557;Interrogatório;4394;Dilma Rousseff
+350;de;385;Agricultura;5680;Dilma
+351;de;3973;Depoimento;5680;Dilma Rousseff
+352;de;5557;Interrogatório;5680;Dilma Rousseff
+353;de;7935;Dilma. Aliados;7874;Dilma
+354;de;380;JULGAMENTO;621;DILMA
+355;de;236;Impeachment;8772;Dilma Roussef. Brasília
+356;de;4964;PT;7874;Dilma
+357;de;2314;Processo;4;Dilma
+358;de;413;Renan. Notificação;7874;Dilma
+359;de;385;Agricultura;7874;Dilma
+360;de;10224;Dilma. Desafeto;1412;Cunha
+361;de;606;Defesa;10224;Dilma
+362;de;3973;Depoimento;11367;Dilma
+363;de;6823;DEFESA;2481;DILMA APRESENTA PARECER CONTÁBIL DIVERGENTE
+364;de;12477;Advogado;10305;Dilma Rousseff
+365;de;606;Defesa;10305;Dilma
+366;decida comparecer;24;Dilma Rousseff;18;Senado
+367;decida comparecer;7874;Dilma Rousseff;18;Senado
+368;decidir afasta;80;Congresso;1290;Dilma Rousseff
+369;decidir afastamento;1550;Caiado;1409;Dilma
+370;decidir afastamento;18;Senado;4394;Dilma
+371;decidir impeachment;18;Senado;10305;Dilma.
+372;decidirem afastar;135;Planalto;1999;Dilma
+373;decidiu afastar;18;Senado;24;Dilma Rousseff
+374;decidiu afastar;18;Senado;1999;Dilma
+375;decidiu afastar;18;Senado;4394;Dilma
+376;decidiu afastar;18;Senado;1290;Dilma Rousseff
+377;decidiu afastar;18;Senado;7874;Dilma
+378;decidiu encontrar;6;Brasília;4;Dilma.
+379;decidiu impedir;21;Casa;1409;Dilma
+380;decidiu impedir;21;Casa;4394;Dilma
+381;decidiu impedir;21;Casa;7874;Dilma
+382;decidiu impedir;21;Casa;4;Dilma
+383;decidiu inabilitar;21;Casa;4394;Dilma Rousseff
+384;decidiu levar;18;Senado;10305;Dilma
+385;decidiu presidente;18;Senado;10305;Dilma Rousseff
+386;decidiu unir;10305;Dilma Rousseff;167;PSDB
+387;declara;7874;Dilma Rousseff;8364;senador José Agripino
+388;declaram apoio;1290;Dilma;1290;Dilma.
+389;declarou;1409;Dilma;1434;Lobão
+390;declarou;120;Rio;1861;Dilma
+391;declarou;120;Rio;1999;Dilma
+392;declarou;4394;Dilma;377;Grazziotin.
+393;declarou;708;AC;5680;Dilma
+394;declarou;6;Brasil;7874;Dilma.
+395;declarou presidente;1999;Dilma Rousseff;167;PSDB
+396;declarou.;5680;Dilma Rousseff.;7023;Skaf
+397;decretado;7874;Dilma Rousseff;18;Senado
+398;defender;15;Câmara;1999;Dilma
+399;defender atos;364;Júlio Marcelo.;11367;Dilma
+400;defender mandatos;6;Brasília;4394;Dilma Rousseff
+401;defendeu governo;8686;Lodi;4;presidente Dilma Rousseff
+402;defendeu presidente;8272;Katia Abreu;7874;Dilma Rousseff
+403;defendeu presidente;8886;Winston Rodrigues Lima;7874;Dilma Rousseff
+404;defendida receita;24;presidente Dilma Rousseff;51;Federal
+405;definir futuro;18;Senado;10305;Dilma Rousseff
+406;definitivamente;10305;Dilma Rousseff;2955;do Jaburu
+407;deixar assessor;3937;Giles;7874;Dilma
+408;deixarem entrar;9695;Niwton Carpes da Silva;7874;Dilma
+409;deixou;271;Dilma;134;Palácio
+410;deixou;24;Dilma Rousseff;202;Porto Alegre
+411;deixou;1999;Dilma;134;Palácio
+412;deixou;4394;Dilma Rousseff;134;Palácio
+413;deixou;5680;Dilma Rousseff;202;Porto Alegre
+414;deixou;11367;Dilma Rousseff;134;Palácio
+415;deixou;1861;Dilma;134;Palácio
+416;deliberar impeachment;18;Senado;24;Dilma
+417;demonstra perseguição;556;Globo;4394;Dilma Rousseff
+418;demonstrado modo;1237;BA;1999;Dilma
+419;denunciaram presidente;1185;Hélio Bicudo;10305;Dilma Rousseff
+420;depor procurador;4394;Dilma Rousseff;3;Ministério
+421;derrubar;24;Dilma Rousseff.;9;Temer
+422;desceu entrada;11367;Dilma;80;Congresso
+423;descreveu;1155;Chile;24;Dilma
+424;descumpriu;1999;Dilma;235;Lei Orçamentária
+425;descumpriu;4394;Dilma;235;Lei Orçamentária
+426;descumpriu;7874;Dilma;235;Lei Orçamentária
+427;desistiu ouvir;10305;Dilma José Eduardo Cardozo;160;Esther
+428;deslocou avião;1999;Dilma;838;FAB
+429;desmentindo afirmações;135;Planalto;1999;Dilma Rousseff
+430;desmentir delator;271;Dilma;4025;Otávio Azevedo
+431;desocupar dias;1999;Dilma;134;Palácio
+432;desocupar dias;4394;Dilma;134;Palácio
+433;desocupar dias;7296;Dilma;134;Palácio
+434;desocupar dias;7874;Dilma;134;Palácio
+435;despediu;10305;Dilma;134;Palácio
+436;desqualificar disse;1999;Dilma;1999;Dilma.
+437;desrespeitam;4;presidente Dilma;235;Lei
+438;desrespeitou;7874;Dilma;80;Congresso
+439;destaca ascensão;4394;Dilma;1067;Michel Temer
+440;destacam afastamento;6078;Insper.;7874;Dilma
+441;destacou;2123;Tribunal Federal;10305;Dilma
+442;destacou afastamento;8;RJ;1409;Dilma
+443;destinada depoimento;75;Justiça José Eduardo Cardozo.;7874;Dilma
+444;destinada depoimento;38;Lula;7874;Dilma
+445;destinado grupo;629;Eixo Monumental;4394;Dilma
+446;detalharam imprensa.;9;Temer;1290;Dilma
+447;deu vice;1999;Dilma Rousseff;1067;Michel Temer
+448;deve desocupar;5680;presidente Dilma Rousseff;134;Palácio
+449;deveriam criar;1409;Dilma;1612;Sociedade
+450;deverá comparecer;24;Dilma;18;Senado
+451;deverá embarcar;4394;Dilma;202;Porto Alegre
+452;deverá embarcar;5680;Dilma;202;Porto Alegre
+453;devido impeachment;202;Porto Alegre;4394;Dilma Rousseff
+454;dirigir;1290;Dilma;134;Palácio
+455;discursava;1999;Dilma;18;Senado
+456;discursava;4394;Dilma;18;Senado
+457;discursavam;1999;Dilma.;12;plenário
+458;discursavam;4394;Dilma.;12;plenário
+459;discursou;5680;Dilma;5701;Salão Leste
+460;discursou;6;Brasil;7296;Dilma Rousseff.
+461;discutia;1409;Dilma;1409;Dilma
+462;discutindo;202;Porto Alegre;1409;Dilma
+463;discutir condutas;12568;Herman;10305;Dilma
+464;disse;1498;Caribe;1409;Dilma
+465;disse;1409;Dilma;59;PT
+466;disse;15;Câmara;1999;Dilma
+467;disse;2727;Silver;1999;Dilma.
+468;disse;4394;Dilma Rousseff;1248;senador
+469;disse;1025;Pasadena;4394;Dilma
+470;disse;4394;Dilma;5366;Mônica
+471;disse;167;PSDB Aécio Neves;4394;Dilma Rousseff
+472;disse;5680;Dilma;6620;Ribeiro.
+473;disse;3103;Aécio;5680;Dilma
+474;disse;80;Congresso;5680;Dilma.
+475;disse;7438;senador Vicentinho;5680;Dilma
+476;disse;8252;senador;7874;Dilma
+477;disse;9237;LGBT;7874;Dilma
+478;disse afastamento;8713;Literatura Mario Vargas Llosa;7874;Dilma Rousseff
+479;disse auditoria;7874;presidente Dilma Rousseff;4413;INSS
+480;disse fala;1434;Lobão;7874;Dilma
+481;disse ferraço;849;Excelência;4394;Dilma Rousseff
+482;disse governo;939;Ana Amélia;24;Dilma
+483;disse governo;1999;Dilma;1067;Michel Temer
+484;disse governo;4536;Antonio Carlos;7874;Dilma
+485;disse governo;18;Senado;10305;Dilma
+486;disse grupo;1999;Dilma;9;Temer
+487;disse operador;1999;Dilma Rousseff.;3959;Spinelli José Carlos Amado. Impeachment
+488;disse operador;4394;Dilma Rousseff.;3959;Spinelli José Carlos Amado. Impeachment
+489;disse saída;1745;Cardozo;1861;Dilma
+490;disse supor;1022;Cerveró;5680;Dilma
+491;dito;1745;Cardozo;5680;Dilma
+492;dividindo;24;Dilma;476;Brasil
+493;divulgada afirmando;1412;Cunha;10305;Dilma
+494;diz;1409;Dilma;1022;Cerveró
+495;diz;1999;Dilma;527;MEC
+496;diz;1185;Hélio Bicudo;4394;Dilma
+497;diz;5680;Dilma;1067;Michel Temer
+498;diz;7874;Dilma;1412;Cunha
+499;diz;7874;Dilma Roussef;8758;Lupi
+500;diz;713;Venezuela;7874;Dilma Rousseff
+501;diz decisão;4394;Dilma;1412;Cunha
+502;diz decisão;10305;Dilma;1412;Cunha
+503;dizendo aprovado;1409;Dilma;1025;Pasadena
+504;dizia;18;Senado;24;Dilma
+505;dizia;18;Senado;10224;Dilma
+506;do;1409;Dilma Rousseff;134;Palácio
+507;do;4;presidente Dilma Rousseff;134;Palácio
+508;ecoou;10305;Dilma;6;Brasil.
+509;elaborada juristas;4394;Dilma;73;Miguel Reale Júnior
+510;eleita;14;República;1999;Dilma Rousseff
+511;elevado afastamento;241;quórum;10305;Dilma
+512;elevar tom;6294;Vanessa Grazziotin;5680;Dilma
+513;em;24;Dilma;913;Goiânia
+514;em;7874;Dilma Rousseff;5115;Belém
+515;em;11367;Dilma Rousseff;202;Porto Alegre
+516;empossada presidente;1999;presidente Dilma Rousseff;1100;Conselho Curador
+517;empossado presidente;1999;Dilma Rousseff;14;República
+518;empossar;7874;presidente Dilma Rousseff;3103;senador Aécio Neves
+519;encerraram trabalhos;4394;Dilma Rousseff;5313;Comissão
+520;encontrará presidentes;559;Americana;7874;Dilma
+521;encontrou provas;5300;Reale Jr;4394;Dilma
+522;entrar política;24;Dilma Rousseff;0;Michel Temer
+523;entrar temer;7874;Dilma;914;MST
+524;entrega;24;Dilma Rousseff;38;Luiz Inácio Lula da Silva
+525;entregou;10305;Dilma Rousseff;18;Senado
+526;entregue;7874;presidente Dilma Rousseff;2123;Tribunal Superior
+527;entrou;24;Dilma Rousseff;304;Tribunal Federal
+528;entrou recurso;4;presidente Dilma Rousseff;304;Tribunal Federal
+529;enviada governo;1009;CPMF;1999;Dilma
+530;enviadas governo;27;PMDB;271;Dilma.
+531;enviou;24;Dilma Rousseff;80;Congresso
+532;enviou;1409;Dilma;80;Congresso
+533;enviou;271;presidente Dilma Rousseff;2123;Tribunal Superior
+534;enviou lei;5680;Dilma Rousseff;80;Congresso
+535;enviou questionando;2913;Moro;271;Dilma
+536;esclarece;1999;Presidenta Dilma Rousseff;1999;Presidenta Dilma Rousseff
+537;escolhidas acusação;24;Dilma;24;Dilma
+538;escolhido defesa;548;Luiz Gonzaga Belluzzo;1999;Dilma Rousseff.
+539;escolhidos exercício;7874;Dilma Rousseff;7821;Michel Temer.
+540;esperadas presenças;7874;Dilma;38;presidente Luiz Inácio Lula da Silva
+541;esperado frente;7228;Marcelo Tavares;5680;Dilma.
+542;esperava;1999;Dilma;134;Palácio
+543;esperavam;1469;presidente Lula;5680;Dilma
+544;evitar interferência;7874;Dilma;211;STF
+545;ex advocacia;271;Dilma Rousseff;272;União José Eduardo Cardozo
+546;ex gabinete;3935;Acrônimo;1999;Dilma Rousseff
+547;ex governo;1469;presidente Lula;10305;Dilma José Eduardo Cardozo
+548;ex ministro;1999;Dilma;75;Justiça José Eduardo Cardozo
+549;ex ministro;3574;Fernando Pimentel;1999;Dilma
+550;ex ministro;4173;Ricardo Berzoini;271;Dilma Rousseff.
+551;ex ministro;271;Dilma;75;Justiça José Eduardo Cardozo
+552;ex ministro;4394;Dilma Rousseff;42;Justiça
+553;ex ministro;1458;Eduardo Braga;5680;Dilma
+554;ex ministro;5680;Dilma Rousseff;7593;AGU José Eduardo Cardozo
+555;ex ministro;10305;Dilma;75;Justiça José Eduardo Cardozo
+556;ex ministro;4173;Ricardo Berzoini;10305;Dilma Rousseff
+557;ex ministros;1434;Edison Lobão;1409;Dilma
+558;ex ministros;4394;Dilma;2271;Antônio Palocci
+559;ex ministros;63;presidente Fernando Collor;4394;Dilma
+560;ex ministros;2913;Moro;4394;Dilma
+561;ex ministros;38;presidente Luiz Inácio Lula da Silva;5680;Dilma
+562;ex ministros;9944;Dilma;75;José Eduardo Cardozo
+563;ex ministros;2076;Rodrigo Janot;10224;Dilma
+564;ex ministros;917;Paraná;9944;Dilma
+565;ex ministros;10305;Dilma;10653;Ricardo Berzoíni
+566;ex ministros;11367;Dilma;3442;Jaques Wagner
+567;ex ministros;10305;Dilma;3442;Jaques Wagner
+568;ex petista;7874;Dilma;1458;Eduardo Braga
+569;ex presidente;24;Dilma;1357;Uruguai
+570;ex presidente;1409;Dilma;14;República
+571;ex presidente;1861;Dilma;3362;República
+572;ex presidente;6514;Senado;3362;República Dilma Rousseff
+573;ex presidentes;59;PT;24;Dilma Rousseff
+574;ex presidentes;7296;Dilma Rousseff;38;Luiz Inácio Lula da Silva
+575;ex secretário;1999;Dilma;3;Ministério
+576;ex secretário;10305;Dilma;1878;Política
+577;excluir defesa;4394;Dilma Rousseff;4394;Dilma.
+578;excluiu denúncia;15;Câmara Eduardo Cunha;4394;Dilma
+579;exercida senador;10305;Dilma Rousseff;1381;José Pimentel
+580;exigidos lei;1999;Dilma;72;Constituição
+581;exigidos lei;4394;Dilma;72;Constituição
+582;exonerou exceção;4394;Dilma;3541;Tombini.
+583;exonerou exceção;7874;Dilma;3541;Tombini.
+584;expedido ofício;271;Dilma Rousseff;3;Ministério
+585;explica ministro;10305;Dilma;109;Ricardo Lewandowski
+586;falar convite;24;Dilma;24;Dilma
+587;falou;1022;Cerveró;1409;Dilma
+588;falou;1999;Dilma;2756;Brasil
+589;falou advogado;3362;República;5680;Dilma Rousseff.
+590;falou apoio;207;PCdoB;7874;Dilma Rousseff
+591;falou destituição;741;El Pais;24;Dilma Rousseff
+592;falou projeto;7874;Dilma;10010;Sirius
+593;falou traição;1206;Magno Malta;24;Dilma
+594;fará oposição;1409;Dilma;9;Temer.
+595;fará oposição;1861;Dilma;9;Temer.
+596;fazem manifestação;4394;Dilma Rousseff;1539;Universidade Federal
+597;fazer;7874;Dilma;6;Brasil
+598;fazer fotografias;5680;Dilma Rousseff;38;presidente Luiz Inácio Lula da Silva
+599;fazer governo;1412;Cunha;10224;Dilma.
+600;fazer perguntas;211;STF;1999;Dilma
+601;fazer perguntas;211;STF;4394;Dilma
+602;fazer perguntas;211;STF;1290;Dilma
+603;fazer questionamentos;24;Dilma;365;Oliveira.
+604;fazer questionamentos;75;Justiça José Eduardo Cardozo;1290;Dilma
+605;fazer questionamentos;75;Justiça José Eduardo Cardozo;5680;Dilma
+606;faça discurso;5680;Dilma Rousseff;18;Senado
+607;fecharam entrada;1861;Dilma.;134;Palácio
+608;fechavam pontes;4394;Dilma Roussef;5162;Colombo Salles
+609;fechou;4394;Dilma Rousseff;4099;Avenida Paulista
+610;fechou;7874;Dilma;4099;Avenida Paulista
+611;feitas aliados;240;PE;5680;Dilma Rousseff
+612;feitas aliados;240;PE;7874;Dilma Rousseff
+613;feitas presidente;24;Dilma Rousseff;1111;Transpetro Sérgio Machado
+614;feitas presidente;24;Dilma;1391;Transpetro
+615;feitas presidente;5680;Dilma Rousseff;1111;Transpetro Sérgio Machado
+616;feitas presidente;7874;Dilma;1391;TranspetroSérgio Machado
+617;feitas presidente;10305;Dilma;1391;TranspetroSérgio Machado
+618;feito;80;Congresso;1409;Dilma
+619;feito;4394;Dilma;1718;Moura
+620;feito;5680;Dilma;7329;Muniz
+621;feito gestão;519;Educação;4;presidente Dilma Rousseff
+622;feriu;1157;Excelência Dilma Rousseff;72;Constituição
+623;fez críticas;10305;Dilma;250;Programa Escola
+624;fez pergunta;382;Kátia Abreu;5680;Dilma
+625;fez pronunciamento;4394;Dilma;135;Planalto
+626;fica cúpula;24;Dilma;18;Senado
+627;fica cúpula;1999;Dilma;18;Senado
+628;fica cúpula;4394;Dilma;18;Senado
+629;fica cúpula;4;Dilma;18;Senado
+630;ficar presidente;24;Dilma Rousseff;36;Tribunal Federal
+631;ficará cúpula;24;Dilma;18;Senado
+632;fico;2781;Ta;1999;Dilma
+633;filmado rotina;4224;Oscar;7874;Dilma
+634;firmar negócio;4394;Dilma Rousseff;5826;Dassault
+635;fizemos governo;59;PT;271;Dilma
+636;fizesse oposição;4964;PTB;9944;Dilma
+637;foi;5680;Dilma;3103;Aécio Neves
+638;frear operação;4394;Dilma;101;Lava Jato
+639;ganhou tom;1999;Dilma;3916;anedotário
+640;garantida decisão;1409;presidente Dilma Rousseff;18;Senado
+641;gerenciado assessor;271;Dilma;3937;Giles Azevedo
+642;gerou repercussão;9944;Dilma;10537;noticiário
+643;gosta;1964;Dutra;1409;Dilma
+644;gravada juiz;5680;Dilma;1216;Sérgio Moro
+645;gravadas presidente;24;Dilma Rousseff;1111;Transpetro Sérgio Machado
+646;ia falar;27;PMDB;5680;Dilma
+647;impeachment volta;1999;Dilma;211;STF
+648;impedir testemunhas.;10305;Dilma;12842;Levantamento
+649;impediram apoiadores;8978;Brigada Militar;7874;Dilma
+650;imputados denúncia;73;Miguel Reale Júnior;4394;Dilma
+651;imputados presidente;5680;Dilma;6220;Encaminhamento
+652;imputados presidente;7874;Dilma;6220;Encaminhamento
+653;imputar responsabilidade;235;Lei;1999;Dilma.
+654;imputar responsabilidade;1745;Cardozo;7874;Dilma Rousseff
+655;impôs;18;Senado;1999;Dilma Rousseff
+656;impôs derrotas;1412;Cunha;5680;Dilma
+657;indicado nome;10305;Dilma;1022;Cerveró
+658;indo lula;1999;Dilma;2781;Ta
+659;informado;24;Dilma Rousseff;492;PRF
+660;informando;9;Temer;4;Dilma
+661;informou;18;Senado;24;Dilma
+662;informou;5680;Dilma Rousseff;586;Secretaria
+663;informou;18;Senado;10224;Dilma
+664;informou imprensa;7874;Dilma Rousseff;2123;Tribunal.
+665;informou jornal;1999;Dilma;556;Globo
+666;informou presidente;26;Renan Calheiros;4394;Dilma
+667;ingressou ação;24;Dilma Rousseff;42;Justiça Federal
+668;ingressou chapelaria;10305;Dilma;80;Congresso
+669;insistir impeachment;10305;Dilma.;10305;Dilma
+670;integrar ministério;11367;Dilma;101;Temer. Lava Jato
+671;interdita ruas;24;Dilma Rousseff;755;Centro
+672;interditaram estradas;24;Dilma;917;Pará
+673;interferir liderança;10224;Dilma;27;PMDB
+674;intimada ministro;11367;Dilma Rousseff;109;Ricardo Lewandowski
+675;intimado presidente;573;Alves;24;Dilma Rousseff
+676;investigado lava;7874;Dilma Rousseff;39;Jato.
+677;investigar suspeitas;1999;Dilma;59;PT
+678;ir;10305;Dilma Rousseff;18;Senado
+679;ir plenário;7874;Dilma Rousseff;18;Senado
+680;iria cerimônia;24;Dilma;120;Rio
+681;iria expor;1409;Dilma;1471;Judas
+682;irá expor;7874;Dilma;1471;Judas
+683;jantou;6;Brasília;5680;Dilma
+684;julgada plenário;4394;Dilma;21;Casa.
+685;julgada plenário;5680;Dilma Rousseff;18;Senado
+686;julgada plenário;10305;Dilma;21;Casa.
+687;julgar;18;Senado;24;Dilma
+688;julgar;18;Senado;1999;Dilma
+689;julgar;21;Casa;4394;Dilma.
+690;julgar;18;Senado;7874;Dilma.
+691;julgar presidente;492;PR;7296;Dilma.
+692;julgar presidente;7874;Dilma;9517;Dolo
+693;juntaram frente;7874;Dilma;134;Palácio
+694;justificar afastamento;10677;Unidas.;10305;Dilma
+695;lamentou;2752;Dilma;320;Twitter
+696;lançado governo;253;PIL;10305;Dilma.
+697;lembrou;1745;Cardozo;5680;Dilma
+698;levada julgamento;1999;Dilma Rousseff;21;Casa
+699;levada julgamento;1999;Dilma;18;Senado.
+700;levada julgamento;4394;Dilma Rousseff;18;Senado
+701;levada julgamento;4394;Dilma Rousseff;21;Casa
+702;levada julgamento;5680;Dilma;21;Casa.
+703;levada julgamento;7874;Dilma;18;Senado.
+704;levada presidente;24;Dilma Rousseff;304;Tribunal Federal
+705;levando prática;24;Dilma;917;Parlamento
+706;levou;24;Dilma;476;Brasil
+707;liberar autorização;24;Dilma Rousseff;80;Congresso
+708;liberar autorização;1999;Dilma;80;Congresso
+709;liberar autorização;5680;Dilma Rousseff;80;Congresso
+710;liberar autorização;7874;Dilma Rousseff;80;Congresso
+711;libertar lava;5680;Dilma;39;Jato.
+712;limitou acesso;699;Camarotti;271;Dilma
+713;líder bancada;10224;Dilma Rousseff;27;PMDB
+714;manifestar plenário;7296;Dilma;18;Senado
+715;manifestou afastamento;565;Evo Morales;24;Dilma
+716;manter direito;18;Senado;4394;presidente Dilma Rousseff
+717;manter direito;4964;PT;10305;Dilma Rousseff
+718;manter elegibilidade;135;Planalto;24;Dilma
+719;manter permissão;18;Senado;4394;Dilma
+720;manteve;7874;Dilma Rousseff;417;Esplanada
+721;manteve;18;Senado;10305;Dilma
+722;manteve amizade;1999;Presidenta Dilma Rousseff;1016;diretor
+723;mantém carinho;26;Renan Calheiros;4394;Dilma
+724;marcar viagem;5680;Dilma Rousseff;7047;Japão
+725;mencionou ações;4394;Dilma;167;PSDB
+726;mencionou ações;5680;Dilma;167;PSDB.
+727;mencionou presidente;1409;Dilma;14;República Michel Temer
+728;mencionou presidente;1861;Dilma;1067;República Michel Temer
+729;montar estruturas;10224;Dilma Rousseff;391;Teatro
+730;mora. ficarei;1861;Dilma Jane;6;Brasília
+731;mostrado tranquila.;24;Dilma;24;Dilma
+732;mostrou;556;Globo;1290;Dilma
+733;motivou protestos;7874;Dilma Rousseff;223;São Paulo
+734;movida imprensa;1088;estratégia;4394;Dilma Rousseff.
+735;na;1409;Dilma Rousseff;15;Câmara
+736;na;1999;Dilma;15;Câmara
+737;na;4394;Dilma;15;Câmara
+738;na;5680;Dilma;6643;Ditadura
+739;na;5680;Dilma;15;Câmara
+740;na;7874;Dilma;15;Câmara
+741;na;7874;Dilma;21;Casa
+742;na;10305;Dilma Rousseff;15;Câmara
+743;nasceu;10305;Dilma;2106;Belo Horizonte
+744;negada defesas;813;Petrobras;1290;Dilma
+745;negociaram;271;Dilma;59;PT
+746;no;24;Dilma;18;Senado
+747;no;669;DILMA ROUSSEFF;1281;SENADO
+748;no;1999;Dilma Rousseff;18;Senado
+749;no;2752;Dilma;134;Palácio
+750;no;2814;DILMA ROUSSEFF;1281;SENADO
+751;no;271;Dilma;18;Senado
+752;no;4394;Dilma;508;início
+753;no;4394;Dilma;1401;Facebook
+754;no;4394;Dilma Rousseff;80;Congresso
+755;no;4394;Dilma Rousseff;18;Senado
+756;no;1290;Dilma Rousseff;18;Senado
+757;no;4394;Dilma;12;plenário
+758;no;5680;Dilma;18;Senado
+759;no;5680;Dilma;6514;Senado
+760;no;5680;Dilma Rousseff;80;Congresso
+761;no;5680;Dilma;1401;Facebook
+762;no;5680;Dilma;134;Palácio
+763;no;7874;Dilma Rousseff;18;Senado
+764;no;7874;Dilma;535;Plano Safra
+765;no;7874;Dilma Rousseff;134;Palácio
+766;no;7874;Dilma;320;Twitter.
+767;no;9944;Dilma;18;Senado
+768;no;10305;Dilma;297;Alvorada.
+769;no;10305;Dilma;18;Senado
+770;no;10305;Dilma Rousseff;134;Palácio
+771;no;10305;Dilma Rousseff;80;Congresso
+772;no;4;presidente Dilma Rousseff;2123;Tribunal
+773;no;11367;Dilma Rousseff;18;Senado
+774;nomeado ministro;9944;Dilma;1437;Minas
+775;nomearia;9944;Dilma;38;Lula
+776;nomearia;10305;Dilma;38;Lula
+777;notificada decisão;1999;Dilma;18;Senado
+778;ocorrendo presidente;1663;PSC;1409;Dilma
+779;ocorreu;24;Dilma;15;Câmara
+780;ocorreu;1999;Dilma;15;Câmara
+781;ocorreu;4394;Dilma;15;Câmara
+782;ocorreu;4;Dilma;15;Câmara
+783;ocorreu;10305;Dilma;15;Câmara
+784;ocorreu impeachment;1412;Cunha;4;Dilma.
+785;ocupar cargos;1409;Dilma;211;STF
+786;ocupar cargos;4;Dilma;26;Renan Calheiros
+787;ocupou cadeira;9;Temer;1999;Dilma Rousseff
+788;organizaram ato;4394;presidente Dilma Rousseff;2106;Belo Horizonte
+789;orientava;5680;Dilma;1808;Caixa Econômica Federal
+790;pagar imposto;1999;Dilma Rousseff;2533;alíquota
+791;para;5635;Avião;1290;Dilma
+792;para;2649;Curitiba;7874;Dilma Rousseff
+793;parte família;299;gaúcha;1999;Dilma
+794;participar atos;223;São Paulo;1999;Dilma
+795;participar atos;223;São Paulo;4394;Dilma
+796;participou governo;1012;ministro Nelson Barbosa;10305;Dilma.
+797;partir impeachment;97;Presidência;10224;Dilma
+798;passada impeachment;3362;República;271;Dilma Rousseff
+799;passada lugar;97;Presidência;7874;Dilma Rousseff
+800;passado crédito;4394;Dilma Rousseff.;55;MP
+801;passar caso;261;Rodrigo Maia;10305;Dilma
+802;passaram responsabilidade;1861;Dilma;59;PT.
+803;passaram responsabilidade;5680;Dilma;4964;PT.
+804;passou tarde;5680;Dilma;134;Palácio
+805;patrocinou candidatura;5680;Dilma;82;Eduardo Cunha
+806;pede;1861;Dilma;211;STF
+807;pede presidente;11367;Dilma Rousseff;7821;Michel Temer
+808;pedido afastamento;18;Senado;10305;Dilma Rousseff
+809;pedido apoiadores;109;Ricardo Lewandowski;24;Dilma
+810;pedido autorização;4394;Dilma;1584;déficit
+811;pedido defesa;2123;Tribunal Superior;271;presidente Dilma Rousseff
+812;pedido dispensa;1999;Dilma Rousseff;160;Esther Dweck
+813;pedido impeachment;651;Janaina Paschoal;24;presidente Dilma Rousseff
+814;pedido impeachment;4964;PT;4394;Dilma Rousseff
+815;pedido impeachment;171;Janaína Paschoal;5680;Dilma.
+816;pedido mandato;651;Janaina;1409;Dilma
+817;pedido petista;10305;Dilma Rousseff;75;ministro José Eduardo Cardozo
+818;pedido presidente;651;Janaina Paschoal;1999;Dilma Rousseff.
+819;pedido presidente;73;Miguel Reale Júnior;4394;Dilma Rousseff
+820;pedindo;211;STF;10224;Dilma
+821;pedir afastamento;6;Brasília;4394;Dilma Rousseff
+822;pedir impeachment;4451;Indio;4394;Dilma
+823;pediu;14;República;1999;Dilma
+824;pediu;1463;PR;1999;Dilma
+825;pediu;271;Dilma;211;STF
+826;pediu advogado;1745;Cardozo;1999;Dilma
+827;pediu depoimento;7874;Dilma Rousseff;364;Júlio Marcelo
+828;pediu parecer;5680;Dilma;4286;Procuradoria
+829;pela;1999;Dilma Rousseff;21;Casa.
+830;pela;4394;Dilma;15;Câmara
+831;pelo;1999;Dilma Rousseff;18;Senado
+832;pelo;4394;Dilma Rousseff;18;Senado
+833;pelo;5680;Dilma;18;Senado.
+834;pelo;7874;Dilma Rousseff;18;Senado
+835;perde;7296;Dilma;7801;mandatoO plenário
+836;perderá mandato;4394;Dilma;9;Temer
+837;permanecer governo;271;Dilma.;1584;déficit
+838;permaneceu;1861;Dilma;297;Alvorada
+839;permitir;18;Senado;10305;Dilma Rousseff
+840;placar votação;11367;Dilma Rousseff.;22;Maranhão
+841;pode mudar;7874;Dilma;955;Paulo Paim
+842;poderiam ajudar;211;STF;24;Dilma
+843;por;838;FAB;1999;Dilma
+844;posicionado favor;24;Dilma Rousseff;24;Dilma.
+845;posicionado favor;766;Telmário Mota;271;Dilma Rousseff
+846;posicionar impeachment;1363;Diretório;7874;Dilma Roussef
+847;posicionou impeachment;1418;Mauricio Macri;1409;Dilma Rousseff
+848;posicionou impeachment;4462;Macri;4394;Dilma
+849;posicionou impeachment;1418;Mauricio Macri;7874;Dilma Rousseff
+850;possamos apresentar;7874;Dilma Rousseff;6;Brasil
+851;possui apartamento;11367;Dilma Rousseff;119;Zona Sul
+852;possui bairro;7874;Dilma Rousseff;450;Tristeza
+853;postar mensagens;4455;Lucas Valença;4394;presidente Dilma Rousseff
+854;postar mensagens;4455;Lucas Valença;5680;presidente Dilma Rousseff
+855;precisaria apoio;4394;Dilma;27;PMDB
+856;precisaria apoio;11367;Dilma;27;PMDB
+857;precisaria apoio;10305;Dilma;27;PMDB
+858;precisava autorização;24;Dilma;80;Congresso
+859;preferida presidente;55;MPF;4394;Dilma Rousseff
+860;preocupado ação;271;Dilma;314;TSE
+861;prepara julgar;18;Senado;1999;Dilma Roussef
+862;prepara julgar;657;Corte;7874;Dilma Rousseff
+863;preservar direitos;18;Senado;4394;presidente Dilma Rousseff
+864;prestado campanha;101;Lava Jato;7874;Dilma
+865;prestando plenário;1999;Dilma;18;Senado
+866;prestar apoio;6;Brasília;5680;Dilma
+867;prestar operação;4394;Dilma Rousseff;101;Lava Jato
+868;pretende comparecer;4394;Dilma;18;Senado
+869;pretende defesa;2123;Tribunal Federal;7874;Dilma.
+870;pretende mudar;1409;Dilma;202;Porto Alegre
+871;pretende mudar;1861;Dilma;202;Porto Alegre
+872;prever julgamento;28;AL;7296;Dilma
+873;prevista semana;241;quórum;24;Dilma Rousseff
+874;previsto;1409;Dilma;72;Constituição
+875;previsto;4394;Dilma Rousseff;72;Constituição
+876;previsto;7874;Dilma;72;Constituição
+877;previsto;4;Dilma;72;Constituição
+878;previsto depoimento;80;Congresso Nacional.;4;Dilma
+879;previsto governo;2959;Moreira Franco;4394;Dilma
+880;prevê;510;Lewandowski;7296;Dilma
+881;privilegiado presidenta;4394;Dilma Rousseff;3362;República
+882;procurou defesa;10778;G1;10305;Dilma Rousseff
+883;procurou imprensa;7972;G1;7874;Dilma
+884;proferida plenário;851;Presidente Dilma;15;Câmara
+885;prometem recorrer;24;Dilma;211;STF. Acompanhe
+886;pronunciam afastamento;82;Eduardo Cunha;1999;Dilma Rousseff
+887;pronunciar decisão;7874;Dilma Rousseff;18;Senado
+888;pronunciasse;1999;Dilma;510;Lewandowski
+889;pronunciasse;7874;Dilma;510;Lewandowski
+890;propondo contribuição;271;Dilma Rousseff;2238;Movimentação Financeira
+891;propôs;7874;Dilma;80;Congresso
+892;protestar frente;7874;Dilma Rousseff;134;Palácio
+893;protestar frente;11367;Dilma Rousseff;134;Palácio
+894;protestar impeachment;80;Congresso;4394;Dilma
+895;protestar impeachment;4277;Paraná;7874;Dilma Rousseff
+896;protestaram impeachment;90;Gramado;24;Dilma Rousseff
+897;protestavam;11367;Dilma Rousseff;4099;Avenida Paulista
+898;protestou;5680;Dilma;4398;Planaltina
+899;protocolado ação;24;Dilma;211;STF
+900;protocolado juristas;7874;Dilma;5300;Miguel Reale Jr
+901;protocolou;1999;Dilma Rousseff;134;Palácio
+902;provocou;4394;Dilma Rousseff;4745;desequilíbio
+903;publicada revista;271;presidente Dilma Rousseff;3927;Época
+904;publicadas afastamento;1007;Vida;4394;Dilma Rousseff
+905;publicadas edição;24;Dilma;1072;Diário
+906;publicado;7874;Dilma Rousseff;1401;Facebook
+907;publicou solidariedade;565;Evo Morales;1999;Dilma
+908;quando;180;Fazenda;7874;Dilma Rousseff
+909;queixou fato;1022;Cerveró;10305;Dilma
+910;queria autorização;271;Dilma;1584;déficit
+911;queria vingar;82;Eduardo Cunha;7874;Dilma Rousseff
+912;querida.;21;Casa Civil. Dilma;1999;Dilma
+913;questionada defesa;365;Oliveira;7874;Dilma
+914;questionado perícia;1290;Dilma;314;TSE
+915;questionar;1290;Dilma;1290;Dilma
+916;questionar;168;MG;5680;Dilma
+917;questionar julgamento;1999;Dilma.;3346;Requião
+918;questionar julgamento;7874;Dilma.;3346;Requião
+919;questionarem defesa;7821;Michel Temer;7874;Dilma Rousseff.
+920;questionavam denúncia;18;Senado.;4394;Dilma
+921;quitarem dívida;7874;Dilma;272;União
+922;rasgar;1999;Dilma;72;Constituição
+923;reafirma inocência;7821;Michel Temer;7874;Dilma
+924;realizado;1999;Dilma;18;Senado
+925;realizou apoio;386;Mesmo;10305;Dilma
+926;reassume;4394;Dilma Rousseff;97;Presidência
+927;reassume;5680;Dilma Rousseff;97;Presidência
+928;reassume;10305;Dilma Rousseff;97;Presidência
+929;reassume presidência;1999;Dilma;14;República
+930;reassumirá;24;Dilma;97;Presidência
+931;reassumirá;1999;Dilma;97;Presidência
+932;reassumirá;1290;Dilma;97;Presidência
+933;reassumirá;11367;Dilma;97;Presidência
+934;rebateu fala;1461;SP;1999;Dilma
+935;recebia parlamentares;1999;Dilma;134;Palácio
+936;recebia parlamentares;4394;Dilma;134;Palácio
+937;recebiam propina;5680;Dilma Rousseff;813;Petrobras
+938;recomenda julgamento;168;MG;4394;Dilma
+939;recomendar contas;464;TCU;7874;Dilma
+940;reconhecidos autoria;656;Paschoal;4394;Dilma
+941;recorreu;4;presidente Dilma;2123;Tribunal Federal
+942;recuperar dinheiro.;4;presidente Dilma Rousseff;527;MEC
+943;referindo impeachment;80;Congresso;1999;Dilma
+944;refletir temer;10305;Dilma;80;Congresso
+945;reforçam defesa;8856;Ivan Marx;7874;Dilma
+946;rejeitaram inabilitação;3362;República;7296;Dilma
+947;rejeite ação;657;Corte;1999;presidente Dilma Rousseff
+948;relacionado pedaladas;7874;Dilma;535;Plano Safra
+949;relacionados atuação;1067;Michel Temer;1409;Dilma Rousseff
+950;relacionados operação;7874;Dilma Rousseff;101;Lava Jato
+951;relatou conversado;382;Kátia Abreu.;24;Dilma
+952;remove incerteza;4394;Dilma Rousseff;3580;Brasil
+953;repasse recursos;1409;Dilma Rousseff;1808;Caixa
+954;repetiu considera;11048;Oliveira.;11367;Dilma
+955;representa situação;1999;Dilma;9;Temer
+956;residem capital;24;Dilma;299;gaúcha
+957;residem capital;1999;Dilma;299;gaúcha
+958;residem capital;7296;Dilma;299;gaúcha
+959;residem capital;10224;Dilma;299;gaúcha
+960;responder questão;24;Dilma Rousseff;523;Fátima Bezerra
+961;respondesse;5680;Dilma;510;Lewandowski
+962;ressaltando;1745;Cardozo;7874;Dilma
+963;resta julgamento;5680;Dilma;12;plenário Senado.
+964;restringir avião;2220;Avila;1290;Dilma Rousseff
+965;retornar;1999;Dilma;202;Porto Alegre
+966;retornar;4394;Dilma;202;Porto Alegre
+967;retornar;5680;Dilma;202;Porto Alegre
+968;retornar;1861;Dilma;202;Porto Alegre
+969;retornar almoço;80;Congresso;10305;Dilma
+970;reuniram;4394;Dilma Rousseff;927;Praça
+971;reuniram;5680;Dilma Rousseff;4099;Avenida Paulista
+972;reuniram;5680;Dilma;3659;Esquina
+973;reuniram noite;4394;Dilma Rousseff;755;Centro
+974;reuniu;6;Brasília;10305;Dilma
+975;reuniu;26;Renan;11367;Dilma
+976;reuniu;8448;PA;10305;Dilma
+977;reuniu frente;4;presidente Dilma Rousseff;134;Palácio
+978;reuniu ministros;4394;Dilma Rousseff;3442;Jaques Wagner
+979;reuniu pessoas;11367;Dilma Rousseff;11451;São Sebastião
+980;revelou;3927;Época;7874;Dilma
+981;reúne;24;Dilma Rousseff;927;Praça
+982;rivalizam felicitações;1999;Dilma Rousseff;320;Twitter
+983;saiu;4394;Dilma Rousseff;134;Palácio
+984;salvar direitos;18;Senado;1999;Dilma
+985;sancionada presidente;691;Hashtag;24;Dilma Rousseff
+986;sancionada presidente;691;Hashtag;4394;Dilma Rousseff
+987;saíram orla;4394;Dilma Rousseff;910;Maceió
+988;seafaste presidente;18;Senado;7874;Dilma Rousseff
+989;seguida advogado;73;Miguel Reale Júnior;24;Dilma
+990;seguir plenário;1999;Dilma Rousseff;18;Senado
+991;seguiu carro;1999;Dilma;119;Zona Sul
+992;seguiu parecer;5680;Dilma Rousseff;4286;Procuradoria
+993;seguiu passeata;5680;Dilma Rousseff;755;Centro
+994;seguiu protesto;1999;Dilma;3659;Esquina
+995;seguiu protesto;5680;Dilma;3659;Esquina
+996;sem;5153;Chopp;4394;Dilma
+997;separado situação;314;TSE;5680;Dilma
+998;sobe direitos;806;China;1409;Dilma
+999;sobre;1409;Dilma Rousseff;1487;Fidel Castro
+1000;solicitado;5680;Dilma Rousseff;813;Petrobras
+1001;soube respeitar;1409;Dilma;72;Constituição
+1002;subir tribuna;4394;Dilma Rousseff disporão;18;Senado
+1003;sugere debate;1999;Dilma Rousseff;15;Câmara
+1004;suplementar autorização;24;Dilma;80;Congresso
+1005;suplementar autorização;1999;Dilma;80;Congresso
+1006;suplementar autorização;4394;Dilma;80;Congresso
+1007;suplementar autorização;5680;Dilma;80;Congresso Nacional.
+1008;suplementar autorização;7874;Dilma;80;Congresso Nacional.
+1009;suplementar autorização;10305;Dilma;80;Congresso
+1010;suplementar aval;5680;Dilma;80;Congresso
+1011;suposta exclusão;4394;Dilma;27;PMDB
+1012;suposta exclusão;11367;Dilma;27;PMDB
+1013;suposta exclusão;10305;Dilma;27;PMDB
+1014;suposta participação;1022;Cerveró;24;Dilma
+1015;suspeitava;7874;Dilma;167;PSDB
+1016;suspender decisão;271;presidente Dilma Rousseff;18;Senado
+1017;suspender habilitação;211;STF;7874;presidente Dilma Rousseff
+1018;tentou demonstrar;10305;presidente Dilma Rousseff;10852;Tamo
+1019;tietado aliados;7475;Chico;5680;Dilma
+1020;tirar;18;Senado;10305;Dilma Rousseff
+1021;tomada impeachment;3376;Mendonça;1999;Dilma
+1022;tomadas decisões;7874;Dilma;7821;Michel Temer
+1023;tomar posse;10305;Dilma.;18;Senado
+1024;tornaram articuladores;2481;CE;271;Dilma
+1025;tornasse;24;Dilma;72;Constituição
+1026;trabalhar presidente;10224;Dilma Rousseff.;26;Renan Calheiros
+1027;transformar presidente;18;Senado;1409;Dilma Rousseff
+1028;transformou metros;271;Dilma Rousseff;134;Palácio
+1029;tratou;813;Petrobras;5680;Dilma Rousseff
+1030;traz combater;7874;Dilma Rousseff;17;Aedes
+1031;trazer morar;24;Dilma;6;Brasília
+1032;tropeçou salão;10305;Dilma;18;Senado
+1033;une lista;5680;Dilma;725;líderes
+1034;usada antecessores;5598;El País;5680;Dilma
+1035;usado beneficiar;10305;Dilma;4964;PT
+1036;usado contas;314;TSE;1409;Dilma
+1037;usar;24;Dilma;134;Palácio
+1038;usar;10305;Dilma;134;Palácio
+1039;usar aviões;7296;Dilma Rousseff;528;Força Aérea Brasileira
+1040;usar impeachment;8;RJ;1999;Dilma Rousseff
+1041;utilizadas governo;7652;BNDES;7874;Dilma
+1042;vai;24;Dilma Rousseff;18;Senado
+1043;vai;1999;Dilma Rousseff;18;Senado
+1044;vai;10305;Dilma Rousseff;18;Senado
+1045;vai decidir;18;Senado;24;Dilma Rousseff
+1046;vai defender;1157;Dilma Rousseff;18;Senado
+1047;vai defender;10305;Dilma;18;Senado
+1048;vale deputado;7874;Dilma;82;Eduardo Cunha
+1049;vamos combinar;1999;Dilma;2056;senador Anastasia
+1050;veja;10305;Dilma Rousseff;78;íntegra
+1051;ver caso;24;Dilma Rousseff;44;senador Eduardo Braga
+1052;viabilizar candidatura;10305;Dilma;97;Presidência
+1053;viajar capital;1861;Dilma;299;gaúcha
+1054;viajou;1999;Dilma;1158;Cuba
+1055;vice;24;Dilma;1067;presidente Michel Temer
+1056;vice;1999;Dilma Rousseff;1067;presidente Michel Temer
+1057;vice;4394;Dilma Rousseff;1067;presidente Michel Temer
+1058;vice;10305;Dilma Rousseff;7821;presidente Michel Temer
+1059;vice chapa;27;PMDB;7874;Dilma
+1060;vice chapa;9;Temer;7874;Dilma Rousseff
+1061;vice presidente;1409;Dilma;27;PMDB
+1062;violou;24;Dilma;72;Constituição
+1063;violou;4394;Dilma;235;Lei
+1064;virou ré;10305;Dilma Rousseff;404;Anastasia
+1065;visitou;1409;presidente Dilma Rousseff;725;líder
+1066;visitou;413;Renan;7874;Dilma
+1067;visitou filha;5680;Dilma;3655;Paula Rousseff Araújo
+1068;vivem filha;299;gaúcha;1861;Dilma
+1069;voltar patamar;271;Dilma Rousseff.;1104;dólar
+1070;voltaram afirmar;73;Miguel Reale Júnior;1999;Dilma
+1071;voltaram afirmar;73;Miguel Reale Júnior;10224;Dilma
+1072;voltaria presidência;271;Dilma Rousseff;3362;República
+1073;volte comandar;24;Dilma;135;Planalto.
+1074;votado favor;2825;Roraima;1999;Dilma.
+1075;votado impeachment;27;PMDB;7874;Dilma Rousseff
+1076;votar afastamento;1463;PR;7874;Dilma.
+1077;votar destituição;4620;Braga;9944;Dilma
+1078;votar impeachment;18;Senado;11367;Dilma Rousseff
+1079;votar presidente;1067;Michel Temer;1409;Dilma Rousseff
+1080;votar relatório;5680;Dilma;404;Anastasia
+1081;votar relatório;7874;Dilma;404;Anastasia
+1082;votar sessão;9944;Dilma;6438;Armando Monteiro Neto
+1083;votaram afastamento;26;Renan Calheiros;5680;Dilma.
+1084;votaram impeachment;558;Sul;24;Dilma Rousseff
+1085;votaram impeachment;1205;ES;24;Dilma Rousseff
+1086;votou;7874;presidente Dilma Rousseff;202;Porto Alegre
+1087;votou;10305;presidente Dilma Rousseff;202;Porto Alegre
+1088;votou favor;26;senador Renan Calheiros;4;Dilma
+1089;votou impeachment;1620;Alagoas;1999;Dilma Rousseff
+1090;votou inabilitação;955;Paulo Paim;24;Dilma
+1091;vá julgamento;5680;Dilma;21;Casa.
+1092;–,;1999;Dilma;1248;senador
+1093;’ afastamento;72;Constituição;4394;Dilma Rousseff
+1094;”, afirmou;271;Dilma;2886;Lindbergh
+1095;”, afirmou;1007;Vida;10305;Dilma.
+1096;”, complementou;27;PMDB;24;Dilma
+1097;”, criticou;4394;Dilma;6088;Dantas.
+1098;”, disse;304;Tribunal Federal;1999;Dilma.
