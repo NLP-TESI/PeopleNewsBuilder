@@ -187,6 +187,8 @@ class Extractor:
 
 		return (global_entities, taggeds)
 
+	# Verify if entity already exists in global_entities
+	# and try to merge entities like "Dilma" and "Dilma Rousseff"
 	def _find_similar_entities(self, global_entities, local_entities):
 		final_dict = global_entities
 
@@ -224,6 +226,7 @@ class Extractor:
 
 		return final_dict
 
+	# Analyze sentence to find named entities localy
 	def _analyze_sentence(self, anoted_sentence):
 		entities = {}
 		tagged = []
