@@ -7,8 +7,10 @@ import TESIUtil
 from Aelius import Extras, Toqueniza, AnotaCorpus
 import nltk
 
+# This class extract thw entities and relationships from the news texts
 class Extractor:
 
+	# List of tokens that aren't entities. The proccess classified these as entity, but they aren't
 	NOT_AN_ENTITY = { u'janeiro',u'fevereiro',u'março',u'abril',u'maio',u'junho',
 					  u'julho',u'agosto',u'setembro',u'outubro',u'novembro',u'dezembro',
 					  u'abstenção',u'r$',u'cenário',u'são',u'feira',u'segunda',u'terça',
@@ -25,22 +27,32 @@ class Extractor:
 
 	# Extract entities and relationships about the main entity
 	def extract(self): # will return a KnowledgeBase instance
+		# global_entities contains the entities extraction proccess result
 		global_entities = {}
+		# taggeds is used in relations extraction proccess
 		taggeds = []
 
+		# init the loop to extract entities
 		for i,n in enumerate(self.data):
 			if n.text is None:
 				continue
 			print('\rnews ' + str(i+1) + ' of ' + str(len(self.data)), end="")
+
+			# tokenize the text by sentences
 			sentences = Toqueniza.PUNKT.tokenize(n.text)
+			# tokenize by words for each sentence. This is required to use anota_sentencas function
 			tokenized = [Toqueniza.TOK_PORT.tokenize(sentence) for sentence in sentences]
+			# Use the Aellius POSTagger to classify the tokens for each sentence.
 			anoted = AnotaCorpus.anota_sentencas(tokenized, self.HUNPOS, 'hunpos')
 
+			# Extract entities from the anoted text
 			global_entities, tagged = self._extract_entities(anoted, global_entities)
 			taggeds.append(tagged)
 
+		# the the distinct list of entities extracted
 		distinct = TESIUtil.dict_to_list(global_entities)
 
+		# extract the relationships from tagged result
 		relationships = self._find_relationships(taggeds, global_entities)
 
 		total = sum(map(lambda x: len(x.terms()), distinct))
@@ -97,6 +109,7 @@ class Extractor:
 		else:
 			return False
 
+	# this function use the approaches to get the relations
 	def _find_relationships(self, list_tagged, global_entities):
 		relationships = Relationships()
 		relation_stops_type = ['CONJ', 'WPRO', ',', '(', ')']
@@ -169,10 +182,12 @@ class Extractor:
 		for anoted_sentence in anoted:
 			entities, tagged_result = self._analyze_sentence(anoted_sentence)
 
+			# In order to avoid equals local entities (same text token)
 			for key in entities:
 				if(key not in local_entities):
 					local_entities[key] = entities[key]
 
+			# save in tagged_result as NE (Named Entity) with these ID
 			for k, item in enumerate(tagged_result):
 				if(tagged_result[k][1] == 'NE'):
 					key = tagged_result[k][0]
@@ -180,6 +195,10 @@ class Extractor:
 
 			taggeds.append(tagged_result)
 
+		# use the well known entities at global_entities to find correlations with local_entities founds
+		# use string similarity to find similars entities.
+		# if a local entity is in glogal entities, your instance is updated
+		# else create a new entry at globals.
 		global_entities = self._find_similar_entities(global_entities, local_entities)
 
 		return (global_entities, taggeds)
@@ -189,6 +208,7 @@ class Extractor:
 	def _find_similar_entities(self, global_entities, local_entities):
 		final_dict = global_entities
 
+		# for each local entity, try to find globals candidates that can be similar
 		for key1 in local_entities:
 			item1 = local_entities[key1]
 
@@ -211,9 +231,10 @@ class Extractor:
 					sum_sim += TESIUtil.string_similarity(str1, str2)
 					qty += 1
 				avg = sum_sim/qty
+				# 0.7 is the min similarity to get as similar
 				if(avg > 0.7 and avg > max_avg):
 					best = item2
-
+					max_avg =  avg
 
 			if(best == None):
 				final_dict[item1.id()] = item1
@@ -229,6 +250,9 @@ class Extractor:
 		tagged = []
 		i = 0
 
+		# Test if the sentence contains main entity("dilma").
+		# If not, none proccess of extract entities is done to this sentence
+		# Only sentences with the main entity will be relevant to extract these relations
 		contains_main_entity = False
 		for a in anoted_sentence:
 			if(self.main_entity in a[0].lower()):
@@ -237,12 +261,16 @@ class Extractor:
 
 		if(contains_main_entity):
 			while i < len(anoted_sentence):
+				# Find a NPR token. NPR = nome proprio
 				if(anoted_sentence[i][1] == 'NPR'):
 					text = anoted_sentence[i][0]
 
+					# Find sequences of NPR
 					while(i+1 < len(anoted_sentence) and anoted_sentence[i+1][1] == 'NPR'):
 						text += ' ' + anoted_sentence[i+1][0]
 						i += 1
+
+					# Test and add the found entity at result
 					if(text.lower() not in Extractor.NOT_AN_ENTITY):
 						if(text not in entities):
 							e = NamedEntity(text)

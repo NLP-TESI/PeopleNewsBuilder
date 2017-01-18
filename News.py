@@ -1,5 +1,6 @@
 import json
 
+# Class to store the news informations
 class News:
     def __init__(self, **kwargs):
         self.load(**kwargs)
@@ -15,6 +16,7 @@ class News:
         self.url = data.get('url')
         self.text = data.get('text')
 
+    # Save the informations at JSON file
     def dumpsToJSON(self, path):
         j = { 'created': self.created, 'lastPublication': self.lastPublication,
               'modified': self.modified, 'publication': self.publication, 'id': self.id,
@@ -24,6 +26,7 @@ class News:
         f.write(json.dumps(j))
         f.close()
 
+    # Load the informations from a JSON file
     def loadsFromJSON(self, path):
         f = open(path, 'r')
         data = json.loads(f.read())

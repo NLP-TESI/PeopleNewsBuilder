@@ -1,5 +1,7 @@
 from News import News
 
+# PreProcessing class is used to preproccess the news text.
+# Any preproccess must be implemented at processing function.
 class PreProcessing:
 
     def __init__(self, files=[]):
@@ -10,6 +12,7 @@ class PreProcessing:
         n.loadsFromJSON(file_new)
         #do something with n.text
         if n.text is not None:
+            # This is the one pre-proccess required for the text
             n.text = n.text.replace("]"," ").strip()
             n.text = n.text.replace("["," ").strip()
         return n

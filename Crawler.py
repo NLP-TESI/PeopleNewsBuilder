@@ -1,4 +1,4 @@
-# Execute this using Python 3
+# Execute this using Python 2.7
 
 import os
 import requests
@@ -10,11 +10,14 @@ from News import News
 class NewsSpider(scrapy.Spider):
     name = "NewsSpider"
 
+    # Start to get requests from news.url
     def start_requests(self):
         self.newsList = getattr(self, 'newsList', [])
         for i, news in enumerate(self.newsList):
             yield scrapy.Request(url=news.url, callback=self.parse, meta={'i': i})
 
+    # A page contain many section of text. This method concat all these sections
+    # at one string
     def concat_text_list(self, text_list_selector):
         text = ''
         for t in text_list_selector:
@@ -24,14 +27,17 @@ class NewsSpider(scrapy.Spider):
             return None
         return text
 
+    # parser for pages with div id="materia-letra"
     def parse_materia_letra(self, response):
         text_list = response.xpath("//*[@id='materia-letra']/descendant::p/descendant-or-self::text()")
         return self.concat_text_list(text_list)
 
+    # parser for pages with div class="content-text"
     def parse_div_content_text(self, response):
         text_list = response.xpath("//div[contains(@class, 'content-text')]/descendant-or-self::text()")
         return self.concat_text_list(text_list)
 
+    # parse a page result in response. Try to use any parser at trials list to get text of the news
     def parse(self, response):
         index = response.meta['i']
 
@@ -66,6 +72,7 @@ class Sniffer:
         self.news = []
         self.name = name
 
+    # get the first x news url from a json. This json is provided to a ajax in the G1 site.
     def _getNews(self):
         page = 0
 
@@ -86,10 +93,12 @@ class Sniffer:
             else:
                 page -= 1
 
+    # Init the crawler proccess for the URL list
     def _fetchTexts(self):
         crawler = Crawler(NewsSpider, newsList=self.news)
         crawler.crawl()
 
+    # Save news infos at a JSON
     def _saveNewsAsJSON(self):
         if(not os.path.exists(os.path.join('database', self.name))):
             os.makedirs(os.path.join('database', self.name))
@@ -97,6 +106,7 @@ class Sniffer:
         for n in self.news:
             n.dumpsToJSON(os.path.join('database', self.name, n.id))
 
+    # Execute the Sniffer
     def execute(self):
         self._getNews()
         self._fetchTexts()

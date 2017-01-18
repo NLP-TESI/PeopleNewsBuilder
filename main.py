@@ -1,3 +1,5 @@
+# Execute this using Python 2.7
+
 from Crawler import Sniffer
 from preprocessing import PreProcessing
 from extractor import Extractor
@@ -20,6 +22,8 @@ for fname in os.listdir(os.path.join('database', 'dilma')):
 # This realize the natural language processing and save in a csv
 # One file to entities and other to relationships
 news_preprocessed = PreProcessing(files=files_list)
+# Create a instance of Extractor to get entities and relations from the news
 extracted_data = Extractor(data=news_preprocessed.data, main_entity='dilma')
 knowledge_base = extracted_data.extract()
+# Use the KnoledgeBase instance to save result at knowledge_base/dilma_knowledge
 knowledge_base.save("dilma_knowledge")

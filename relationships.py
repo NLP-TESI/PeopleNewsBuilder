@@ -1,11 +1,12 @@
 
 # This class is to manage the list of relations
-# and keep no repetitive realtionships 
+# and keep no repetitive relationships 
 class Relationships:
 
     def __init__(self):
         self.relations = {}
 
+    # test if a relation already exist
     def _exist_relation(self, relation):
         relation_list = self.relations[relation[0].lower()]
         for r in relation_list:
@@ -13,6 +14,7 @@ class Relationships:
                 return True
         return False
 
+    # add a relation
     # relation = (relation_text, entity_id1, entity_text1, entitty_id2, entity_text2)
     def add(self, relation):
         if relation[0].lower() not in self.relations:

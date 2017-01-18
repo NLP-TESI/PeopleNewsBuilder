@@ -1,5 +1,7 @@
 import os
 
+# NamedEntity class save a list of terms that represents one entity
+# Each NamedEntity instance had a unique ID
 class NamedEntity:
 	ID = 0
 
@@ -37,7 +39,11 @@ class NamedEntity:
 	def __str__(self):
 		return str(self._terms)
 
+# NamedEntitiesDict is used to load a dictionary of entities from a CSV file
 class NamedEntitiesDict:
+	# Load the entities dictionary from a file. All the entities are loaded here.
+	# Two entities A and B can point to save NamedEntity instance. This means that the
+	# entity with ID A and B are the same thing.
 	@staticmethod
 	def load_entities_dict_from_file(path, filename):
 		f = open(os.path.join(path, filename), 'r')
@@ -63,6 +69,7 @@ class NamedEntitiesDict:
 
 		return entities_dict
 
+	# Get only the entity father from the dictionary.
 	@staticmethod
 	def get_entities_fathers_dictionary(dct):
 		lst = {}
